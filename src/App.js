@@ -5,6 +5,7 @@ import RoB from './pics/reign_of_blood.jpg'
 import YourWeather from './pics/josh_weather.png'
 import Esperanza from './pics/esperanca_screen.png'
 import Bookworld from './pics/bookworld_anders.png'
+import Magda from './pics/magda-ecommerce.png'
 
 export default function App() {
   return (
@@ -59,6 +60,20 @@ export default function App() {
 {/*  → <a href='https://www.daniel-d.dev' target='_blank' rel="noopener noreferrer">Portfolio page</a>*/}
   </h4>
   </section>
+
+  <section className='project'>
+  <div>
+  <h1><a href='http://104.248.94.252/magda-commerce/' target='_blank' rel="noopener noreferrer">Online shop</a></h1>
+  <p>eCommerce web project</p>
+  </div>
+  <a href='http://104.248.94.252/magda-commerce/' target='_blank' rel="noopener noreferrer">
+  <img src={Magda} alt='Bookworld online book store app coded by Magda Freitas' />
+  </a>
+  <h4>Coded by Magda Freitas 
+{/*  → <a href='https://www.daniel-d.dev' target='_blank' rel="noopener noreferrer">Portfolio page</a>*/}
+  </h4>
+  </section>
+  
 
   </Grid>
   </div>
