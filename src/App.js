@@ -3,10 +3,13 @@ import "./styles.css";
 import { Grid } from "./containers/Grid";
 import RoB from './pics/reign_of_blood.jpg'
 import YourWeather from './pics/josh_weather.png'
-import Esperanza from './pics/esperanca_screen.png'
-import Bookworld from './pics/bookworld_anders.png'
-import Magda from './pics/magda-ecommerce.png'
-import Soulfood from './pics/soulfood.png'
+import Esperanza from './pics/esperanca_screen.jpg'
+import Bookworld from './pics/bookworld_anders.jpg'
+import Magda from './pics/magda-ecommerce.jpg'
+import Soulfood from './pics/soulfood.jpg'
+import Claro from './pics/claro_lucy_ux.jpg'
+import Zolzar from './pics/zolzar.jpg'
+import CCCB from './pics/cccb_brett.jpg'
 
 export default function App() {
   return (
@@ -52,6 +55,18 @@ export default function App() {
 
   <section className='project'>
   <div>
+  <h1><a href='https://www.lucyburrluck.com/claro' target='_blank' rel="noopener noreferrer">Claro</a></h1>
+  <p>Minimising frustration in the office space</p>
+  </div>
+  <a href='https://www.lucyburrluck.com/claro' target='_blank' rel="noopener noreferrer">
+  <img src={Claro} alt='Soulfood, home-cookedmarketplace coded by Magda Freitas' />
+  </a>
+  <h4>UX Design by Lucy Burrluck → <a href='https://www.lucyburrluck.com' target='_blank' rel="noopener noreferrer">Portfolio page</a>
+  </h4>
+  </section>
+
+  <section className='project'>
+  <div>
   <h1>Esperança</h1>
   <p>Volunteer community in Barcelona</p>
   </div>
@@ -88,7 +103,30 @@ export default function App() {
   </section>
 
 
+
+ <section className='project'>
+  <div>
+  <h1><a href='https://ckelly.tv' target='_blank' rel="noopener noreferrer">Zolzar</a></h1>
+  <p>The interstellar game</p>
+  </div>
+  <a href='https://ckelly.tv' target='_blank' rel="noopener noreferrer">
+  <img src={Zolzar} alt='Zolzar, the interstellar game' />
+  </a>
+  <h4>Design/coded by Chris Kelly → <a href='https://ckelly.tv' target='_blank' rel="noopener noreferrer">Portfolio page</a>
+  </h4>
+  </section>
   
+   <section className='project'>
+  <div>
+  <h1><a href='https://www.bretthalperin.com/cccb.html' target='_blank' rel="noopener noreferrer">CCCB</a></h1>
+  <p>Audio guide app for visitors</p>
+  </div>
+  <a href='https://www.bretthalperin.com/cccb.html' target='_blank' rel="noopener noreferrer">
+  <img src={CCCB} alt='CCCB, Audio guide app for visitors' />
+  </a>
+  <h4>UX Design by Brett Halperin → <a href='https://www.bretthalperin.com/index.html' target='_blank' rel="noopener noreferrer">Portfolio page</a>
+  </h4>
+  </section>
 
   </Grid>
   </div>
