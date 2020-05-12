@@ -6,6 +6,7 @@ import YourWeather from './pics/josh_weather.png'
 import Esperanza from './pics/esperanca_screen.png'
 import Bookworld from './pics/bookworld_anders.png'
 import Magda from './pics/magda-ecommerce.png'
+import Soulfood from './pics/soulfood.png'
 
 export default function App() {
   return (
@@ -35,6 +36,18 @@ export default function App() {
   <img src={YourWeather} alt='Native mobile weather app coded by Josh Arnott' />
   </a>
   <h4>Coded by Josh Arnott → <a href='http://josharnott.surge.sh' target='_blank' rel="noopener noreferrer">Portfolio page</a></h4>
+  </section>
+
+    <section className='project'>
+  <div>
+  <h1><a href='http://104.248.94.252/soul-food/' target='_blank' rel="noopener noreferrer">Soulfood</a></h1>
+  <p>Home-cooked food marketplace</p>
+  </div>
+  <a href='http://104.248.94.252/soul-food/' target='_blank' rel="noopener noreferrer">
+  <img src={Soulfood} alt='Soulfood, home-cookedmarketplace coded by Magda Freitas' />
+  </a>
+  <h4>Coded by Anna Chew → <a href='http://annachew.surge.sh' target='_blank' rel="noopener noreferrer">Portfolio page</a>
+  </h4>
   </section>
 
   <section className='project'>
@@ -73,6 +86,8 @@ export default function App() {
 {/*  → <a href='https://www.daniel-d.dev' target='_blank' rel="noopener noreferrer">Portfolio page</a>*/}
   </h4>
   </section>
+
+
   
 
   </Grid>
