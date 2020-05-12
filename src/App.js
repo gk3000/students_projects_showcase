@@ -4,6 +4,7 @@ import { Grid } from "./containers/Grid";
 import RoB from './pics/reign_of_blood.jpg'
 import YourWeather from './pics/josh_weather.png'
 import Esperanza from './pics/esperanca_screen.png'
+import Bookworld from './pics/bookworld_anders.png'
 
 export default function App() {
   return (
@@ -22,7 +23,7 @@ export default function App() {
   <a href='http://188.166.47.105' target='_blank' rel="noopener noreferrer">
   <img src={RoB} alt='Reign of Blood online game coded by Josh Arnott' />
   </a>
-  <h2>Coded by Josh Arnott → <a href='http://josharnott.surge.sh' target='_blank' rel="noopener noreferrer">Portfolio page</a></h2>
+  <h4>Coded by Josh Arnott → <a href='http://josharnott.surge.sh' target='_blank' rel="noopener noreferrer">Portfolio page</a></h4>
   </section>
   <section className='project'>
   <div>
@@ -32,7 +33,7 @@ export default function App() {
   <a href='https://play.google.com/store/apps/details?id=your.weather.application&gl=ES' target='_blank' rel="noopener noreferrer">
   <img src={YourWeather} alt='Native mobile weather app coded by Josh Arnott' />
   </a>
-  <h2>Coded by Josh Arnott → <a href='http://josharnott.surge.sh' target='_blank' rel="noopener noreferrer">Portfolio page</a></h2>
+  <h4>Coded by Josh Arnott → <a href='http://josharnott.surge.sh' target='_blank' rel="noopener noreferrer">Portfolio page</a></h4>
   </section>
 
   <section className='project'>
@@ -43,7 +44,20 @@ export default function App() {
   <a href='http://68.183.215.224' target='_blank' rel="noopener noreferrer">
   <img src={Esperanza} alt='Esperanza app coded by Daniel Dick' />
   </a>
-  <h2>Coded by Daniel Dick → <a href='https://www.daniel-d.dev' target='_blank' rel="noopener noreferrer">Portfolio page</a></h2>
+  <h4>Coded by Daniel Dick → <a href='https://www.daniel-d.dev' target='_blank' rel="noopener noreferrer">Portfolio page</a></h4>
+  </section>
+
+   <section className='project'>
+  <div>
+  <h1><a href='http://104.248.94.252/book-world/' target='_blank' rel="noopener noreferrer">Bookworld</a></h1>
+  <p>Online book store</p>
+  </div>
+  <a href='http://104.248.94.252/book-world/' target='_blank' rel="noopener noreferrer">
+  <img src={Bookworld} alt='Bookworld online book store app coded by Anders Tobias Nicolaysen' />
+  </a>
+  <h4>Coded by Anders Tobias Nicolaysen 
+{/*  → <a href='https://www.daniel-d.dev' target='_blank' rel="noopener noreferrer">Portfolio page</a>*/}
+  </h4>
   </section>
 
   </Grid>
