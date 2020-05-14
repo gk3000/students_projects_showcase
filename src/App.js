@@ -10,6 +10,8 @@ import Soulfood from './pics/soulfood.jpg'
 import Claro from './pics/claro_lucy_ux.jpg'
 import Zolzar from './pics/zolzar.jpg'
 import CCCB from './pics/cccb_brett.jpg'
+import StyleShip from './pics/styleship.jpg'
+import Subsala from './pics/subsala.jpg'
 
 export default function App() {
   return (
@@ -50,6 +52,17 @@ export default function App() {
   <img src={Soulfood} alt='Soulfood, home-cookedmarketplace coded by Magda Freitas' />
   </a>
   <h4>Coded by Anna Chew → <a href='http://annachew.surge.sh' target='_blank' rel="noopener noreferrer">Portfolio page</a>
+  </h4>
+  </section>
+
+    <section className='project'>
+  <div>
+  <h1><a href='http://104.248.94.252/sub-sala-jacob/' target='_blank' rel="noopener noreferrer">Subsala</a></h1>
+  <p>Find a space to host your event!</p>
+  </div>
+  <a href='http://104.248.94.252/sub-sala-jacob/' target='_blank' rel="noopener noreferrer">
+  <img src={Subsala} alt='SubSala: Find a space to host your event!'/></a>
+  <h4>Coded by Jacob Whitt → <a href='https://jacobwhitt.netlify.app' target='_blank' rel="noopener noreferrer">Portfolio page</a>
   </h4>
   </section>
 
@@ -125,6 +138,17 @@ export default function App() {
   <img src={CCCB} alt='CCCB, Audio guide app for visitors' />
   </a>
   <h4>UX Design by Brett Halperin → <a href='https://www.bretthalperin.com/index.html' target='_blank' rel="noopener noreferrer">Portfolio page</a>
+  </h4>
+  </section>
+
+  <section className='project'>
+  <div>
+  <h1><a href='http://104.248.94.252/kim-commerce/' target='_blank' rel="noopener noreferrer">Style Ship</a></h1>
+  <p>eCommerce web store</p>
+  </div>
+  <a href='http://104.248.94.252/kim-commerce/' target='_blank' rel="noopener noreferrer">
+  <img src={StyleShip} alt='Style Ship eCommerce web store'/></a>
+  <h4>Coded by Eunyoung Kim → <a href='https://barcelonacodeschool.com/files/cv/CV_EunyoungKim.pdf' target='_blank' rel="noopener noreferrer">Portfolio page</a>
   </h4>
   </section>
 
