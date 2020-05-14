@@ -12,6 +12,7 @@ import Zolzar from './pics/zolzar.jpg'
 import CCCB from './pics/cccb_brett.jpg'
 import StyleShip from './pics/styleship.jpg'
 import Subsala from './pics/subsala.jpg'
+import Blanchette from './pics/blanchette.jpg'
 
 export default function App() {
   return (
@@ -149,6 +150,17 @@ export default function App() {
   <a href='http://104.248.94.252/kim-commerce/' target='_blank' rel="noopener noreferrer">
   <img src={StyleShip} alt='Style Ship eCommerce web store'/></a>
   <h4>Coded by Eunyoung Kim → <a href='https://barcelonacodeschool.com/files/cv/CV_EunyoungKim.pdf' target='_blank' rel="noopener noreferrer">Portfolio page</a>
+  </h4>
+  </section>
+
+    <section className='project'>
+  <div>
+  <h1><a href='http://104.248.94.252/luciana-commerce' target='_blank' rel="noopener noreferrer">Blanchette</a></h1>
+  <p>Fashion online store</p>
+  </div>
+  <a href='http://104.248.94.252/luciana-commerce' target='_blank' rel="noopener noreferrer">
+  <img src={Blanchette} alt='Style Ship eCommerce web store'/></a>
+  <h4>Coded by Luciana Müller and Juliana Moribe
   </h4>
   </section>
 
