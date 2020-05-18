@@ -1,4 +1,8 @@
 import React from "react";
+import {
+  BrowserRouter as Router,
+  Link
+} from "react-router-dom";
 import "./styles.css";
 import { Grid } from "./containers/Grid";
 import RoB from './pics/reign_of_blood.jpg'
@@ -17,6 +21,7 @@ import LAB from './pics/pandora_ecommerce.jpg'
 
 export default function App() {
   return (
+    <Router>
     <div className="App">
     <h1 onClick={()=>window.location.href='https://barcelonacodeschool.com'}>Barcelona Code School</h1>
     <h2>Alumni projects showcase</h2>
@@ -50,10 +55,10 @@ export default function App() {
 
     <section className='project'>
     <div>
-    <h1><a href='/book-world/' target='_blank' rel="noopener noreferrer">Bookworld</a></h1>
+    <h1><Link to="/book-world/">Bookworld</Link> </h1>
     <p>Online book store</p>
     </div>
-    <a href='https://projects.barcelonacodeschool.com/book-world/' target='_blank' rel="noopener noreferrer">
+    <a href='https://projects.barcelonacodeschool.com/book-world/' target='_blank' >
     <img src={Bookworld} alt='Bookworld online book store app coded by Anders Tobias Nicolaysen' />
     </a>
     <h4>Coded by Anders Tobias Nicolaysen 
@@ -186,5 +191,6 @@ export default function App() {
 
 </Grid>
 </div>
+</Router>
 );
 }
