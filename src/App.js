@@ -50,7 +50,7 @@ export default function App() {
 
     <section className='project'>
     <div>
-    <h1><a href='https://projects.barcelonacodeschool.com/book-world/' target='_blank' rel="noopener noreferrer">Bookworld</a></h1>
+    <h1><a href='/book-world/' target='_blank' rel="noopener noreferrer">Bookworld</a></h1>
     <p>Online book store</p>
     </div>
     <a href='https://projects.barcelonacodeschool.com/book-world/' target='_blank' rel="noopener noreferrer">
