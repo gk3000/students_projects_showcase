@@ -50,10 +50,10 @@ export default function App() {
 
     <section className='project'>
     <div>
-    <h1><a href='http://104.248.94.252/book-world/' target='_blank' rel="noopener noreferrer">Bookworld</a></h1>
+    <h1><a href='https://projects.barcelonacodeschool.com/book-world/' target='_blank' rel="noopener noreferrer">Bookworld</a></h1>
     <p>Online book store</p>
     </div>
-    <a href='http://104.248.94.252/book-world/' target='_blank' rel="noopener noreferrer">
+    <a href='https://projects.barcelonacodeschool.com/book-world/' target='_blank' rel="noopener noreferrer">
     <img src={Bookworld} alt='Bookworld online book store app coded by Anders Tobias Nicolaysen' />
     </a>
     <h4>Coded by Anders Tobias Nicolaysen 
@@ -63,10 +63,10 @@ export default function App() {
 
   <section className='project'>
   <div>
-  <h1><a href='http://104.248.94.252/magda-commerce/' target='_blank' rel="noopener noreferrer">Online shop</a></h1>
+  <h1><a href='https://projects.barcelonacodeschool.com/magda-commerce/' target='_blank' rel="noopener noreferrer">Online shop</a></h1>
   <p>eCommerce web project</p>
   </div>
-  <a href='http://104.248.94.252/magda-commerce/' target='_blank' rel="noopener noreferrer">
+  <a href='https://projects.barcelonacodeschool.com/magda-commerce/' target='_blank' rel="noopener noreferrer">
   <img src={Magda} alt='Bookworld online book store app coded by Magda Freitas' />
   </a>
   <h4>Coded by Magda Freitas 
@@ -79,10 +79,10 @@ export default function App() {
 
 <section className='project'>
 <div>
-<h1><a href='http://104.248.94.252/sub-sala-jacob/' target='_blank' rel="noopener noreferrer">Subsala</a></h1>
+<h1><a href='https://projects.barcelonacodeschool.com/sub-sala-jacob/' target='_blank' rel="noopener noreferrer">Subsala</a></h1>
 <p>Find a space to host your event!</p>
 </div>
-<a href='http://104.248.94.252/sub-sala-jacob/' target='_blank' rel="noopener noreferrer">
+<a href='https://projects.barcelonacodeschool.com/sub-sala-jacob/' target='_blank' rel="noopener noreferrer">
 <img src={Subsala} alt='SubSala: Find a space to host your event!'/></a>
 <h4>Coded by Jacob Whitt → <a href='https://jacobwhitt.netlify.app' target='_blank' rel="noopener noreferrer">Portfolio page</a>
 </h4>
@@ -91,10 +91,10 @@ export default function App() {
 
 <section className='project'>
 <div>
-<h1><a href='http://104.248.94.252/kim-commerce/' target='_blank' rel="noopener noreferrer">Style Ship</a></h1>
+<h1><a href='https://projects.barcelonacodeschool.com/kim-commerce/' target='_blank' rel="noopener noreferrer">Style Ship</a></h1>
 <p>eCommerce web store</p>
 </div>
-<a href='http://104.248.94.252/kim-commerce/' target='_blank' rel="noopener noreferrer">
+<a href='https://projects.barcelonacodeschool.com/kim-commerce/' target='_blank' rel="noopener noreferrer">
 <img src={StyleShip} alt='Style Ship eCommerce web store'/></a>
 <h4>Coded by Eunyoung Kim → <a href='https://barcelonacodeschool.com/files/cv/CV_EunyoungKim.pdf' target='_blank' rel="noopener noreferrer">Portfolio page</a>
 </h4>
@@ -123,10 +123,10 @@ export default function App() {
 
 <section className='project'>
 <div>
-<h1><a href='http://104.248.94.252/soul-food/' target='_blank' rel="noopener noreferrer">Soulfood</a></h1>
+<h1><a href='https://projects.barcelonacodeschool.com/soul-food/' target='_blank' rel="noopener noreferrer">Soulfood</a></h1>
 <p>Home-cooked food marketplace</p>
 </div>
-<a href='http://104.248.94.252/soul-food/' target='_blank' rel="noopener noreferrer">
+<a href='https://projects.barcelonacodeschool.com/soul-food/' target='_blank' rel="noopener noreferrer">
 <img src={Soulfood} alt='Soulfood, home-cookedmarketplace coded by Magda Freitas' />
 </a>
 <h4>Coded by Anna Chew → <a href='http://annachew.surge.sh' target='_blank' rel="noopener noreferrer">Portfolio page</a>
@@ -164,10 +164,10 @@ export default function App() {
 
 <section className='project'>
 <div>
-<h1><a href='http://104.248.94.252/luciana-commerce' target='_blank' rel="noopener noreferrer">Blanchette</a></h1>
+<h1><a href='https://projects.barcelonacodeschool.com/luciana-commerce' target='_blank' rel="noopener noreferrer">Blanchette</a></h1>
 <p>Fashion online store</p>
 </div>
-<a href='http://104.248.94.252/luciana-commerce' target='_blank' rel="noopener noreferrer">
+<a href='https://projects.barcelonacodeschool.com/luciana-commerce' target='_blank' rel="noopener noreferrer">
 <img src={Blanchette} alt='Style Ship eCommerce web store'/></a>
 <h4>Coded by Luciana Müller and Juliana Moribe
 </h4>
@@ -175,10 +175,10 @@ export default function App() {
 
 <section className='project'>
 <div>
-<h1><a href='http://104.248.94.252/pandora-commerce' target='_blank' rel="noopener noreferrer">Latin American Bookstore</a></h1>
+<h1><a href='https://projects.barcelonacodeschool.com/pandora-commerce' target='_blank' rel="noopener noreferrer">Latin American Bookstore</a></h1>
 <p>Online bookstore</p>
 </div>
-<a href='http://104.248.94.252/pandora-commerce' target='_blank' rel="noopener noreferrer">
+<a href='https://projects.barcelonacodeschool.com/pandora-commerce' target='_blank' rel="noopener noreferrer">
 <img src={LAB} alt='Style Ship eCommerce web store'/></a>
 <h4>Coded by Pandor Jane →  <a href='http://pandorajk.surge.sh' target='_blank' rel="noopener noreferrer">Portfolio page</a>
 </h4>
