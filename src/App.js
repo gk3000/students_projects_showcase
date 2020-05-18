@@ -164,10 +164,10 @@ export default function App() {
 
 <section className='project'>
 <div>
-<h1><a href='https://projects.barcelonacodeschool.com/luciana-commerce' target='_blank' rel="noopener noreferrer">Blanchette</a></h1>
+<h1><a href='https://projects.barcelonacodeschool.com/luciana-commerce/' target='_blank' rel="noopener noreferrer">Blanchette</a></h1>
 <p>Fashion online store</p>
 </div>
-<a href='https://projects.barcelonacodeschool.com/luciana-commerce' target='_blank' rel="noopener noreferrer">
+<a href='https://projects.barcelonacodeschool.com/luciana-commerce/' target='_blank' rel="noopener noreferrer">
 <img src={Blanchette} alt='Style Ship eCommerce web store'/></a>
 <h4>Coded by Luciana Müller and Juliana Moribe
 </h4>
@@ -175,10 +175,10 @@ export default function App() {
 
 <section className='project'>
 <div>
-<h1><a href='https://projects.barcelonacodeschool.com/pandora-commerce' target='_blank' rel="noopener noreferrer">Latin American Bookstore</a></h1>
+<h1><a href='https://projects.barcelonacodeschool.com/pandora-commerce/' target='_blank' rel="noopener noreferrer">Latin American Bookstore</a></h1>
 <p>Online bookstore</p>
 </div>
-<a href='https://projects.barcelonacodeschool.com/pandora-commerce' target='_blank' rel="noopener noreferrer">
+<a href='https://projects.barcelonacodeschool.com/pandora-commerce/' target='_blank' rel="noopener noreferrer">
 <img src={LAB} alt='Style Ship eCommerce web store'/></a>
 <h4>Coded by Pandor Jane →  <a href='http://pandorajk.surge.sh' target='_blank' rel="noopener noreferrer">Portfolio page</a>
 </h4>
