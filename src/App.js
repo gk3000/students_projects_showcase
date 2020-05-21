@@ -14,6 +14,8 @@ import StyleShip from './pics/styleship.jpg'
 import Subsala from './pics/subsala.jpg'
 import Blanchette from './pics/blanchette.jpg'
 import LAB from './pics/pandora_ecommerce.jpg'
+import Ting from './pics/ting.jpg'
+import Sara from './pics/sara.jpg'
 
 export default function App() {
   return (
@@ -26,64 +28,64 @@ export default function App() {
     <Grid className={'grid'} columns={"3"}>
 
 
-{/*    <section className='project'>
+  <section className='project'>
     <div>
-    <h1><a href='https://projects.barcelonacodeschool.com/sara-game/' target='_blank' rel="noopener noreferrer">Claro</a></h1>
-    <p>Minimising frustration in the office space</p>
+    <h1><a href='https://projects.barcelonacodeschool.com/sara-game/' target='_blank' rel="noopener noreferrer">Multiplayer card game</a></h1>
+    <p>Online game with in-app purchases</p>
     </div>
     <a href='https://projects.barcelonacodeschool.com/sara-game/' target='_blank' rel="noopener noreferrer">
-    <img src={Claro} alt='Soulfood, home-cookedmarketplace coded by Magda Freitas' />
+    <img src={Sara} alt='Multiplayer card game, Online game with in-app purchases coded by Sara Moya' />
     </a>
-    <h4>UX Design by Lucy Burrluck → <a href='https://www.lucyburrluck.com' target='_blank' rel="noopener noreferrer">Portfolio page</a>
+    <h4>Coded by Sara Moya → <a href='https://saramoya.gitlab.io/my-portfolio/' target='_blank' rel="noopener noreferrer">Portfolio page</a>
     </h4>
-    </section>*/}
+  </section>
 
 
-    <section className='project'>
-    <div>
-    <h1><a href='https://www.lucyburrluck.com/claro' target='_blank' rel="noopener noreferrer">Claro</a></h1>
-    <p>Minimising frustration in the office space</p>
-    </div>
-    <a href='https://www.lucyburrluck.com/claro' target='_blank' rel="noopener noreferrer">
-    <img src={Claro} alt='Soulfood, home-cookedmarketplace coded by Magda Freitas' />
-    </a>
-    <h4>UX Design by Lucy Burrluck → <a href='https://www.lucyburrluck.com' target='_blank' rel="noopener noreferrer">Portfolio page</a>
-    </h4>
-    </section>
-
-    <section className='project'>
-    <div>
-    <h1>Esperança</h1>
-    <p>Volunteer community in Barcelona</p>
-    </div>
-    <a href='http://68.183.215.224' target='_blank' rel="noopener noreferrer">
-    <img src={Esperanza} alt='Esperanza app coded by Daniel Dick' />
-    </a>
-    <h4>Coded by Daniel Dick → <a href='https://www.daniel-d.dev' target='_blank' rel="noopener noreferrer">Portfolio page</a></h4>
-    </section>
-
-    <section className='project'>
-    <div>
-    <h1><a href='/book-world/' target='_blank' rel="noopener noreferrer">Bookworld</a></h1>
-    <p>Online book store</p>
-    </div>
-    <a href='https://projects.barcelonacodeschool.com/book-world/' target='_blank' >
-    <img src={Bookworld} alt='Bookworld online book store app coded by Anders Tobias Nicolaysen' />
-    </a>
-    <h4>Coded by Anders Tobias Nicolaysen 
-  {/*  → <a href='https://www.daniel-d.dev' target='_blank' rel="noopener noreferrer">Portfolio page</a>*/}
+  <section className='project'>
+  <div>
+  <h1><a href='https://www.lucyburrluck.com/claro' target='_blank' rel="noopener noreferrer">Claro</a></h1>
+  <p>Minimising frustration in the office space</p>
+  </div>
+  <a href='https://www.lucyburrluck.com/claro' target='_blank' rel="noopener noreferrer">
+  <img src={Claro} alt='Soulfood, home-cookedmarketplace coded by Magda Freitas' />
+  </a>
+  <h4>UX Design by Lucy Burrluck → <a href='https://www.lucyburrluck.com' target='_blank' rel="noopener noreferrer">Portfolio page</a>
   </h4>
   </section>
 
   <section className='project'>
   <div>
-  <h1><a href='https://projects.barcelonacodeschool.com/magda-commerce/' target='_blank' rel="noopener noreferrer">Online shop</a></h1>
-  <p>eCommerce web project</p>
+  <h1>Esperança</h1>
+  <p>Volunteer community in Barcelona</p>
   </div>
-  <a href='https://projects.barcelonacodeschool.com/magda-commerce/' target='_blank' rel="noopener noreferrer">
-  <img src={Magda} alt='Bookworld online book store app coded by Magda Freitas' />
+  <a href='http://68.183.215.224' target='_blank' rel="noopener noreferrer">
+  <img src={Esperanza} alt='Esperanza app coded by Daniel Dick' />
   </a>
-  <h4>Coded by Magda Freitas 
+  <h4>Coded by Daniel Dick → <a href='https://www.daniel-d.dev' target='_blank' rel="noopener noreferrer">Portfolio page</a></h4>
+  </section>
+
+  <section className='project'>
+  <div>
+  <h1><a href='/book-world/' target='_blank' rel="noopener noreferrer">Bookworld</a></h1>
+  <p>Online book store</p>
+  </div>
+  <a href='https://projects.barcelonacodeschool.com/book-world/' target='_blank' >
+  <img src={Bookworld} alt='Bookworld online book store app coded by Anders Tobias Nicolaysen' />
+  </a>
+  <h4>Coded by Anders Tobias Nicolaysen 
+{/*  → <a href='https://www.daniel-d.dev' target='_blank' rel="noopener noreferrer">Portfolio page</a>*/}
+</h4>
+</section>
+
+<section className='project'>
+<div>
+<h1><a href='https://projects.barcelonacodeschool.com/magda-commerce/' target='_blank' rel="noopener noreferrer">Online shop</a></h1>
+<p>eCommerce web project</p>
+</div>
+<a href='https://projects.barcelonacodeschool.com/magda-commerce/' target='_blank' rel="noopener noreferrer">
+<img src={Magda} alt='Bookworld online book store app coded by Magda Freitas' />
+</a>
+<h4>Coded by Magda Freitas 
 {/*  → <a href='https://www.daniel-d.dev' target='_blank' rel="noopener noreferrer">Portfolio page</a>*/}
 </h4>
 </section>
@@ -141,7 +143,7 @@ export default function App() {
 <p>Home-cooked food marketplace</p>
 </div>
 <a href='https://projects.barcelonacodeschool.com/soul-food/' target='_blank' rel="noopener noreferrer">
-<img src={Soulfood} alt='Soulfood, home-cookedmarketplace coded by Magda Freitas' />
+<img src={Soulfood} alt='Soulfood, home-cookedmarketplace coded by Anna Chew' />
 </a>
 <h4>Coded by Anna Chew → <a href='http://annachew.surge.sh' target='_blank' rel="noopener noreferrer">Portfolio page</a>
 </h4>
@@ -196,6 +198,17 @@ export default function App() {
 <img src={LAB} alt='Style Ship eCommerce web store'/></a>
 <h4>Coded by Pandor Jane →  <a href='http://pandorajk.surge.sh' target='_blank' rel="noopener noreferrer">Portfolio page</a>
 </h4>
+</section>
+
+<section className='project'>
+<div>
+<h1><a href='http://tingting.herokuapp.com' target='_blank' rel="noopener noreferrer">Listen to the flowers</a></h1>
+<p>Online flowers shop</p>
+</div>
+<a href='http://tingting.herokuapp.com' target='_blank' rel="noopener noreferrer">
+<img src={Ting} alt='Listen to the flowers, Online flowers shop' />
+</a>
+<h4>Coded by Ting Liu</h4>
 </section>
 
 </Grid>
