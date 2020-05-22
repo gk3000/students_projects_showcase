@@ -16,6 +16,7 @@ import Blanchette from './pics/blanchette.jpg'
 import LAB from './pics/pandora_ecommerce.jpg'
 import Ting from './pics/ting.jpg'
 import Sara from './pics/sara.jpg'
+import Charles from './pics/charles.jpg'
 
 export default function App() {
   return (
@@ -209,6 +210,17 @@ export default function App() {
 <img src={Ting} alt='Listen to the flowers, Online flowers shop' />
 </a>
 <h4>Coded by Ting Liu</h4>
+</section>
+
+<section className='project'>
+<div>
+<h1><a href='https://projects.barcelonacodeschool.com/the-charles-project/' target='_blank' rel="noopener noreferrer">The Charles project</a></h1>
+<p>Buying time with celebrities</p>
+</div>
+<a href='https://projects.barcelonacodeschool.com/the-charles-project/' target='_blank' rel="noopener noreferrer">
+<img src={Charles} alt='The Charles project -- Buying time with celebrities' />
+</a>
+<h4>Coded by Colette Brouns</h4>
 </section>
 
 </Grid>
