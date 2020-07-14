@@ -42,7 +42,7 @@ export default function App() {
   </section>
 
 
-  <section className='project'>
+{/*  <section className='project'>
   <div>
   <h1><a href='https://www.lucyburrluck.com/claro' target='_blank' rel="noopener noreferrer">Claro</a></h1>
   <p>Minimising frustration in the office space</p>
@@ -52,7 +52,7 @@ export default function App() {
   </a>
   <h4>UX Design by Lucy Burrluck → <a href='https://www.lucyburrluck.com' target='_blank' rel="noopener noreferrer">Portfolio page</a>
   </h4>
-  </section>
+  </section>*/}
 
   <section className='project'>
   <div>
