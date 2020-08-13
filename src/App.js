@@ -17,6 +17,8 @@ import LAB from './pics/pandora_ecommerce.jpg'
 import Ting from './pics/ting.jpg'
 import Sara from './pics/sara.jpg'
 import Charles from './pics/charles.jpg'
+import Turtle from './pics/turtle.jpg'
+import Weatherjokes from './pics/Weatherjokes.jpg'
 
 export default function App() {
   return (
@@ -28,6 +30,17 @@ export default function App() {
 
     <Grid className={'grid'} columns={"3"}>
 
+  <section className='project'>
+    <div>
+    <h1><a href='https://apps.apple.com/es/app/turtle-weather/id1514618438?l=en' target='_blank' rel="noopener noreferrer">Turtle Weather mobile app</a></h1>
+    <p>Retro pixel weather app</p>
+    </div>
+    <a href='https://apps.apple.com/es/app/turtle-weather/id1514618438?l=en' target='_blank' rel="noopener noreferrer">
+    <img src={Turtle} alt='Retro pixel weather app coded by Anders Tobias Nicolaysen' />
+    </a>
+    <p>By Anders Tobias Nicolaysen → <a href='http://witty-fiction.surge.sh/' target='_blank' rel="noopener noreferrer">Portfolio page</a>
+    </p>
+  </section>
 
   <section className='project'>
     <div>
@@ -37,8 +50,8 @@ export default function App() {
     <a href='https://projects.barcelonacodeschool.com/sara-game/' target='_blank' rel="noopener noreferrer">
     <img src={Sara} alt='Multiplayer card game, Online game with in-app purchases coded by Sara Moya' />
     </a>
-    <h4>Coded by Sara Moya → <a href='https://saramoya.gitlab.io/my-portfolio/' target='_blank' rel="noopener noreferrer">Portfolio page</a>
-    </h4>
+    <p>Coded by Sara Moya → <a href='https://saramoya.gitlab.io/my-portfolio/' target='_blank' rel="noopener noreferrer">Portfolio page</a>
+    </p>
   </section>
 
 
@@ -50,8 +63,8 @@ export default function App() {
   <a href='https://www.lucyburrluck.com/claro' target='_blank' rel="noopener noreferrer">
   <img src={Claro} alt='Soulfood, home-cookedmarketplace coded by Magda Freitas' />
   </a>
-  <h4>UX Design by Lucy Burrluck → <a href='https://www.lucyburrluck.com' target='_blank' rel="noopener noreferrer">Portfolio page</a>
-  </h4>
+  <p>UX Design by Lucy Burrluck → <a href='https://www.lucyburrluck.com' target='_blank' rel="noopener noreferrer">Portfolio page</a>
+  </p>
   </section>*/}
 
   <section className='project'>
@@ -62,7 +75,7 @@ export default function App() {
   <a href='http://68.183.215.224' target='_blank' rel="noopener noreferrer">
   <img src={Esperanza} alt='Esperanza app coded by Daniel Dick' />
   </a>
-  <h4>Coded by Daniel Dick → <a href='https://www.daniel-d.dev' target='_blank' rel="noopener noreferrer">Portfolio page</a></h4>
+  <p>Coded by Daniel Dick → <a href='https://www.daniel-d.dev' target='_blank' rel="noopener noreferrer">Portfolio page</a></p>
   </section>
 
   <section className='project'>
@@ -73,9 +86,8 @@ export default function App() {
   <a href='https://projects.barcelonacodeschool.com/book-world/' target='_blank' >
   <img src={Bookworld} alt='Bookworld online book store app coded by Anders Tobias Nicolaysen' />
   </a>
-  <h4>Coded by Anders Tobias Nicolaysen 
-{/*  → <a href='https://www.daniel-d.dev' target='_blank' rel="noopener noreferrer">Portfolio page</a>*/}
-</h4>
+  <p>By Anders Tobias Nicolaysen → <a href='http://witty-fiction.surge.sh/' target='_blank' rel="noopener noreferrer">Portfolio page</a>
+    </p>
 </section>
 
 <section className='project'>
@@ -86,12 +98,23 @@ export default function App() {
 <a href='https://projects.barcelonacodeschool.com/magda-commerce/' target='_blank' rel="noopener noreferrer">
 <img src={Magda} alt='Bookworld online book store app coded by Magda Freitas' />
 </a>
-<h4>Coded by Magda Freitas 
+<p>Coded by Magda Freitas 
 {/*  → <a href='https://www.daniel-d.dev' target='_blank' rel="noopener noreferrer">Portfolio page</a>*/}
-</h4>
+</p>
 </section>
 
-
+<section className='project'>
+<div>
+<h1><a href='https://apps.apple.com/es/app/weathernjokes/id1521831493?l=en' target='_blank' rel="noopener noreferrer">Weather'n'jokes</a></h1>
+<p>Cute weather app</p>
+</div>
+<a href='https://apps.apple.com/es/app/weathernjokes/id1521831493?l=en' target='_blank' rel="noopener noreferrer">
+<img src={Weatherjokes} alt="Weather'n'jokes, cute weather app coded by Magda Freitas" />
+</a>
+<p>Coded by Magda Freitas 
+{/*  → <a href='https://www.daniel-d.dev' target='_blank' rel="noopener noreferrer">Portfolio page</a>*/}
+</p>
+</section>
 
 
 <section className='project'>
@@ -101,8 +124,8 @@ export default function App() {
 </div>
 <a href='https://projects.barcelonacodeschool.com/sub-sala-jacob/' target='_blank' rel="noopener noreferrer">
 <img src={Subsala} alt='SubSala: Find a space to host your event!'/></a>
-<h4>Coded by Jacob Whitt → <a href='https://jacobwhitt.netlify.app' target='_blank' rel="noopener noreferrer">Portfolio page</a>
-</h4>
+<p>Coded by Jacob Whitt → <a href='https://jacobwhitt.netlify.app' target='_blank' rel="noopener noreferrer">Portfolio page</a>
+</p>
 </section>
 
 
@@ -113,8 +136,8 @@ export default function App() {
 </div>
 <a href='https://projects.barcelonacodeschool.com/kim-commerce/' target='_blank' rel="noopener noreferrer">
 <img src={StyleShip} alt='Style Ship eCommerce web store'/></a>
-<h4>Coded by Eunyoung Kim → <a href='https://barcelonacodeschool.com/files/cv/CV_EunyoungKim.pdf' target='_blank' rel="noopener noreferrer">Portfolio page</a>
-</h4>
+<p>Coded by Eunyoung Kim → <a href='https://barcelonacodeschool.com/files/cv/CV_EunyoungKim.pdf' target='_blank' rel="noopener noreferrer">Portfolio page</a>
+</p>
 </section>
 
 <section className='project'>
@@ -125,7 +148,7 @@ export default function App() {
 <a href='http://188.166.47.105' target='_blank' rel="noopener noreferrer">
 <img src={RoB} alt='Reign of Blood online game coded by Josh Arnott' />
 </a>
-<h4>Coded by Josh Arnott → <a href='http://josharnott.surge.sh' target='_blank' rel="noopener noreferrer">Portfolio page</a></h4>
+<p>Coded by Josh Arnott → <a href='http://josharnott.surge.sh' target='_blank' rel="noopener noreferrer">Portfolio page</a></p>
 </section>
 <section className='project'>
 <div>
@@ -135,7 +158,7 @@ export default function App() {
 <a href='https://play.google.com/store/apps/details?id=your.weather.application&gl=ES' target='_blank' rel="noopener noreferrer">
 <img src={YourWeather} alt='Native mobile weather app coded by Josh Arnott' />
 </a>
-<h4>Coded by Josh Arnott → <a href='http://josharnott.surge.sh' target='_blank' rel="noopener noreferrer">Portfolio page</a></h4>
+<p>Coded by Josh Arnott → <a href='http://josharnott.surge.sh' target='_blank' rel="noopener noreferrer">Portfolio page</a></p>
 </section>
 
 <section className='project'>
@@ -146,8 +169,8 @@ export default function App() {
 <a href='https://projects.barcelonacodeschool.com/soul-food/' target='_blank' rel="noopener noreferrer">
 <img src={Soulfood} alt='Soulfood, home-cookedmarketplace coded by Anna Chew' />
 </a>
-<h4>Coded by Anna Chew → <a href='http://annachew.surge.sh' target='_blank' rel="noopener noreferrer">Portfolio page</a>
-</h4>
+<p>Coded by Anna Chew → <a href='http://annachew.surge.sh' target='_blank' rel="noopener noreferrer">Portfolio page</a>
+</p>
 </section>
 
 
@@ -162,8 +185,8 @@ export default function App() {
 <a href='https://ckelly.tv' target='_blank' rel="noopener noreferrer">
 <img src={Zolzar} alt='Zolzar, the interstellar game' />
 </a>
-<h4>Design/coded by Chris Kelly → <a href='https://ckelly.tv' target='_blank' rel="noopener noreferrer">Portfolio page</a>
-</h4>
+<p>Design/coded by Chris Kelly → <a href='https://ckelly.tv' target='_blank' rel="noopener noreferrer">Portfolio page</a>
+</p>
 </section>
 
 <section className='project'>
@@ -174,8 +197,8 @@ export default function App() {
 <a href='https://www.bretthalperin.com/cccb.html' target='_blank' rel="noopener noreferrer">
 <img src={CCCB} alt='CCCB, Audio guide app for visitors' />
 </a>
-<h4>UX Design by Brett Halperin → <a href='https://www.bretthalperin.com/index.html' target='_blank' rel="noopener noreferrer">Portfolio page</a>
-</h4>
+<p>UX Design by Brett Halperin → <a href='https://www.bretthalperin.com/index.html' target='_blank' rel="noopener noreferrer">Portfolio page</a>
+</p>
 </section>
 
 
@@ -186,8 +209,8 @@ export default function App() {
 </div>
 <a href='https://projects.barcelonacodeschool.com/luciana-commerce/' target='_blank' rel="noopener noreferrer">
 <img src={Blanchette} alt='Style Ship eCommerce web store'/></a>
-<h4>Coded by Luciana Müller and Juliana Moribe
-</h4>
+<p>Coded by Luciana Müller and Juliana Moribe
+</p>
 </section>
 
 <section className='project'>
@@ -197,8 +220,8 @@ export default function App() {
 </div>
 <a href='https://projects.barcelonacodeschool.com/pandora-commerce/' target='_blank' rel="noopener noreferrer">
 <img src={LAB} alt='Style Ship eCommerce web store'/></a>
-<h4>Coded by Pandor Jane →  <a href='http://pandorajk.surge.sh' target='_blank' rel="noopener noreferrer">Portfolio page</a>
-</h4>
+<p>Coded by Pandor Jane →  <a href='http://pandorajk.surge.sh' target='_blank' rel="noopener noreferrer">Portfolio page</a>
+</p>
 </section>
 
 <section className='project'>
@@ -209,7 +232,7 @@ export default function App() {
 <a href='http://tingting.herokuapp.com' target='_blank' rel="noopener noreferrer">
 <img src={Ting} alt='Listen to the flowers, Online flowers shop' />
 </a>
-<h4>Coded by Ting Liu</h4>
+<p>Coded by Ting Liu</p>
 </section>
 
 <section className='project'>
@@ -220,7 +243,7 @@ export default function App() {
 <a href='https://projects.barcelonacodeschool.com/the-charles-project/' target='_blank' rel="noopener noreferrer">
 <img src={Charles} alt='The Charles project -- Buying time with celebrities' />
 </a>
-<h4>Coded by Colette Brouns</h4>
+<p>Coded by Colette Brouns</p>
 </section>
 
 </Grid>
