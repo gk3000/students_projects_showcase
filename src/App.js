@@ -19,6 +19,7 @@ import Sara from './pics/sara.jpg'
 import Charles from './pics/charles.jpg'
 import Turtle from './pics/turtle.jpg'
 import Weatherjokes from './pics/Weatherjokes.jpg'
+import Rechargenow from './pics/rechargenow.jpg'
 
 export default function App() {
   return (
@@ -29,8 +30,22 @@ export default function App() {
 
 
     <Grid className={'grid'} columns={"3"}>
+    
 
-  <section className='project'>
+    <section className='project'>
+    <div>
+    <h1><a href='https://apps.apple.com/us/app/id1527735701' target='_blank' rel="noopener noreferrer">RechargeNow</a></h1>
+    <p>EV charging points nearby you</p>
+    </div>
+    <a href='https://apps.apple.com/us/app/id1527735701' target='_blank' rel="noopener noreferrer">
+    <img src={Rechargenow} alt='ReachargeNow -- EV charging points nearby you -- coded by Andrew Blair' />
+    </a>
+    <p>Coded by Andrew Blair{/* → <a href='http://witty-fiction.surge.sh/' target='_blank' rel="noopener noreferrer">Portfolio page</a>*/}
+    </p>
+    </section>
+
+
+    <section className='project'>
     <div>
     <h1><a href='https://apps.apple.com/es/app/turtle-weather/id1514618438?l=en' target='_blank' rel="noopener noreferrer">Turtle Weather mobile app</a></h1>
     <p>Retro pixel weather app</p>
@@ -40,9 +55,9 @@ export default function App() {
     </a>
     <p>By Anders Tobias Nicolaysen → <a href='http://witty-fiction.surge.sh/' target='_blank' rel="noopener noreferrer">Portfolio page</a>
     </p>
-  </section>
+    </section>
 
-  <section className='project'>
+    <section className='project'>
     <div>
     <h1><a href='https://projects.barcelonacodeschool.com/sara-game/' target='_blank' rel="noopener noreferrer">Multiplayer card game</a></h1>
     <p>Online game with in-app purchases</p>
@@ -52,7 +67,7 @@ export default function App() {
     </a>
     <p>Coded by Sara Moya → <a href='https://saramoya.gitlab.io/my-portfolio/' target='_blank' rel="noopener noreferrer">Portfolio page</a>
     </p>
-  </section>
+    </section>
 
 
 {/*  <section className='project'>
@@ -65,29 +80,29 @@ export default function App() {
   </a>
   <p>UX Design by Lucy Burrluck → <a href='https://www.lucyburrluck.com' target='_blank' rel="noopener noreferrer">Portfolio page</a>
   </p>
-  </section>*/}
+</section>*/}
 
-  <section className='project'>
-  <div>
-  <h1>Esperança</h1>
-  <p>Volunteer community in Barcelona</p>
-  </div>
-  <a href='http://68.183.215.224' target='_blank' rel="noopener noreferrer">
-  <img src={Esperanza} alt='Esperanza app coded by Daniel Dick' />
-  </a>
-  <p>Coded by Daniel Dick → <a href='https://www.daniel-d.dev' target='_blank' rel="noopener noreferrer">Portfolio page</a></p>
-  </section>
+<section className='project'>
+<div>
+<h1>Esperança</h1>
+<p>Volunteer community in Barcelona</p>
+</div>
+<a href='http://68.183.215.224' target='_blank' rel="noopener noreferrer">
+<img src={Esperanza} alt='Esperanza app coded by Daniel Dick' />
+</a>
+<p>Coded by Daniel Dick → <a href='https://www.daniel-d.dev' target='_blank' rel="noopener noreferrer">Portfolio page</a></p>
+</section>
 
-  <section className='project'>
-  <div>
-  <h1><a href='/book-world/' target='_blank' rel="noopener noreferrer">Bookworld</a></h1>
-  <p>Online book store</p>
-  </div>
-  <a href='https://projects.barcelonacodeschool.com/book-world/' target='_blank' >
-  <img src={Bookworld} alt='Bookworld online book store app coded by Anders Tobias Nicolaysen' />
-  </a>
-  <p>By Anders Tobias Nicolaysen → <a href='http://witty-fiction.surge.sh/' target='_blank' rel="noopener noreferrer">Portfolio page</a>
-    </p>
+<section className='project'>
+<div>
+<h1><a href='/book-world/' target='_blank' rel="noopener noreferrer">Bookworld</a></h1>
+<p>Online book store</p>
+</div>
+<a href='https://projects.barcelonacodeschool.com/book-world/' target='_blank' >
+<img src={Bookworld} alt='Bookworld online book store app coded by Anders Tobias Nicolaysen' />
+</a>
+<p>By Anders Tobias Nicolaysen → <a href='http://witty-fiction.surge.sh/' target='_blank' rel="noopener noreferrer">Portfolio page</a>
+</p>
 </section>
 
 <section className='project'>
