@@ -40,7 +40,7 @@ export default function App() {
     <a href='https://apps.apple.com/us/app/id1527735701' target='_blank' rel="noopener noreferrer">
     <img src={Rechargenow} alt='ReachargeNow -- EV charging points nearby you -- coded by Andrew Blair' />
     </a>
-    <p>Coded by Andrew Blair{/* → <a href='http://witty-fiction.surge.sh/' target='_blank' rel="noopener noreferrer">Portfolio page</a>*/}
+    <p>Coded by Andrew Blair → <a href='http://andrewblairportfolio.surge.sh' target='_blank' rel="noopener noreferrer">Portfolio page</a>
     </p>
     </section>
 
