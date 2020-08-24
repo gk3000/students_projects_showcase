@@ -20,6 +20,7 @@ import Charles from './pics/charles.jpg'
 import Turtle from './pics/turtle.jpg'
 import Weatherjokes from './pics/Weatherjokes.jpg'
 import Rechargenow from './pics/rechargenow.jpg'
+import Swapp from './pics/swapp.jpg'
 
 export default function App() {
   return (
@@ -30,7 +31,18 @@ export default function App() {
 
 
     <Grid className={'grid'} columns={"3"}>
-    
+
+    <section className='project'>
+    <div>
+    <h1><a href='https://projects.barcelonacodeschool.com/andrew-swapp' target='_blank' rel="noopener noreferrer">Swapp</a></h1>
+    <p>A free market to exchange products and services</p>
+    </div>
+    <a href='https://projects.barcelonacodeschool.com/andrew-swapp' target='_blank' rel="noopener noreferrer">
+    <img src={Swapp} alt='A matching application for users looking to exchange or swap an unused or unwanted item for something else.' />
+    </a>
+    <p>Coded by Andrew Blair → <a href='http://andrewblairportfolio.surge.sh' target='_blank' rel="noopener noreferrer">Portfolio page</a>
+    </p>
+    </section>  
 
     <section className='project'>
     <div>
