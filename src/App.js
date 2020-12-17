@@ -21,6 +21,7 @@ import Turtle from './pics/turtle.jpg'
 import Weatherjokes from './pics/Weatherjokes.jpg'
 import Rechargenow from './pics/rechargenow.jpg'
 import Swapp from './pics/swapp.jpg'
+import Bake from './pics/bake.jpg'
 
 export default function App() {
   return (
@@ -146,12 +147,12 @@ export default function App() {
 
 <section className='project'>
 <div>
-<h1><a href='https://projects.barcelonacodeschool.com/sub-sala-jacob/' target='_blank' rel="noopener noreferrer">Subsala</a></h1>
-<p>Find a space to host your event!</p>
+<h1><a href='https://projects.barcelonacodeschool.com/kristiana-commerce/' target='_blank' rel="noopener noreferrer">When in Doubt, Bake</a></h1>
+<p>Bakery eCommerce with users voting</p>
 </div>
-<a href='https://projects.barcelonacodeschool.com/sub-sala-jacob/' target='_blank' rel="noopener noreferrer">
-<img src={Subsala} alt='SubSala: Find a space to host your event!'/></a>
-<p>Coded by Jacob Whitt → <a href='https://jacobwhitt.netlify.app' target='_blank' rel="noopener noreferrer">Portfolio page</a>
+<a href='https://projects.barcelonacodeschool.com/kristiana-commerce/' target='_blank' rel="noopener noreferrer">
+<img src={Bake} alt='When in Doubt, Bake'/></a>
+<p>Coded by Kristiana Berriochoa
 </p>
 </section>
 
@@ -271,6 +272,17 @@ export default function App() {
 <img src={Charles} alt='The Charles project -- Buying time with celebrities' />
 </a>
 <p>Coded by Colette Brouns</p>
+</section>
+
+<section className='project'>
+<div>
+<h1><a href='https://projects.barcelonacodeschool.com/sub-sala-jacob/' target='_blank' rel="noopener noreferrer">Subsala</a></h1>
+<p>Find a space to host your event!</p>
+</div>
+<a href='https://projects.barcelonacodeschool.com/sub-sala-jacob/' target='_blank' rel="noopener noreferrer">
+<img src={Subsala} alt='SubSala: Find a space to host your event!'/></a>
+<p>Coded by Jacob Whitt → <a href='https://jacobwhitt.netlify.app' target='_blank' rel="noopener noreferrer">Portfolio page</a>
+</p>
 </section>
 
 </Grid>
