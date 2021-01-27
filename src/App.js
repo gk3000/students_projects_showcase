@@ -22,6 +22,7 @@ import Weatherjokes from './pics/Weatherjokes.jpg'
 import Rechargenow from './pics/rechargenow.jpg'
 import Swapp from './pics/swapp.jpg'
 import Bake from './pics/bake.jpg'
+import PB from './pics/pantry_buddy.jpg'
 
 export default function App() {
   return (
@@ -32,6 +33,18 @@ export default function App() {
 
 
     <Grid className={'grid'} columns={"3"}>
+
+    <section className='project'>
+    <div>
+    <h1><a href='http://pantrybuddy.rocks' target='_blank' rel="noopener noreferrer">Pantry Buddy</a></h1>
+    <p>Recipes suggestion based on the ingridients you have</p>
+    </div>
+    <a href='http://pantrybuddy.rocks' target='_blank' rel="noopener noreferrer">
+    <img src={PB} alt='Recipes suggestion based on the ingridients you have' />
+    </a>
+    <p>Coded by Carlos PLanchart → <a href='https://cplan485.gitlab.io/portfolio-project/' target='_blank' rel="noopener noreferrer">Portfolio page</a>
+    </p>
+    </section> 
 
     <section className='project'>
     <div>
