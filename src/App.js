@@ -23,6 +23,8 @@ import Rechargenow from './pics/rechargenow.jpg'
 import Swapp from './pics/swapp.jpg'
 import Bake from './pics/bake.jpg'
 import PB from './pics/pantry_buddy.jpg'
+import Corona from './pics/michele_corona.png'
+import ComplexApp from './pics/complex-app.png'
 
 export default function App() {
   return (
@@ -43,6 +45,30 @@ export default function App() {
     <img src={PB} alt='Recipes suggestion based on the ingredients you have' />
     </a>
     <p>Coded by Carlos Planchart → <a href='https://cplan485.gitlab.io/portfolio-project/' target='_blank' rel="noopener noreferrer">Portfolio page</a>
+    </p>
+    </section> 
+
+        <section className='project'>
+    <div>
+    <h1><a href='http://michele-saladino-covid19-stats.surge.sh' target='_blank' rel="noopener noreferrer">Corona Virus Tracker</a></h1>
+    <p>Global or per country statistics for the Covid-19 cases</p>
+    </div>
+    <a href='http://michele-saladino-covid19-stats.surge.sh' target='_blank' rel="noopener noreferrer">
+    <img src={Corona} alt='Global or per country statistics for the Covid-19 cases' />
+    </a>
+    <p>Coded by Michele Saladino → <a href='https://github.com/mikis165' target='_blank' rel="noopener noreferrer">GitHub page</a>
+    </p>
+    </section> 
+
+        <section className='project'>
+    <div>
+    <h1><a href='https://reactchat11.netlify.app' target='_blank' rel="noopener noreferrer">Complex App</a></h1>
+    <p>Content publishing / chatting platform</p>
+    </div>
+    <a href='https://reactchat11.netlify.app' target='_blank' rel="noopener noreferrer">
+    <img src={ComplexApp} alt='Content publishing / chatting platform' />
+    </a>
+    <p>Coded by Michele Saladino → <a href='https://github.com/mikis165' target='_blank' rel="noopener noreferrer">GitHub page</a>
     </p>
     </section> 
 
