@@ -37,12 +37,12 @@ export default function App() {
     <section className='project'>
     <div>
     <h1><a href='http://pantrybuddy.rocks' target='_blank' rel="noopener noreferrer">Pantry Buddy</a></h1>
-    <p>Recipes suggestion based on the ingridients you have</p>
+    <p>Recipes suggestion based on the ingredients you have</p>
     </div>
     <a href='http://pantrybuddy.rocks' target='_blank' rel="noopener noreferrer">
-    <img src={PB} alt='Recipes suggestion based on the ingridients you have' />
+    <img src={PB} alt='Recipes suggestion based on the ingredients you have' />
     </a>
-    <p>Coded by Carlos PLanchart → <a href='https://cplan485.gitlab.io/portfolio-project/' target='_blank' rel="noopener noreferrer">Portfolio page</a>
+    <p>Coded by Carlos Planchart → <a href='https://cplan485.gitlab.io/portfolio-project/' target='_blank' rel="noopener noreferrer">Portfolio page</a>
     </p>
     </section> 
 
