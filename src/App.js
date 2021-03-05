@@ -25,6 +25,7 @@ import Bake from './pics/bake.jpg'
 import PB from './pics/pantry_buddy.jpg'
 import Corona from './pics/michele_corona.png'
 import ComplexApp from './pics/complex-app.png'
+import BEACTIV from './pics/beaktiv.jpg'
 
 export default function App() {
   return (
@@ -35,6 +36,18 @@ export default function App() {
 
 
     <Grid className={'grid'} columns={"3"}>
+
+    <section className='project'>
+    <div>
+    <h1><a href='https://beactive-tove-adamsson.surge.sh' target='_blank' rel="noopener noreferrer">BEACTIV</a></h1>
+    <p>Find how to exercise for free in Barcelona</p>
+    </div>
+    <a href='https://beactive-tove-adamsson.surge.sh' target='_blank' rel="noopener noreferrer">
+    <img src={BEACTIV} alt='Find how to exercise for free in Barcelona' />
+    </a>
+    <p>Coded by Tove Adamsson → <a href='https://gitlab.com/toveadam' target='_blank' rel="noopener noreferrer">GitLab</a>
+    </p>
+    </section> 
 
     <section className='project'>
     <div>
