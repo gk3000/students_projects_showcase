@@ -27,6 +27,7 @@ import Corona from './pics/michele_corona.png'
 import ComplexApp from './pics/complex-app.png'
 import BEACTIV from './pics/beaktiv.jpg'
 import treatyoself from './pics/treatyoself.png'
+import nebulosity from './pics/nebulosity.jpg'
 
 
 export default function App() {
@@ -36,10 +37,21 @@ export default function App() {
     <h2>Alumni projects showcase</h2>
     <hr/>
 
-
     <Grid className={'grid'} columns={"3"}>
 
- <section className='project'>
+    <section className='project'>
+    <div>
+    <h1><a href='https://apps.apple.com/us/app/nebulosity/id1555467929' target='_blank' rel="noopener noreferrer">Nebulosit‪y‬</a></h1>
+    <p>Minimalistic weather native mobile app</p>
+    </div>
+    <a href='https://apps.apple.com/us/app/nebulosity/id1555467929' target='_blank' rel="noopener noreferrer">
+    <img src={nebulosity} alt='Minimalistic weather native mobile app' />
+    </a>
+    <p>Coded by Carlos Planchart → <a href='https://cplan485.gitlab.io/portfolio-project/' target='_blank' rel="noopener noreferrer">Portfolio page</a>
+    </p>
+    </section> 
+
+    <section className='project'>
     <div>
     <h1><a href='http://157.230.23.136' target='_blank' rel="noopener noreferrer">Treat Yo Self</a></h1>
     <p>eCommerce app</p>
@@ -76,7 +88,7 @@ export default function App() {
     </p>
     </section> 
 
-        <section className='project'>
+    <section className='project'>
     <div>
     <h1><a href='http://michele-saladino-covid19-stats.surge.sh' target='_blank' rel="noopener noreferrer">Corona Virus Tracker</a></h1>
     <p>Global or per country statistics for the Covid-19 cases</p>
@@ -88,7 +100,7 @@ export default function App() {
     </p>
     </section> 
 
-        <section className='project'>
+    <section className='project'>
     <div>
     <h1><a href='https://reactchat11.netlify.app' target='_blank' rel="noopener noreferrer">Complex App</a></h1>
     <p>Content publishing / chatting platform</p>
