@@ -26,6 +26,8 @@ import PB from './pics/pantry_buddy.jpg'
 import Corona from './pics/michele_corona.png'
 import ComplexApp from './pics/complex-app.png'
 import BEACTIV from './pics/beaktiv.jpg'
+import treatyoself from './pics/treatyoself.png'
+
 
 export default function App() {
   return (
@@ -36,6 +38,19 @@ export default function App() {
 
 
     <Grid className={'grid'} columns={"3"}>
+
+ <section className='project'>
+    <div>
+    <h1><a href='http://157.230.23.136' target='_blank' rel="noopener noreferrer">Treat Yo Self</a></h1>
+    <p>eCommerce app</p>
+    </div>
+    <a href='http://157.230.23.136' target='_blank' rel="noopener noreferrer">
+    <img src={treatyoself} alt='Treat Yo Self eCommerce app' />
+    </a>
+    <p>Coded by Gabriella Tavares → <a href='http://gabriellatavares.surge.sh' target='_blank' rel="noopener noreferrer">Portfolio page</a>
+    </p>
+    </section> 
+
 
     <section className='project'>
     <div>
