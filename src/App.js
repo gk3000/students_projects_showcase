@@ -28,6 +28,8 @@ import ComplexApp from './pics/complex-app.png'
 import BEACTIV from './pics/beaktiv.jpg'
 import treatyoself from './pics/treatyoself.png'
 import nebulosity from './pics/nebulosity.jpg'
+import Gervie from './pics/gervie.png'
+import Gabriella from './pics/gabriella.png'
 
 
 export default function App() {
@@ -38,6 +40,32 @@ export default function App() {
     <hr/>
 
     <Grid className={'grid'} columns={"3"}>
+
+
+    <section className='project'>
+    <div>
+    <h1><a href='http://gerviebarczyk.com/' target='_blank' rel="noopener noreferrer">Personal portfolio</a></h1>
+    {/*<p>Minimalistic weather native mobile app</p>*/}
+    </div>
+    <a href='http://gerviebarczyk.com/' target='_blank' rel="noopener noreferrer">
+    <img src={Gervie} alt="Hi, I'm Gervie. Nice to meet you.." />
+    </a>
+    <p>Coded by Gervie Barczyk → <a href='http://gerviebarczyk.com/' target='_blank' rel="noopener noreferrer">Portfolio page</a>
+    </p>
+    </section> 
+
+
+    <section className='project'>
+    <div>
+    <h1><a href='http://gabriellatavares.surge.sh' target='_blank' rel="noopener noreferrer">Personal portfolio</a></h1>
+    {/*<p>Minimalistic weather native mobile app</p>*/}
+    </div>
+    <a href='http://gabriellatavares.surge.sh' target='_blank' rel="noopener noreferrer">
+    <img src={Gabriella} alt="Hi, I am Gabriella Tavares" />
+    </a>
+    <p>Coded by Gabriella Tavares → <a href='http://gabriellatavares.surge.sh' target='_blank' rel="noopener noreferrer">Portfolio page</a>
+    </p>
+    </section> 
 
     <section className='project'>
     <div>
