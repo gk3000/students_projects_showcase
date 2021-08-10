@@ -254,18 +254,6 @@ export default function App() {
 
 <section className='project'>
 <div>
-<h1><a href='https://projects.barcelonacodeschool.com/kristiana-commerce/' target='_blank' rel="noopener noreferrer">When in Doubt, Bake</a></h1>
-<p>Bakery eCommerce with users voting</p>
-</div>
-<a href='https://projects.barcelonacodeschool.com/kristiana-commerce/' target='_blank' rel="noopener noreferrer">
-<img src={Bake} alt='When in Doubt, Bake'/></a>
-<p>Coded by Kristiana Berriochoa
-</p>
-</section>
-
-
-<section className='project'>
-<div>
 <h1><a href='https://projects.barcelonacodeschool.com/kim-commerce/' target='_blank' rel="noopener noreferrer">Style Ship</a></h1>
 <p>eCommerce web store</p>
 </div>
