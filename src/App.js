@@ -30,6 +30,9 @@ import treatyoself from './pics/treatyoself.png'
 import nebulosity from './pics/nebulosity.jpg'
 import Gervie from './pics/gervie.png'
 import Gabriella from './pics/gabriella.png'
+import RainbowBeetroot from './pics/rainbow-beetroot.jpg'
+import VietnamTours from './pics/vietnamtours.png'
+import Neumorphism from './pics/Neumorphism.png'
 
 
 export default function App() {
@@ -41,153 +44,192 @@ export default function App() {
 
     <Grid className={'grid'} columns={"3"}>
 
-
     <section className='project'>
     <div>
-    <h1><a href='http://gerviebarczyk.com/' target='_blank' rel="noopener noreferrer">Personal portfolio</a></h1>
-    {/*<p>Minimalistic weather native mobile app</p>*/}
+    <h1><a href='https://apps.apple.com/us/app/neumorphism-weather/id1580923671' target='_blank' rel="noopener noreferrer">Neumorphism weather</a></h1>
+    <p>Weather app with a cute companionship advice</p>
     </div>
-    <a href='http://gerviebarczyk.com/' target='_blank' rel="noopener noreferrer">
-    <img src={Gervie} alt="Hi, I'm Gervie. Nice to meet you.." />
+    <a href='https://apps.apple.com/us/app/neumorphism-weather/id1580923671' target='_blank' rel="noopener noreferrer">
+    <img src={Neumorphism} alt="Neumorphism weather: Weather app with a cute companionship advice" />
     </a>
-    <p>Coded by Gervie Barczyk → <a href='http://gerviebarczyk.com/' target='_blank' rel="noopener noreferrer">Portfolio page</a>
-    </p>
-    </section> 
-
-
-    <section className='project'>
-    <div>
-    <h1><a href='http://gabriellatavares.surge.sh' target='_blank' rel="noopener noreferrer">Personal portfolio</a></h1>
-    {/*<p>Minimalistic weather native mobile app</p>*/}
-    </div>
-    <a href='http://gabriellatavares.surge.sh' target='_blank' rel="noopener noreferrer">
-    <img src={Gabriella} alt="Hi, I am Gabriella Tavares" />
-    </a>
-    <p>Coded by Gabriella Tavares → <a href='http://gabriellatavares.surge.sh' target='_blank' rel="noopener noreferrer">Portfolio page</a>
+    <p>Coded by Yen Hoang 
+    → <a href='https://yenhoang_portfolio.surge.sh' target='_blank' rel="noopener noreferrer">Portfolio page</a>
     </p>
     </section> 
 
     <section className='project'>
     <div>
-    <h1><a href='https://apps.apple.com/us/app/nebulosity/id1555467929' target='_blank' rel="noopener noreferrer">Nebulosit‪y‬</a></h1>
-    <p>Minimalistic weather native mobile app</p>
+    <h1><a href='https://projects.barcelonacodeschool.com/vietnam-tours/' target='_blank' rel="noopener noreferrer">N'bie in VietNam</a></h1>
+    <p>Vietnamese Travel Agency</p>
     </div>
-    <a href='https://apps.apple.com/us/app/nebulosity/id1555467929' target='_blank' rel="noopener noreferrer">
-    <img src={nebulosity} alt='Minimalistic weather native mobile app' />
+    <a href='https://projects.barcelonacodeschool.com/vietnam-tours/' target='_blank' rel="noopener noreferrer">
+    <img src={VietnamTours} alt="N'bie in VietNam: Vietnamese Travel Agency" />
     </a>
-    <p>Coded by Carlos Planchart → <a href='https://cplan485.gitlab.io/portfolio-project/' target='_blank' rel="noopener noreferrer">Portfolio page</a>
+    <p>Coded by Yen Hoang 
+    → <a href='https://yenhoang_portfolio.surge.sh' target='_blank' rel="noopener noreferrer">Portfolio page</a>
     </p>
     </section> 
 
     <section className='project'>
     <div>
-    <h1><a href='http://157.230.23.136' target='_blank' rel="noopener noreferrer">Treat Yo Self</a></h1>
-    <p>eCommerce app</p>
+    <h1><a href='https://projects.barcelonacodeschool.com/rainbow-beetroot/' target='_blank' rel="noopener noreferrer">Rainbow Beetroot</a></h1>
+    <p>Weekly deliveries of groceries</p>
     </div>
-    <a href='http://157.230.23.136' target='_blank' rel="noopener noreferrer">
-    <img src={treatyoself} alt='Treat Yo Self eCommerce app' />
+    <a href='https://projects.barcelonacodeschool.com/rainbow-beetroot/' target='_blank' rel="noopener noreferrer">
+    <img src={RainbowBeetroot} alt="RainbowBeetroot: Weekly deliveries of groceries" />
     </a>
-    <p>Coded by Gabriella Tavares → <a href='http://gabriellatavares.surge.sh' target='_blank' rel="noopener noreferrer">Portfolio page</a>
-    </p>
-    </section> 
+    <p>Coded by Marcus Lindbloom 
+  {/*→ <a href='' target='_blank' rel="noopener noreferrer">Portfolio page</a>*/}
+  </p>
+  </section> 
+
+  <section className='project'>
+  <div>
+
+  <h1><a href='http://gerviebarczyk.com/' target='_blank' rel="noopener noreferrer">Personal portfolio</a></h1>
+{/*<p>Minimalistic weather native mobile app</p>*/}
+</div>
+<a href='http://gerviebarczyk.com/' target='_blank' rel="noopener noreferrer">
+<img src={Gervie} alt="Hi, I'm Gervie. Nice to meet you.." />
+</a>
+<p>Coded by Gervie Barczyk → <a href='http://gerviebarczyk.com/' target='_blank' rel="noopener noreferrer">Portfolio page</a>
+</p>
+</section> 
 
 
-    <section className='project'>
-    <div>
-    <h1><a href='https://beactive-tove-adamsson.surge.sh' target='_blank' rel="noopener noreferrer">BEACTIV</a></h1>
-    <p>Find how to exercise for free in Barcelona</p>
-    </div>
-    <a href='https://beactive-tove-adamsson.surge.sh' target='_blank' rel="noopener noreferrer">
-    <img src={BEACTIV} alt='Find how to exercise for free in Barcelona' />
-    </a>
-    <p>Coded by Tove Adamsson → <a href='https://gitlab.com/toveadam' target='_blank' rel="noopener noreferrer">GitLab</a>
-    </p>
-    </section> 
+<section className='project'>
+<div>
+<h1><a href='http://gabriellatavares.surge.sh' target='_blank' rel="noopener noreferrer">Personal portfolio</a></h1>
+{/*<p>Minimalistic weather native mobile app</p>*/}
+</div>
+<a href='http://gabriellatavares.surge.sh' target='_blank' rel="noopener noreferrer">
+<img src={Gabriella} alt="Hi, I am Gabriella Tavares" />
+</a>
+<p>Coded by Gabriella Tavares → <a href='http://gabriellatavares.surge.sh' target='_blank' rel="noopener noreferrer">Portfolio page</a>
+</p>
+</section> 
 
-    <section className='project'>
-    <div>
-    <h1><a href='http://pantrybuddy.rocks' target='_blank' rel="noopener noreferrer">Pantry Buddy</a></h1>
-    <p>Recipes suggestion based on the ingredients you have</p>
-    </div>
-    <a href='http://pantrybuddy.rocks' target='_blank' rel="noopener noreferrer">
-    <img src={PB} alt='Recipes suggestion based on the ingredients you have' />
-    </a>
-    <p>Coded by Carlos Planchart → <a href='https://cplan485.gitlab.io/portfolio-project/' target='_blank' rel="noopener noreferrer">Portfolio page</a>
-    </p>
-    </section> 
+<section className='project'>
+<div>
+<h1><a href='https://apps.apple.com/us/app/nebulosity/id1555467929' target='_blank' rel="noopener noreferrer">Nebulosit‪y‬</a></h1>
+<p>Minimalistic weather native mobile app</p>
+</div>
+<a href='https://apps.apple.com/us/app/nebulosity/id1555467929' target='_blank' rel="noopener noreferrer">
+<img src={nebulosity} alt='Minimalistic weather native mobile app' />
+</a>
+<p>Coded by Carlos Planchart → <a href='https://cplan485.gitlab.io/portfolio-project/' target='_blank' rel="noopener noreferrer">Portfolio page</a>
+</p>
+</section> 
 
-    <section className='project'>
-    <div>
-    <h1><a href='http://michele-saladino-covid19-stats.surge.sh' target='_blank' rel="noopener noreferrer">Corona Virus Tracker</a></h1>
-    <p>Global or per country statistics for the Covid-19 cases</p>
-    </div>
-    <a href='http://michele-saladino-covid19-stats.surge.sh' target='_blank' rel="noopener noreferrer">
-    <img src={Corona} alt='Global or per country statistics for the Covid-19 cases' />
-    </a>
-    <p>Coded by Michele Saladino → <a href='https://github.com/mikis165' target='_blank' rel="noopener noreferrer">GitHub page</a>
-    </p>
-    </section> 
-
-    <section className='project'>
-    <div>
-    <h1><a href='https://reactchat11.netlify.app' target='_blank' rel="noopener noreferrer">Complex App</a></h1>
-    <p>Content publishing / chatting platform</p>
-    </div>
-    <a href='https://reactchat11.netlify.app' target='_blank' rel="noopener noreferrer">
-    <img src={ComplexApp} alt='Content publishing / chatting platform' />
-    </a>
-    <p>Coded by Michele Saladino → <a href='https://github.com/mikis165' target='_blank' rel="noopener noreferrer">GitHub page</a>
-    </p>
-    </section> 
-
-    <section className='project'>
-    <div>
-    <h1><a href='https://projects.barcelonacodeschool.com/andrew-swapp' target='_blank' rel="noopener noreferrer">Swapp</a></h1>
-    <p>A free market to exchange products and services</p>
-    </div>
-    <a href='https://projects.barcelonacodeschool.com/andrew-swapp' target='_blank' rel="noopener noreferrer">
-    <img src={Swapp} alt='A matching application for users looking to exchange or swap an unused or unwanted item for something else.' />
-    </a>
-    <p>Coded by Andrew Blair → <a href='http://andrewblairportfolio.surge.sh' target='_blank' rel="noopener noreferrer">Portfolio page</a>
-    </p>
-    </section>  
-
-    <section className='project'>
-    <div>
-    <h1><a href='https://apps.apple.com/us/app/id1527735701' target='_blank' rel="noopener noreferrer">RechargeNow</a></h1>
-    <p>EV charging points nearby you</p>
-    </div>
-    <a href='https://apps.apple.com/us/app/id1527735701' target='_blank' rel="noopener noreferrer">
-    <img src={Rechargenow} alt='ReachargeNow -- EV charging points nearby you -- coded by Andrew Blair' />
-    </a>
-    <p>Coded by Andrew Blair → <a href='http://andrewblairportfolio.surge.sh' target='_blank' rel="noopener noreferrer">Portfolio page</a>
-    </p>
-    </section>
+<section className='project'>
+<div>
+<h1><a href='http://157.230.23.136' target='_blank' rel="noopener noreferrer">Treat Yo Self</a></h1>
+<p>eCommerce app</p>
+</div>
+<a href='http://157.230.23.136' target='_blank' rel="noopener noreferrer">
+<img src={treatyoself} alt='Treat Yo Self eCommerce app' />
+</a>
+<p>Coded by Gabriella Tavares → <a href='http://gabriellatavares.surge.sh' target='_blank' rel="noopener noreferrer">Portfolio page</a>
+</p>
+</section> 
 
 
-    <section className='project'>
-    <div>
-    <h1><a href='https://apps.apple.com/es/app/turtle-weather/id1514618438?l=en' target='_blank' rel="noopener noreferrer">Turtle Weather mobile app</a></h1>
-    <p>Retro pixel weather app</p>
-    </div>
-    <a href='https://apps.apple.com/es/app/turtle-weather/id1514618438?l=en' target='_blank' rel="noopener noreferrer">
-    <img src={Turtle} alt='Retro pixel weather app coded by Anders Tobias Nicolaysen' />
-    </a>
-    <p>By Anders Tobias Nicolaysen → <a href='http://witty-fiction.surge.sh/' target='_blank' rel="noopener noreferrer">Portfolio page</a>
-    </p>
-    </section>
+<section className='project'>
+<div>
+<h1><a href='https://beactive-tove-adamsson.surge.sh' target='_blank' rel="noopener noreferrer">BEACTIV</a></h1>
+<p>Find how to exercise for free in Barcelona</p>
+</div>
+<a href='https://beactive-tove-adamsson.surge.sh' target='_blank' rel="noopener noreferrer">
+<img src={BEACTIV} alt='Find how to exercise for free in Barcelona' />
+</a>
+<p>Coded by Tove Adamsson → <a href='https://gitlab.com/toveadam' target='_blank' rel="noopener noreferrer">GitLab</a>
+</p>
+</section> 
 
-    <section className='project'>
-    <div>
-    <h1><a href='https://projects.barcelonacodeschool.com/sara-game/' target='_blank' rel="noopener noreferrer">Multiplayer card game</a></h1>
-    <p>Online game with in-app purchases</p>
-    </div>
-    <a href='https://projects.barcelonacodeschool.com/sara-game/' target='_blank' rel="noopener noreferrer">
-    <img src={Sara} alt='Multiplayer card game, Online game with in-app purchases coded by Sara Moya' />
-    </a>
-    <p>Coded by Sara Moya → <a href='https://saramoya.gitlab.io/my-portfolio/' target='_blank' rel="noopener noreferrer">Portfolio page</a>
-    </p>
-    </section>
+<section className='project'>
+<div>
+<h1><a href='http://pantrybuddy.rocks' target='_blank' rel="noopener noreferrer">Pantry Buddy</a></h1>
+<p>Recipes suggestion based on the ingredients you have</p>
+</div>
+<a href='http://pantrybuddy.rocks' target='_blank' rel="noopener noreferrer">
+<img src={PB} alt='Recipes suggestion based on the ingredients you have' />
+</a>
+<p>Coded by Carlos Planchart → <a href='https://cplan485.gitlab.io/portfolio-project/' target='_blank' rel="noopener noreferrer">Portfolio page</a>
+</p>
+</section> 
+
+<section className='project'>
+<div>
+<h1><a href='http://michele-saladino-covid19-stats.surge.sh' target='_blank' rel="noopener noreferrer">Corona Virus Tracker</a></h1>
+<p>Global or per country statistics for the Covid-19 cases</p>
+</div>
+<a href='http://michele-saladino-covid19-stats.surge.sh' target='_blank' rel="noopener noreferrer">
+<img src={Corona} alt='Global or per country statistics for the Covid-19 cases' />
+</a>
+<p>Coded by Michele Saladino → <a href='https://github.com/mikis165' target='_blank' rel="noopener noreferrer">GitHub page</a>
+</p>
+</section> 
+
+<section className='project'>
+<div>
+<h1><a href='https://reactchat11.netlify.app' target='_blank' rel="noopener noreferrer">Complex App</a></h1>
+<p>Content publishing / chatting platform</p>
+</div>
+<a href='https://reactchat11.netlify.app' target='_blank' rel="noopener noreferrer">
+<img src={ComplexApp} alt='Content publishing / chatting platform' />
+</a>
+<p>Coded by Michele Saladino → <a href='https://github.com/mikis165' target='_blank' rel="noopener noreferrer">GitHub page</a>
+</p>
+</section> 
+
+<section className='project'>
+<div>
+<h1><a href='https://projects.barcelonacodeschool.com/andrew-swapp' target='_blank' rel="noopener noreferrer">Swapp</a></h1>
+<p>A free market to exchange products and services</p>
+</div>
+<a href='https://projects.barcelonacodeschool.com/andrew-swapp' target='_blank' rel="noopener noreferrer">
+<img src={Swapp} alt='A matching application for users looking to exchange or swap an unused or unwanted item for something else.' />
+</a>
+<p>Coded by Andrew Blair → <a href='http://andrewblairportfolio.surge.sh' target='_blank' rel="noopener noreferrer">Portfolio page</a>
+</p>
+</section>  
+
+<section className='project'>
+<div>
+<h1><a href='https://apps.apple.com/us/app/id1527735701' target='_blank' rel="noopener noreferrer">RechargeNow</a></h1>
+<p>EV charging points nearby you</p>
+</div>
+<a href='https://apps.apple.com/us/app/id1527735701' target='_blank' rel="noopener noreferrer">
+<img src={Rechargenow} alt='ReachargeNow -- EV charging points nearby you -- coded by Andrew Blair' />
+</a>
+<p>Coded by Andrew Blair → <a href='http://andrewblairportfolio.surge.sh' target='_blank' rel="noopener noreferrer">Portfolio page</a>
+</p>
+</section>
+
+
+<section className='project'>
+<div>
+<h1><a href='https://apps.apple.com/es/app/turtle-weather/id1514618438?l=en' target='_blank' rel="noopener noreferrer">Turtle Weather mobile app</a></h1>
+<p>Retro pixel weather app</p>
+</div>
+<a href='https://apps.apple.com/es/app/turtle-weather/id1514618438?l=en' target='_blank' rel="noopener noreferrer">
+<img src={Turtle} alt='Retro pixel weather app coded by Anders Tobias Nicolaysen' />
+</a>
+<p>By Anders Tobias Nicolaysen → <a href='http://witty-fiction.surge.sh/' target='_blank' rel="noopener noreferrer">Portfolio page</a>
+</p>
+</section>
+
+<section className='project'>
+<div>
+<h1><a href='https://projects.barcelonacodeschool.com/sara-game/' target='_blank' rel="noopener noreferrer">Multiplayer card game</a></h1>
+<p>Online game with in-app purchases</p>
+</div>
+<a href='https://projects.barcelonacodeschool.com/sara-game/' target='_blank' rel="noopener noreferrer">
+<img src={Sara} alt='Multiplayer card game, Online game with in-app purchases coded by Sara Moya' />
+</a>
+<p>Coded by Sara Moya → <a href='https://saramoya.gitlab.io/my-portfolio/' target='_blank' rel="noopener noreferrer">Portfolio page</a>
+</p>
+</section>
 
 
 {/*  <section className='project'>
