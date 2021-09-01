@@ -78,8 +78,7 @@ export default function App() {
     <a href='https://projects.barcelonacodeschool.com/rainbow-beetroot/' target='_blank' rel="noopener noreferrer">
     <img src={RainbowBeetroot} alt="RainbowBeetroot: Weekly deliveries of groceries" />
     </a>
-    <p>Coded by Marcus Lindbloom 
-  {/*→ <a href='' target='_blank' rel="noopener noreferrer">Portfolio page</a>*/}
+    <p>Coded by Marcus Lindbloom → <a href='https://marcuslindbloom.surge.sh' target='_blank' rel="noopener noreferrer">Portfolio page</a>
   </p>
   </section> 
 
