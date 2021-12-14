@@ -33,6 +33,7 @@ import Gabriella from './pics/gabriella.png'
 import RainbowBeetroot from './pics/rainbow-beetroot.jpg'
 import VietnamTours from './pics/vietnamtours.png'
 import Neumorphism from './pics/Neumorphism.png'
+import TommyEcommerce from './pics/tommy-commerce.jpg'
 
 
 export default function App() {
@@ -59,6 +60,19 @@ export default function App() {
 
     <section className='project'>
     <div>
+    <h1><a href='https://projects.barcelonacodeschool.com/tommy/' target='_blank' rel="noopener noreferrer">Clothes eCommerce</a></h1>
+    <p>eCommerce app</p>
+    </div>
+    <a href='https://projects.barcelonacodeschool.com/tommy/' target='_blank' rel="noopener noreferrer">
+    <img src={TommyEcommerce} alt="eCommerce appe" />
+    </a>
+    <p>Coded by Tommy Bullen 
+    → <a href='' target='_blank' rel="noopener noreferrer">Portfolio page</a>
+    </p>
+    </section> 
+
+    <section className='project'>
+    <div>
     <h1><a href='https://projects.barcelonacodeschool.com/vietnam-tours/' target='_blank' rel="noopener noreferrer">N'bie in VietNam</a></h1>
     <p>Vietnamese Travel Agency</p>
     </div>
@@ -79,26 +93,26 @@ export default function App() {
     <img src={RainbowBeetroot} alt="RainbowBeetroot: Weekly deliveries of groceries" />
     </a>
     <p>Coded by Marcus Lindbloom → <a href='https://marcuslindbloom.surge.sh' target='_blank' rel="noopener noreferrer">Portfolio page</a>
+    </p>
+    </section> 
+
+    <section className='project'>
+    <div>
+
+    <h1><a href='http://gerviebarczyk.com/' target='_blank' rel="noopener noreferrer">Personal portfolio</a></h1>
+  {/*<p>Minimalistic weather native mobile app</p>*/}
+  </div>
+  <a href='http://gerviebarczyk.com/' target='_blank' rel="noopener noreferrer">
+  <img src={Gervie} alt="Hi, I'm Gervie. Nice to meet you.." />
+  </a>
+  <p>Coded by Gervie Barczyk → <a href='http://gerviebarczyk.com/' target='_blank' rel="noopener noreferrer">Portfolio page</a>
   </p>
   </section> 
 
+
   <section className='project'>
   <div>
-
-  <h1><a href='http://gerviebarczyk.com/' target='_blank' rel="noopener noreferrer">Personal portfolio</a></h1>
-{/*<p>Minimalistic weather native mobile app</p>*/}
-</div>
-<a href='http://gerviebarczyk.com/' target='_blank' rel="noopener noreferrer">
-<img src={Gervie} alt="Hi, I'm Gervie. Nice to meet you.." />
-</a>
-<p>Coded by Gervie Barczyk → <a href='http://gerviebarczyk.com/' target='_blank' rel="noopener noreferrer">Portfolio page</a>
-</p>
-</section> 
-
-
-<section className='project'>
-<div>
-<h1><a href='http://gabriellatavares.surge.sh' target='_blank' rel="noopener noreferrer">Personal portfolio</a></h1>
+  <h1><a href='http://gabriellatavares.surge.sh' target='_blank' rel="noopener noreferrer">Personal portfolio</a></h1>
 {/*<p>Minimalistic weather native mobile app</p>*/}
 </div>
 <a href='http://gabriellatavares.surge.sh' target='_blank' rel="noopener noreferrer">
