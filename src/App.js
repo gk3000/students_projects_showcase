@@ -47,6 +47,19 @@ export default function App() {
 
     <section className='project'>
     <div>
+    <h1><a href='https://projects.barcelonacodeschool.com/tommy/' target='_blank' rel="noopener noreferrer">Clothes eCommerce</a></h1>
+    <p>eCommerce app</p>
+    </div>
+    <a href='https://projects.barcelonacodeschool.com/tommy/' target='_blank' rel="noopener noreferrer">
+    <img src={TommyEcommerce} alt="eCommerce appe" />
+    </a>
+    <p>Coded by Tommy Bullen 
+    → <a href='' target='_blank' rel="noopener noreferrer">Portfolio page</a>
+    </p>
+    </section> 
+    
+    <section className='project'>
+    <div>
     <h1><a href='https://apps.apple.com/us/app/neumorphism-weather/id1580923671' target='_blank' rel="noopener noreferrer">Neumorphism weather</a></h1>
     <p>Weather app with a cute companionship advice</p>
     </div>
@@ -58,18 +71,6 @@ export default function App() {
     </p>
     </section> 
 
-    <section className='project'>
-    <div>
-    <h1><a href='https://projects.barcelonacodeschool.com/tommy/' target='_blank' rel="noopener noreferrer">Clothes eCommerce</a></h1>
-    <p>eCommerce app</p>
-    </div>
-    <a href='https://projects.barcelonacodeschool.com/tommy/' target='_blank' rel="noopener noreferrer">
-    <img src={TommyEcommerce} alt="eCommerce appe" />
-    </a>
-    <p>Coded by Tommy Bullen 
-    → <a href='' target='_blank' rel="noopener noreferrer">Portfolio page</a>
-    </p>
-    </section> 
 
     <section className='project'>
     <div>
