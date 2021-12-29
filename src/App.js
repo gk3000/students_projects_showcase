@@ -34,6 +34,8 @@ import RainbowBeetroot from './pics/rainbow-beetroot.jpg'
 import VietnamTours from './pics/vietnamtours.png'
 import Neumorphism from './pics/Neumorphism.png'
 import TommyEcommerce from './pics/tommy-commerce.jpg'
+import NutritionTracker from './pics/nutrition-and-calories-tracker.jpg'
+import BoringWeather from './pics/boring-weather.jpg'
 
 
 export default function App() {
@@ -47,14 +49,37 @@ export default function App() {
 
     <section className='project'>
     <div>
+    <h1>Boring Weather App</h1>
+    <p><a href='https://apps.apple.com/us/app/boring-weather-app/id1600913706' target='_blank'>iOS</a> / <a href='https://play.google.com/store/apps/details?id=com.barcelonacodeschool.boringweatherapp' target='_blank'>Android</a> app</p>
+    </div>
+    <img src={BoringWeather} alt="Boring Weather mobile app" />
+    <p>Coded by Albert Muñoz Serra 
+    → <a href='' target='_blank' rel="noopener noreferrer">Portfolio page</a>
+    </p>
+    </section> 
+
+    <section className='project'>
+    <div>
+    <h1>Nutrition and Calorie Tracker</h1>
+    <p><a href='https://apps.apple.com/us/app/nutrition-and-calories-tracker/id1600937101' target='_blank'>iOS</a> / <a href='https://play.google.com/store/apps/details?id=com.tommybullen.nutritiontracker' target='_blank'>Android</a> app</p>
+    </div>
+    <img src={NutritionTracker} alt="Nutrition and Calorie Tracker mobile app" />
+    <p>Coded by Tommy Bullen 
+    → <a href='http://tommybullenportfolio.surge.sh' target='_blank' rel="noopener noreferrer">Portfolio page</a>
+    </p>
+    </section> 
+
+
+    <section className='project'>
+    <div>
     <h1><a href='https://projects.barcelonacodeschool.com/tommy/' target='_blank' rel="noopener noreferrer">Clothes eCommerce</a></h1>
     <p>eCommerce app</p>
     </div>
     <a href='https://projects.barcelonacodeschool.com/tommy/' target='_blank' rel="noopener noreferrer">
-    <img src={TommyEcommerce} alt="eCommerce appe" />
+    <img src={TommyEcommerce} alt="eCommerce app" />
     </a>
     <p>Coded by Tommy Bullen 
-    → <a href='' target='_blank' rel="noopener noreferrer">Portfolio page</a>
+    → <a href='http://tommybullenportfolio.surge.sh' target='_blank' rel="noopener noreferrer">Portfolio page</a>
     </p>
     </section> 
     
