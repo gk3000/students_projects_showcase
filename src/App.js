@@ -36,6 +36,7 @@ import Neumorphism from './pics/Neumorphism.png'
 import TommyEcommerce from './pics/tommy-commerce.jpg'
 import NutritionTracker from './pics/nutrition-and-calories-tracker.jpg'
 import BoringWeather from './pics/boring-weather.jpg'
+import Billiesbeer from './pics/projects-barcelonacodeschool-billies-beer.jpg'
 
 
 export default function App() {
@@ -46,6 +47,19 @@ export default function App() {
     <hr/>
 
     <Grid className={'grid'} columns={"3"}>
+
+    <section className='project'>
+    <div>
+    <h1><a href='https://projects.barcelonacodeschool.com/billies-beer/' target='_blank' rel="noopener noreferrer">Billie's Beer</a></h1>
+    <p>eCommerce app</p>
+    </div>
+    <a href='https://projects.barcelonacodeschool.com/billies-beer/' target='_blank' rel="noopener noreferrer">
+    <img src={Billiesbeer} alt="eCommerce app" />
+    </a>
+    <p>Coded by Kristiaan Goethaert 
+    → <a href='http://kristiaangh.com/' target='_blank' rel="noopener noreferrer">Portfolio page</a>
+    </p>
+    </section> 
 
     <section className='project'>
     <div>
