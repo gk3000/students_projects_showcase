@@ -37,6 +37,7 @@ import TommyEcommerce from './pics/tommy-commerce.jpg'
 import NutritionTracker from './pics/nutrition-and-calories-tracker.jpg'
 import BoringWeather from './pics/boring-weather.jpg'
 import Billiesbeer from './pics/projects-barcelonacodeschool-billies-beer.jpg'
+import BrewIt from './pics/brewit.jpg'
 
 
 export default function App() {
@@ -47,6 +48,19 @@ export default function App() {
     <hr/>
 
     <Grid className={'grid'} columns={"3"}>
+
+    <section className='project'>
+    <div>
+    <h1><a href='https://infinite-river-93488.herokuapp.com' target='_blank' rel="noopener noreferrer">Brew it!</a></h1>
+    <p>A home brewery app</p>
+    </div>
+    <a href='https://infinite-river-93488.herokuapp.com' target='_blank' rel="noopener noreferrer">
+    <img src={BrewIt} alt="A home brewery app" />
+    </a>
+    <p>Coded by Vincent van Campen 
+    → <a href='' target='_blank' rel="noopener noreferrer">Portfolio page</a>
+    </p>
+    </section> 
 
     <section className='project'>
     <div>
