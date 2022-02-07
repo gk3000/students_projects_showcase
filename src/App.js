@@ -58,7 +58,7 @@ export default function App() {
     <img src={BrewIt} alt="A home brewery app" />
     </a>
     <p>Coded by Vincent van Campen 
-    → <a href='' target='_blank' rel="noopener noreferrer">Portfolio page</a>
+    → <a href='https://vincentvc.surge.sh/' target='_blank' rel="noopener noreferrer">Portfolio page</a>
     </p>
     </section> 
 
