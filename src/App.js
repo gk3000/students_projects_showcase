@@ -316,7 +316,7 @@ export default function App() {
 <h1>Esperança</h1>
 <p>Volunteer community in Barcelona</p>
 </div>
-<a href='http://68.183.215.224' target='_blank' rel="noopener noreferrer">
+<a href='https://secret-coast-12695.herokuapp.com' target='_blank' rel="noopener noreferrer">
 <img src={Esperanza} alt='Esperanza app coded by Daniel Dick' />
 </a>
 <p>Coded by Daniel Dick → <a href='https://www.daniel-d.dev' target='_blank' rel="noopener noreferrer">Portfolio page</a></p>
