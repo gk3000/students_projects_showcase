@@ -188,7 +188,7 @@ export default function App() {
 </p>
 </section> 
 
-<section className='project'>
+{/*<section className='project'>
 <div>
 <h1><a href='http://157.230.23.136' target='_blank' rel="noopener noreferrer">Treat Yo Self</a></h1>
 <p>eCommerce app</p>
@@ -198,7 +198,7 @@ export default function App() {
 </a>
 <p>Coded by Gabriella Tavares → <a href='http://gabriellatavares.surge.sh' target='_blank' rel="noopener noreferrer">Portfolio page</a>
 </p>
-</section> 
+</section> */}
 
 
 <section className='project'>
