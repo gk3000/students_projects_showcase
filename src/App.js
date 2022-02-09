@@ -372,7 +372,7 @@ export default function App() {
 </p>
 </section>
 
-<section className='project'>
+{/*<section className='project'>
 <div>
 <h1>Reign of Blood</h1>
 <p>Online game with in-app purchases</p>
@@ -381,7 +381,9 @@ export default function App() {
 <img src={RoB} alt='Reign of Blood online game coded by Josh Arnott' />
 </a>
 <p>Coded by Josh Arnott → <a href='http://josharnott.surge.sh' target='_blank' rel="noopener noreferrer">Portfolio page</a></p>
-</section>
+</section>*/}
+
+
 <section className='project'>
 <div>
 <h1>Your weather</h1>
@@ -409,7 +411,7 @@ export default function App() {
 
 
 
-<section className='project'>
+{/*<section className='project'>
 <div>
 <h1><a href='https://ckelly.tv' target='_blank' rel="noopener noreferrer">Zolzar</a></h1>
 <p>The interstellar game</p>
@@ -419,7 +421,7 @@ export default function App() {
 </a>
 <p>Design/coded by Chris Kelly → <a href='https://ckelly.tv' target='_blank' rel="noopener noreferrer">Portfolio page</a>
 </p>
-</section>
+</section>*/}
 
 <section className='project'>
 <div>
@@ -456,7 +458,7 @@ export default function App() {
 </p>
 </section>
 
-<section className='project'>
+{/*<section className='project'>
 <div>
 <h1><a href='http://tingting.herokuapp.com' target='_blank' rel="noopener noreferrer">Listen to the flowers</a></h1>
 <p>Online flowers shop</p>
@@ -465,7 +467,7 @@ export default function App() {
 <img src={Ting} alt='Listen to the flowers, Online flowers shop' />
 </a>
 <p>Coded by Ting Liu</p>
-</section>
+</section>*/}
 
 <section className='project'>
 <div>
