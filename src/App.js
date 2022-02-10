@@ -188,17 +188,17 @@ export default function App() {
 </p>
 </section> 
 
-{/*<section className='project'>
+<section className='project'>
 <div>
-<h1><a href='http://157.230.23.136' target='_blank' rel="noopener noreferrer">Treat Yo Self</a></h1>
+<h1><a href='https://nameless-caverns-26248.herokuapp.com/' target='_blank' rel="noopener noreferrer">Treat Yo Self</a></h1>
 <p>eCommerce app</p>
 </div>
-<a href='http://157.230.23.136' target='_blank' rel="noopener noreferrer">
+<a href='https://nameless-caverns-26248.herokuapp.com/' target='_blank' rel="noopener noreferrer">
 <img src={treatyoself} alt='Treat Yo Self eCommerce app' />
 </a>
 <p>Coded by Gabriella Tavares → <a href='http://gabriellatavares.surge.sh' target='_blank' rel="noopener noreferrer">Portfolio page</a>
 </p>
-</section> */}
+</section> 
 
 
 <section className='project'>
