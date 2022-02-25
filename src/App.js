@@ -1,27 +1,26 @@
 import React from "react";
 import "./styles.css";
 import { Grid } from "./containers/Grid";
-import RoB from './pics/reign_of_blood.jpg'
+// import RoB from './pics/reign_of_blood.jpg'
 import YourWeather from './pics/josh_weather.png'
 import Esperanza from './pics/esperanca_screen.jpg'
 import Bookworld from './pics/bookworld_anders.jpg'
 import Magda from './pics/magda-ecommerce.jpg'
 import Soulfood from './pics/soulfood.jpg'
-import Claro from './pics/claro_lucy_ux.jpg'
-import Zolzar from './pics/zolzar.jpg'
+// import Claro from './pics/claro_lucy_ux.jpg'
+// import Zolzar from './pics/zolzar.jpg'
 import CCCB from './pics/cccb_brett.jpg'
 import StyleShip from './pics/styleship.jpg'
 import Subsala from './pics/subsala.jpg'
-import Blanchette from './pics/blanchette.jpg'
 import LAB from './pics/pandora_ecommerce.jpg'
-import Ting from './pics/ting.jpg'
+// import Ting from './pics/ting.jpg'
 import Sara from './pics/sara.jpg'
 import Charles from './pics/charles.jpg'
 import Turtle from './pics/turtle.jpg'
 import Weatherjokes from './pics/Weatherjokes.jpg'
 import Rechargenow from './pics/rechargenow.jpg'
 import Swapp from './pics/swapp.jpg'
-import Bake from './pics/bake.jpg'
+// import Bake from './pics/bake.jpg'
 import PB from './pics/pantry_buddy.jpg'
 import Corona from './pics/michele_corona.png'
 import ComplexApp from './pics/complex-app.png'
@@ -83,13 +82,13 @@ export default function App() {
     <section className='project'>
     <div>
     <h1>Boring Weather App</h1>
-    <p><a href='https://apps.apple.com/us/app/boring-weather-app/id1600913706' target='_blank'>iOS</a> / <a href='https://play.google.com/store/apps/details?id=com.barcelonacodeschool.boringweatherapp' target='_blank'>Android</a> app</p>
+    <p><a href='https://apps.apple.com/us/app/boring-weather-app/id1600913706' target='_blank' rel="noopener noreferrer">iOS</a> / <a href='https://play.google.com/store/apps/details?id=com.barcelonacodeschool.boringweatherapp' target='_blank' rel="noopener noreferrer">Android</a> app</p>
     </div>
     <div className='imgBackground'>
     <img src={BoringWeather} alt="Boring Weather mobile app" />
     </div>
     <p>Coded by Albert Muñoz Serra 
-    → <a href='' target='_blank' rel="noopener noreferrer">Portfolio page</a>
+    {/*→ <a href='' target='_blank' rel="noopener noreferrer">Portfolio page</a>*/}
     </p>
     </section> 
 
@@ -111,7 +110,7 @@ export default function App() {
     <section className='project'>
     <div>
     <h1>Nutrition and Calorie Tracker</h1>
-    <p><a href='https://apps.apple.com/us/app/nutrition-and-calories-tracker/id1600937101' target='_blank'>iOS</a> / <a href='https://play.google.com/store/apps/details?id=com.tommybullen.nutritiontracker' target='_blank'>Android</a> app</p>
+    <p><a href='https://apps.apple.com/us/app/nutrition-and-calories-tracker/id1600937101' target='_blank' rel="noopener noreferrer">iOS</a> / <a href='https://play.google.com/store/apps/details?id=com.tommybullen.nutritiontracker' target='_blank' rel="noopener noreferrer">Android</a> app</p>
     </div>
     <div className='imgBackground'>
     <img src={NutritionTracker} alt="Nutrition and Calorie Tracker mobile app" />
@@ -386,7 +385,7 @@ export default function App() {
 <p>Online book store</p>
 </div>
 <div className='imgBackground'>
-<a href='https://projects.barcelonacodeschool.com/book-world/' target='_blank' >
+<a href='https://projects.barcelonacodeschool.com/book-world/' target='_blank' rel="noopener noreferrer">
 <img src={Bookworld} alt='Bookworld online book store app coded by Anders Tobias Nicolaysen' />
 </a>
 </div>
@@ -508,18 +507,6 @@ export default function App() {
 </section>
 
 
-<section className='project'>
-<div>
-<h1><a href='https://projects.barcelonacodeschool.com/luciana-commerce/' target='_blank' rel="noopener noreferrer">Blanchette</a></h1>
-<p>Fashion online store</p>
-</div>
-<div className='imgBackground'>
-<a href='https://projects.barcelonacodeschool.com/luciana-commerce/' target='_blank' rel="noopener noreferrer">
-<img src={Blanchette} alt='Style Ship eCommerce web store'/></a>
-</div>
-<p>Coded by Luciana Müller and Juliana Moribe
-</p>
-</section>
 
 <section className='project'>
 <div>
