@@ -38,6 +38,7 @@ import BoringWeather from './pics/boring-weather.jpg'
 import Billiesbeer from './pics/projects-barcelonacodeschool-billies-beer.jpg'
 import BrewIt from './pics/brewit.jpg'
 import FindJob from './pics/findjob.jpg'
+import theGallows from './pics/the_gallows.jpg'
 
 
 export default function App() {
@@ -48,6 +49,22 @@ export default function App() {
     <hr/>
 
     <Grid className={'grid'} columns="2" gap='2em'>
+
+    <section className='project'>
+    <div>
+    <h1><a href='https://apps.apple.com/es/app/the-gallows/id1613918820?l=en' target='_blank' rel="noopener noreferrer">The Gallows</a></h1>
+    <p>A classic word game app</p>
+    </div>
+    <div className='imgBackground'>
+    <a href='https://apps.apple.com/es/app/the-gallows/id1613918820?l=en' target='_blank' rel="noopener noreferrer">
+    <img src={theGallows} alt="Hangman game" />
+    </a>
+    </div>
+    <p>Coded by Desirée Lagerquist 
+    {/*→ <a href='https://vincentvc.surge.sh/' target='_blank' rel="noopener noreferrer">Portfolio page</a>*/}
+    </p>
+    </section> 
+
 
     <section className='project'>
     <div>
