@@ -53,7 +53,7 @@ export default function App() {
     <h2>Alumni projects showcase</h2>
     <hr/>
 
-    <Grid className={'grid'} columns="2" gap='2em'>
+    <Grid className={'grid'} columns="3" gap='2em'>
 
 
     <section className='project'>
