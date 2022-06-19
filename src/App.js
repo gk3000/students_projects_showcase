@@ -39,6 +39,11 @@ import Billiesbeer from './pics/projects-barcelonacodeschool-billies-beer.jpg'
 import BrewIt from './pics/brewit.jpg'
 import FindJob from './pics/findjob.jpg'
 import theGallows from './pics/the_gallows.jpg'
+import oneOfUs from './pics/one_of_us.jpg'
+import Yield from './pics/yield.jpg'
+import huisjein from './pics/huisjein.jpg'
+import walk_n_talk from './pics/walk_n_talk.jpg'
+
 
 
 export default function App() {
@@ -49,6 +54,70 @@ export default function App() {
     <hr/>
 
     <Grid className={'grid'} columns="2" gap='2em'>
+
+
+    <section className='project'>
+    <div>
+    <h1><a href='https://annas-portfolio-396303.webflow.io/work/project-2' target='_blank' rel="noopener noreferrer">Huisjein</a></h1>
+    <p>A transparent rental service that saves people time and educates them on their legal rights as tenants</p>
+    </div>
+    <div className='imgBackground'>
+    <a href='https://annas-portfolio-396303.webflow.io/work/project-2' target='_blank' rel="noopener noreferrer">
+    <img src={huisjein} alt="Huisjein" />
+    </a>
+    </div>
+    <p>Designed by <a href='https://annas-portfolio-396303.webflow.io/work/project-2' target='blank'>Anna Veerman</a>
+    {/*→ <a href='https://vincentvc.surge.sh/' target='_blank' rel="noopener noreferrer">Portfolio page</a>*/}
+    </p>
+    </section> 
+
+
+
+    <section className='project'>
+    <div>
+    <h1><a href='https://aoppeln.com/kopia-ausencias-presencias' target='_blank' rel="noopener noreferrer">Yield</a></h1>
+    <p>An app which helps to reduce food waste</p>
+    </div>
+    <div className='imgBackground'>
+    <a href='https://aoppeln.com/kopia-ausencias-presencias' target='_blank' rel="noopener noreferrer">
+    <img src={Yield} alt="Yield" />
+    </a>
+    </div>
+    <p>Designed by <a href='https://aoppeln.com/kopia-ausencias-presencias' target="blank">Agnieszka Oppeln-Bronikowska</a>
+    {/*→ <a href='https://vincentvc.surge.sh/' target='_blank' rel="noopener noreferrer">Portfolio page</a>*/}
+    </p>
+    </section> 
+
+
+    <section className='project'>
+    <div>
+    <h1><a href='https://kieras-design-portfolio.webflow.io/work/project-2' target='_blank' rel="noopener noreferrer">Walk n' Talk</a></h1>
+    <p>A mobile app that helps to decrease frictions which occur between dog owners</p>
+    </div>
+    <div className='imgBackground'>
+    <a href='https://kieras-design-portfolio.webflow.io/work/project-2' target='_blank' rel="noopener noreferrer">
+    <img src={walk_n_talk} alt="Walk n' Talk" />
+    </a>
+    </div>
+    <p>Designed by <a href='https://kieras-design-portfolio.webflow.io/work/project-2' target='blank'>Kiera McCormack</a> 
+    {/*→ <a href='https://vincentvc.surge.sh/' target='_blank' rel="noopener noreferrer">Portfolio page</a>*/}
+    </p>
+    </section> 
+
+    <section className='project'>
+    <div>
+    <h1><a href='https://annas-portfolio-396303.webflow.io/work/project-1' target='_blank' rel="noopener noreferrer">One of Us</a></h1>
+    <p>An interactive real world treasure hunt app which allows players to unlock secret local spot and learn local culture</p>
+    </div>
+    <div className='imgBackground'>
+    <a href='https://annas-portfolio-396303.webflow.io/work/project-1' target='_blank' rel="noopener noreferrer">
+    <img src={oneOfUs} alt="One of us" />
+    </a>
+    </div>
+    <p>Designed by <a href='https://aoppeln.com' target="blank">Agnieszka Oppeln-Bronikowska</a>, <a href='https://annas-portfolio-396303.webflow.io' target='blank'>Anna Veerman</a>, <a href='https://kieras-design-portfolio.webflow.io' target='blank'>Kiera McCormack</a> 
+    {/*→ <a href='https://vincentvc.surge.sh/' target='_blank' rel="noopener noreferrer">Portfolio page</a>*/}
+    </p>
+    </section> 
 
     <section className='project'>
     <div>
