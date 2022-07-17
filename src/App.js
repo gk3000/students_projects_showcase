@@ -43,6 +43,7 @@ import oneOfUs from './pics/one_of_us.jpg'
 import Yield from './pics/yield.jpg'
 import huisjein from './pics/huisjein.jpg'
 import walk_n_talk from './pics/walk_n_talk.jpg'
+import winemind from './pics/winemind.jpg'
 
 
 
@@ -54,6 +55,22 @@ export default function App() {
     <hr/>
 
     <Grid className={'grid'} columns="3" gap='2em'>
+
+    <section className='project'>
+    <div>
+    <h1><a href='https://evening-brook-64942.herokuapp.com/' target='_blank' rel="noopener noreferrer">Winemind</a></h1>
+    <p>A wine marketplace for miltiple sellers and single admin team</p>
+    </div>
+    <div className='imgBackground'>
+    <a href='https://evening-brook-64942.herokuapp.com/' target='_blank' rel="noopener noreferrer">
+    <img src={winemind} alt="winemind" />
+    </a>
+    </div>
+    <p>Coded by <a href='https://www.linkedin.com/in/alex-castro-vera/' target='blank'>Alex Castro</a> and <a href="https://www.linkedin.com/in/paweł-kornas/" target="blank">Paweł Kornas</a>
+    {/*→ <a href='https://vincentvc.surge.sh/' target='_blank' rel="noopener noreferrer">Portfolio page</a>*/}
+    </p>
+    </section> 
+
 
 
     <section className='project'>
