@@ -46,6 +46,7 @@ import walk_n_talk from './pics/walk_n_talk.jpg'
 import winemind from './pics/winemind.jpg'
 import useItUp from './pics/useitup.jpg'
 import plateo from './pics/plateo.jpg'
+import treviso from './pics/treviso.jpg'
 
 
 
@@ -57,6 +58,23 @@ export default function App() {
     <hr/>
 
     <Grid className={'grid'} columns="3" gap='2em'>
+
+
+    <section className='project'>
+    <div>
+    <h1><a href='https://treviso-es.herokuapp.com' target='_blank' rel="noopener noreferrer">Treviso</a></h1>
+    <p>An eCommerce web app</p>
+    </div>
+    <div className='imgBackground'>
+    <a href='https://treviso-es.herokuapp.com' target='_blank' rel="noopener noreferrer">
+    <img src={treviso} alt="use it up" />
+    </a>
+    </div>
+    <p>Coded by Ivan Zelinskyi
+  {/*→ <a href='https://vincentvc.surge.sh/' target='_blank' rel="noopener noreferrer">Portfolio page</a>*/}
+  </p>
+  </section> 
+
 
 
     <section className='project'>
