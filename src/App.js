@@ -97,11 +97,11 @@ export default function App() {
 
 <section className='project'>
 <div>
-<h1><a href='https://evening-brook-64942.herokuapp.com/' target='_blank' rel="noopener noreferrer">Winemind</a></h1>
+<h1><a href='https://winemind.onrender.com' target='_blank' rel="noopener noreferrer">Winemind</a></h1>
 <p>A wine marketplace for miltiple sellers and single admin team</p>
 </div>
 <div className='imgBackground'>
-<a href='https://evening-brook-64942.herokuapp.com/' target='_blank' rel="noopener noreferrer">
+<a href='https://winemind.onrender.com' target='_blank' rel="noopener noreferrer">
 <img src={winemind} alt="winemind" />
 </a>
 </div>
@@ -129,11 +129,11 @@ export default function App() {
 
   <section className='project'>
   <div>
-  <h1><a href='https://sheltered-reaches-45047.herokuapp.com' target='_blank' rel="noopener noreferrer">Plateo</a></h1>
+  <h1><a href='https://plateo.onrender.com' target='_blank' rel="noopener noreferrer">Plateo</a></h1>
   <p>An eCommerce web app</p>
   </div>
   <div className='imgBackground'>
-  <a href='https://sheltered-reaches-45047.herokuapp.com' target='_blank' rel="noopener noreferrer">
+  <a href='https://plateo.onrender.com' target='_blank' rel="noopener noreferrer">
   <img src={plateo} alt="plateo" />
   </a>
   </div>
@@ -206,11 +206,11 @@ export default function App() {
 
 <section className='project'>
 <div>
-<h1><a href='https://infinite-river-93488.herokuapp.com' target='_blank' rel="noopener noreferrer">Brew it!</a></h1>
+<h1><a href='https://brew-it.onrender.com' target='_blank' rel="noopener noreferrer">Brew it!</a></h1>
 <p>A home brewery app</p>
 </div>
 <div className='imgBackground'>
-<a href='https://infinite-river-93488.herokuapp.com' target='_blank' rel="noopener noreferrer">
+<a href='https://brew-it.onrender.com' target='_blank' rel="noopener noreferrer">
 <img src={BrewIt} alt="A home brewery app" />
 </a>
 </div>
@@ -249,11 +249,11 @@ export default function App() {
 
 <section className='project'>
 <div>
-<h1><a href='https://nameless-savannah-84045.herokuapp.com/' target='_blank' rel="noopener noreferrer">Find job</a></h1>
+<h1><a href='https://job-board-jkf6.onrender.com' target='_blank' rel="noopener noreferrer">Find job</a></h1>
 <p>A job board web app</p>
 </div>
 <div className='imgBackground'>
-<a href='https://nameless-savannah-84045.herokuapp.com/' target='_blank' rel="noopener noreferrer">
+<a href='https://job-board-jkf6.onrender.com' target='_blank' rel="noopener noreferrer">
 <img src={FindJob} alt="A job board web app" />
 </a>
 </div>
@@ -382,11 +382,11 @@ export default function App() {
 
 <section className='project'>
 <div>
-<h1><a href='https://nameless-caverns-26248.herokuapp.com/' target='_blank' rel="noopener noreferrer">Treat Yo Self</a></h1>
+<h1><a href='https://treatyoself.onrender.com' target='_blank' rel="noopener noreferrer">Treat Yo Self</a></h1>
 <p>eCommerce app</p>
 </div>
 <div className='imgBackground'>
-<a href='https://nameless-caverns-26248.herokuapp.com/' target='_blank' rel="noopener noreferrer">
+<a href='https://treatyoself.onrender.com' target='_blank' rel="noopener noreferrer">
 <img src={treatyoself} alt='Treat Yo Self eCommerce app' />
 </a>
 </div>
@@ -523,11 +523,11 @@ export default function App() {
 
 <section className='project'>
 <div>
-<h1>Esperança</h1>
+<h1><a href='https://esperanza.onrender.com' target='_blank' rel="noopener noreferrer">Esperança</a></h1>
 <p>Volunteer community in Barcelona</p>
 </div>
 <div className='imgBackground'>
-<a href='https://secret-coast-12695.herokuapp.com' target='_blank' rel="noopener noreferrer">
+<a href='https://esperanza.onrender.com' target='_blank' rel="noopener noreferrer">
 <img src={Esperanza} alt='Esperanza app coded by Daniel Dick' />
 </a>
 </div>
@@ -606,7 +606,7 @@ export default function App() {
 
 <section className='project'>
 <div>
-<h1>Your weather</h1>
+<h1><a href='https://play.google.com/store/apps/details?id=your.weather.application&gl=ES' target='_blank' rel="noopener noreferrer">Your weather</a></h1>
 <p>Native mobile weather app</p>
 </div>
 <div className='imgBackground'>
