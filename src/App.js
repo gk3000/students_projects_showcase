@@ -71,7 +71,7 @@ export default function App() {
     </a>
     </div>
     <p>Coded by Ivan Zelinskyi
-  {/*→ <a href='https://vincentvc.surge.sh/' target='_blank' rel="noopener noreferrer">Portfolio page</a>*/}
+  → <a href='https://ivan-zelinskyi-portfolio.netlify.app/' target='_blank' rel="noopener noreferrer">Portfolio page</a>
   </p>
   </section> 
 
