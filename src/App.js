@@ -47,6 +47,7 @@ import winemind from './pics/winemind.jpg'
 import useItUp from './pics/useitup.jpg'
 import plateo from './pics/plateo.jpg'
 import treviso from './pics/treviso.jpg'
+import moviex from './pics/moviexdb-netlify-app.jpg'
 
 
 
@@ -59,6 +60,20 @@ export default function App() {
 
     <Grid className={'grid'} columns="3" gap='2em'>
 
+    <section className='project'>
+    <div>
+    <h1><a href='https://moviexdb.netlify.app' target='_blank' rel="noopener noreferrer">MovieX</a></h1>
+    <p>A movies database app</p>
+    </div>
+    <div className='imgBackground'>
+    <a href='https://moviexdb.netlify.app' target='_blank' rel="noopener noreferrer">
+    <img src={moviex} alt="use it up" />
+    </a>
+    </div>
+    <p>Coded by Ivan Zelinskyi
+  → <a href='https://ivan-zelinskyi-portfolio.netlify.app/' target='_blank' rel="noopener noreferrer">Portfolio page</a>
+  </p>
+  </section> 
 
     <section className='project'>
     <div>
