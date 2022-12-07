@@ -77,11 +77,11 @@ export default function App() {
 
     <section className='project'>
     <div>
-    <h1><a href='https://treviso-es.herokuapp.com' target='_blank' rel="noopener noreferrer">Treviso</a></h1>
+    <h1><a href='https://treviso.onrender.com' target='_blank' rel="noopener noreferrer">Treviso</a></h1>
     <p>An eCommerce web app</p>
     </div>
     <div className='imgBackground'>
-    <a href='https://treviso-es.herokuapp.com' target='_blank' rel="noopener noreferrer">
+    <a href='https://treviso.onrender.com' target='_blank' rel="noopener noreferrer">
     <img src={treviso} alt="use it up" />
     </a>
     </div>
