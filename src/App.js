@@ -63,21 +63,6 @@ export default function App() {
 
     <section className='project'>
     <div>
-    <h1><a href='https://moviexdb.netlify.app' target='_blank' rel="noopener noreferrer">MovieX</a></h1>
-    <p>A movies database app</p>
-    </div>
-    <div className='imgBackground'>
-    <a href='https://moviexdb.netlify.app' target='_blank' rel="noopener noreferrer">
-    <img src={moviex} alt="use it up" />
-    </a>
-    </div>
-    <p>Coded by Ivan Zelinskyi
-    → <a href='https://ivan-zelinskyi-portfolio.netlify.app/' target='_blank' rel="noopener noreferrer">Portfolio page</a>
-    </p>
-    </section> 
-
-    <section className='project'>
-    <div>
     <h1><a href='https://projects.barcelonacodeschool.com/buddiez' target='_blank' rel="noopener noreferrer">Buddiez</a></h1>
     <p>A social media for pets</p>
     </div>
@@ -91,6 +76,21 @@ export default function App() {
     </p>
     </section> 
 
+    
+    <section className='project'>
+    <div>
+    <h1><a href='https://moviexdb.netlify.app' target='_blank' rel="noopener noreferrer">MovieX</a></h1>
+    <p>A movies database app</p>
+    </div>
+    <div className='imgBackground'>
+    <a href='https://moviexdb.netlify.app' target='_blank' rel="noopener noreferrer">
+    <img src={moviex} alt="use it up" />
+    </a>
+    </div>
+    <p>Coded by Ivan Zelinskyi
+    → <a href='https://ivan-zelinskyi-portfolio.netlify.app/' target='_blank' rel="noopener noreferrer">Portfolio page</a>
+    </p>
+    </section> 
 
 
     <section className='project'>
