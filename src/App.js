@@ -48,7 +48,7 @@ import useItUp from './pics/useitup.jpg'
 import plateo from './pics/plateo.jpg'
 import treviso from './pics/treviso.jpg'
 import moviex from './pics/moviexdb-netlify-app.jpg'
-import buddiez from './pics/buddiez.png'
+import buddiez from './pics/buddiez.jpg'
 
 
 
