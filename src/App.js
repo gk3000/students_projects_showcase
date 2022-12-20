@@ -49,6 +49,7 @@ import plateo from './pics/plateo.jpg'
 import treviso from './pics/treviso.jpg'
 import moviex from './pics/moviexdb-netlify-app.jpg'
 import buddiez from './pics/buddiez.jpg'
+import vinatt from './pics/vinatt.jpg'
 
 
 
@@ -73,6 +74,21 @@ export default function App() {
     </div>
     <p>Coded by Leonardo Fumagali
     → <a href='https://www.linkedin.com/in/leonardo-fumagali/' target='_blank' rel="noopener noreferrer">Portfolio page</a>
+    </p>
+    </section> 
+
+    <section className='project'>
+    <div>
+    <h1><a href='https://projects.barcelonacodeschool.com/vinatt' target='_blank' rel="noopener noreferrer">Vina T&T</a></h1>
+    <p>eCommerce web app</p>
+    </div>
+    <div className='imgBackground'>
+    <a href='https://projects.barcelonacodeschool.com/vinatt' target='_blank' rel="noopener noreferrer">
+    <img src={vinatt} alt="Vina T&T eCommerce web app" />
+    </a>
+    </div>
+    <p>Coded by Trang Do
+    → <a href='https://www.linkedin.com/in/trang-do-thuy-183435141' target='_blank' rel="noopener noreferrer">Portfolio page</a>
     </p>
     </section> 
 
