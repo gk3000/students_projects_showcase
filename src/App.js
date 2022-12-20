@@ -50,6 +50,7 @@ import treviso from './pics/treviso.jpg'
 import moviex from './pics/moviexdb-netlify-app.jpg'
 import buddiez from './pics/buddiez.jpg'
 import vinatt from './pics/vinatt.jpg'
+import booker from './pics/booker.jpg'
 
 
 
@@ -61,6 +62,23 @@ export default function App() {
     <hr/>
 
     <Grid className={'grid'} columns="3" gap='2em'>
+
+
+    <section className='project'>
+    <div>
+    <h1><a href='https://projects.barcelonacodeschool.com/booker' target='_blank' rel="noopener noreferrer">Booker</a></h1>
+    <p>An app for the book lovers</p>
+    </div>
+    <div className='imgBackground'>
+    <a href='https://projects.barcelonacodeschool.com/booker' target='_blank' rel="noopener noreferrer">
+    <img src={booker} alt="Booker" />
+    </a>
+    </div>
+    <p>Coded by Noelia Ábalo Sánchez
+    → <a href='https://www.linkedin.com/in/noelia-abalo-sanchez/' target='_blank' rel="noopener noreferrer">Portfolio page</a>
+    </p>
+    </section> 
+
 
     <section className='project'>
     <div>
