@@ -51,6 +51,7 @@ import moviex from './pics/moviexdb-netlify-app.jpg'
 import buddiez from './pics/buddiez.jpg'
 import vinatt from './pics/vinatt.jpg'
 import booker from './pics/booker.jpg'
+import bookily from './pics/bookily.jpg'
 
 
 
@@ -63,6 +64,20 @@ export default function App() {
 
     <Grid className={'grid'} columns="3" gap='2em'>
 
+    <section className='project'>
+    <div>
+    <h1><a href='https://apps.apple.com/us/app/bookily/id1668805929' target='_blank' rel="noopener noreferrer">Booker iOS app</a></h1>
+    <p>An app for the book lovers</p>
+    </div>
+    <div className='imgBackground'>
+    <a href='https://apps.apple.com/us/app/bookily/id1668805929' target='_blank' rel="noopener noreferrer">
+    <img src={bookily} alt="Booker" />
+    </a>
+    </div>
+    <p>Coded by Noelia Ábalo Sánchez
+    → <a href='https://www.linkedin.com/in/noelia-abalo-sanchez/' target='_blank' rel="noopener noreferrer">Portfolio page</a>
+    </p>
+    </section> 
 
     <section className='project'>
     <div>
