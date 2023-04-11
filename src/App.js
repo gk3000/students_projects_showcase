@@ -52,6 +52,9 @@ import buddiez from './pics/buddiez.jpg'
 import vinatt from './pics/vinatt.jpg'
 import booker from './pics/booker.jpg'
 import bookily from './pics/bookily.jpg'
+import rooftopGuide from './pics/rooftop_guide.png'
+import wanderWoman from './pics/wander_woman.png'
+import cupra from './pics/cupra.png'
 
 
 
@@ -63,6 +66,52 @@ export default function App() {
     <hr/>
 
     <Grid className={'grid'} columns="3" gap='2em'>
+
+    <section className='project'>
+    <div>
+    <h1><a href='https://jasmien-vlaeminck-case-study.surge.sh/' target='_blank' rel="noopener noreferrer">Wander Woman</a></h1>
+    <p>Case study for solo women travellers app</p>
+    </div>
+    <div className='imgBackground'>
+    <a href='https://jasmien-vlaeminck-case-study.surge.sh/' target='_blank' rel="noopener noreferrer">
+    <img src={wanderWoman} alt="Wander Woman" />
+    </a>
+    </div>
+    <p>Designed by Jasmien Vlaeminck
+    → <a href='https://linkedin.com/in/jvlaeminck' target='_blank' rel="noopener noreferrer">Portfolio page</a>
+    </p>
+    </section> 
+
+    <section className='project'>
+    <div>
+    <h1><a href='https://mauricio-alvarez-case-study.surge.sh/' target='_blank' rel="noopener noreferrer">Rooftop Guide</a></h1>
+    <p>A rooftop bars guide</p>
+    </div>
+    <div className='imgBackground'>
+    <a href='https://mauricio-alvarez-case-study.surge.sh/' target='_blank' rel="noopener noreferrer">
+    <img src={rooftopGuide} alt="Rooftop guide" />
+    </a>
+    </div>
+    <p>Designed by Mauricio Alvarez
+    → <a href='https://linkedin.com/in/mauricioalvarez' target='_blank' rel="noopener noreferrer">Portfolio page</a>
+    </p>
+    </section> 
+
+
+    <section className='project'>
+    <div>
+    <h1><a href='https://che-chien-liao-case-study.surge.sh/' target='_blank' rel="noopener noreferrer">Cupra Infotainment System</a></h1>
+    <p>Infotainment car system</p>
+    </div>
+    <div className='imgBackground'>
+    <a href='https://che-chien-liao-case-study.surge.sh/' target='_blank' rel="noopener noreferrer">
+    <img src={cupra} alt="Cupra Infotainment System" />
+    </a>
+    </div>
+    <p>Designed by Che Chien (Alvin) Liao
+    → <a href='https://linkedin.com/in/alvinliaochien' target='_blank' rel="noopener noreferrer">Portfolio page</a>
+    </p>
+    </section> 
 
     <section className='project'>
     <div>
