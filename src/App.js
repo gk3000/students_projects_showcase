@@ -55,6 +55,7 @@ import bookily from './pics/bookily.jpg'
 import rooftopGuide from './pics/rooftop_guide.png'
 import wanderWoman from './pics/wander_woman.png'
 import cupra from './pics/cupra.png'
+import plusFood from './pics/plus_food_julieta.jpg'
 
 
 
@@ -66,6 +67,23 @@ export default function App() {
     <hr/>
 
     <Grid className={'grid'} columns="3" gap='2em'>
+
+
+    <section className='project'>
+    <div>
+    <h1><a href='https://apps.apple.com/us/app/food-recipe-calculator/id6449034319' target='_blank' rel="noopener noreferrer">+food</a></h1>
+    <p>A calories tracker app</p>
+    </div>
+    <div className='imgBackground'>
+    <a href='https://apps.apple.com/us/app/food-recipe-calculator/id6449034319' target='_blank' rel="noopener noreferrer">
+    <img src={plusFood} alt="+food" />
+    </a>
+    </div>
+    <p>Coded by Julieta Barrios
+    → <a href='https://www.linkedin.com/in/julieta-barriosd/' target='_blank' rel="noopener noreferrer">LinkedIn</a>
+    </p>
+    </section> 
+
 
     <section className='project'>
     <div>
