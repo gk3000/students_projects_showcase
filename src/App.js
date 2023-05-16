@@ -56,6 +56,8 @@ import rooftopGuide from './pics/rooftop_guide.png'
 import wanderWoman from './pics/wander_woman.png'
 import cupra from './pics/cupra.png'
 import plusFood from './pics/plus_food_julieta.jpg'
+import piWeather from './pics/pi-weather.jpg'
+import eightyTwenty from './pics/80-20.jpg'
 
 
 
@@ -67,6 +69,38 @@ export default function App() {
     <hr/>
 
     <Grid className={'grid'} columns="3" gap='2em'>
+
+
+    <section className='project'>
+    <div>
+    <h1><a href='https://apps.apple.com/us/app/80-20/id6449088751' target='_blank' rel="noopener noreferrer">80/20 Weekly Tracker</a></h1>
+    <p>Healthy eating habits app</p>
+    </div>
+    <div className='imgBackground'>
+    <a href='https://apps.apple.com/us/app/80-20/id6449088751' target='_blank' rel="noopener noreferrer">
+    <img src={eightyTwenty} alt="80/20 Weekly Tracker" />
+    </a>
+    </div>
+    <p>Coded by Melanie Liendo
+    → <a href='https://www.linkedin.com/in/melanie-liendo/' target='_blank' rel="noopener noreferrer">LinkedIn</a>
+    </p>
+    </section> 
+
+
+    <section className='project'>
+    <div>
+    <h1><a href='https://apps.apple.com/us/app/pi-weather/id6449082497' target='_blank' rel="noopener noreferrer">Pi Weather</a></h1>
+    <p>A weather app</p>
+    </div>
+    <div className='imgBackground'>
+    <a href='https://apps.apple.com/us/app/pi-weather/id6449082497' target='_blank' rel="noopener noreferrer">
+    <img src={piWeather} alt="Pi Weather" />
+    </a>
+    </div>
+    <p>Coded by Pia Hildebrandt
+    → <a href='https://www.linkedin.com/in/pia-hildebrandt-753332258/' target='_blank' rel="noopener noreferrer">LinkedIn</a>
+    </p>
+    </section> 
 
 
     <section className='project'>
