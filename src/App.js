@@ -58,6 +58,8 @@ import cupra from './pics/cupra.png'
 import plusFood from './pics/plus_food_julieta.jpg'
 import piWeather from './pics/pi-weather.jpg'
 import eightyTwenty from './pics/80-20.jpg'
+import volya from './pics/volya.jpg'
+import littleBird from './pics/littleBird.jpg'
 
 
 
@@ -70,6 +72,36 @@ export default function App() {
 
     <Grid className={'grid'} columns="3" gap='2em'>
 
+    <section className='project'>
+    <div>
+    <h1><a href='https://josianeljacobi.wixsite.com/josijacobi/little-bird-app' target='_blank' rel="noopener noreferrer">Little Bird</a></h1>
+    <p>A child safety app</p>
+    </div>
+    <div className='imgBackground'>
+    <a href='https://josianeljacobi.wixsite.com/josijacobi/little-bird-app' target='_blank' rel="noopener noreferrer">
+    <img src={littleBird} alt="Little Bird, A child safety app" />
+    </a>
+    </div>
+    <p><a href='https://barcelonacodeschool.com/ux-design-bootcamp-in-barcelona-code-school/'>Designed</a> by 
+    Josiane Lopes Jacobi →  <a href='https://josianeljacobi.wixsite.com/josijacobi/little-bird-app' target='_blank' rel="noopener noreferrer">Portfolio</a>
+    </p>
+    </section> 
+
+
+    <section className='project'>
+    <div>
+    <h1><a href='https://tekla.me/volya/' target='_blank' rel="noopener noreferrer">Volya</a></h1>
+    <p>A refugee aid app</p>
+    </div>
+    <div className='imgBackground'>
+    <a href='https://tekla.me/volya/' target='_blank' rel="noopener noreferrer">
+    <img src={volya} alt="Volya, A refugee aid app" />
+    </a>
+    </div>
+    <p><a href='https://barcelonacodeschool.com/ux-design-bootcamp-in-barcelona-code-school/'>Designed</a> by <a href='https://tekla.me' target='_blank' rel="noopener noreferrer">Tekla Vasadze</a>, <a href='https://www.itsmemaryam.com' target='_blank' rel="noopener noreferrer">Maryam Talal</a> & Co.
+    </p>
+    </section> 
+
 
     <section className='project'>
     <div>
@@ -81,7 +113,7 @@ export default function App() {
     <img src={eightyTwenty} alt="80/20 Weekly Tracker" />
     </a>
     </div>
-    <p>Coded by Melanie Liendo
+    <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Melanie Liendo
     → <a href='https://www.linkedin.com/in/melanie-liendo/' target='_blank' rel="noopener noreferrer">LinkedIn</a>
     </p>
     </section> 
@@ -97,7 +129,7 @@ export default function App() {
     <img src={piWeather} alt="Pi Weather" />
     </a>
     </div>
-    <p>Coded by Pia Hildebrandt
+    <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Pia Hildebrandt
     → <a href='https://www.linkedin.com/in/pia-hildebrandt-753332258/' target='_blank' rel="noopener noreferrer">LinkedIn</a>
     </p>
     </section> 
@@ -113,7 +145,7 @@ export default function App() {
     <img src={plusFood} alt="+food" />
     </a>
     </div>
-    <p>Coded by Julieta Barrios
+    <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Julieta Barrios
     → <a href='https://www.linkedin.com/in/julieta-barriosd/' target='_blank' rel="noopener noreferrer">LinkedIn</a>
     </p>
     </section> 
@@ -129,7 +161,7 @@ export default function App() {
     <img src={wanderWoman} alt="Wander Woman" />
     </a>
     </div>
-    <p>Designed by Jasmien Vlaeminck
+    <p><a href='https://barcelonacodeschool.com/ux-design-bootcamp-in-barcelona-code-school/'>Designed</a> by Jasmien Vlaeminck
     → <a href='https://linkedin.com/in/jvlaeminck' target='_blank' rel="noopener noreferrer">Portfolio page</a>
     </p>
     </section> 
@@ -144,7 +176,7 @@ export default function App() {
     <img src={rooftopGuide} alt="Rooftop guide" />
     </a>
     </div>
-    <p>Designed by Mauricio Alvarez
+    <p><a href='https://barcelonacodeschool.com/ux-design-bootcamp-in-barcelona-code-school/'>Designed</a> by Mauricio Alvarez
     → <a href='https://linkedin.com/in/mauricioalvarez' target='_blank' rel="noopener noreferrer">Portfolio page</a>
     </p>
     </section> 
@@ -160,7 +192,7 @@ export default function App() {
     <img src={cupra} alt="Cupra Infotainment System" />
     </a>
     </div>
-    <p>Designed by Che Chien (Alvin) Liao
+    <p><a href='https://barcelonacodeschool.com/ux-design-bootcamp-in-barcelona-code-school/'>Designed</a> by Che Chien (Alvin) Liao
     → <a href='https://linkedin.com/in/alvinliaochien' target='_blank' rel="noopener noreferrer">Portfolio page</a>
     </p>
     </section> 
@@ -175,7 +207,7 @@ export default function App() {
     <img src={bookily} alt="Booker" />
     </a>
     </div>
-    <p>Coded by Noelia Ábalo Sánchez
+    <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Noelia Ábalo Sánchez
     → <a href='https://www.linkedin.com/in/noelia-abalo-sanchez/' target='_blank' rel="noopener noreferrer">Portfolio page</a>
     </p>
     </section> 
@@ -190,7 +222,7 @@ export default function App() {
     <img src={booker} alt="Booker" />
     </a>
     </div>
-    <p>Coded by Noelia Ábalo Sánchez
+    <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Noelia Ábalo Sánchez
     → <a href='https://www.linkedin.com/in/noelia-abalo-sanchez/' target='_blank' rel="noopener noreferrer">Portfolio page</a>
     </p>
     </section> 
@@ -206,7 +238,7 @@ export default function App() {
     <img src={buddiez} alt="Buddiez" />
     </a>
     </div>
-    <p>Coded by Leonardo Fumagali
+    <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Leonardo Fumagali
     → <a href='https://www.linkedin.com/in/leonardo-fumagali/' target='_blank' rel="noopener noreferrer">Portfolio page</a>
     </p>
     </section> 
@@ -221,7 +253,7 @@ export default function App() {
     <img src={vinatt} alt="Vina T&T eCommerce web app" />
     </a>
     </div>
-    <p>Coded by Trang Do
+    <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Trang Do
     → <a href='https://www.linkedin.com/in/trang-do-thuy-183435141' target='_blank' rel="noopener noreferrer">Portfolio page</a>
     </p>
     </section> 
@@ -237,7 +269,7 @@ export default function App() {
     <img src={moviex} alt="use it up" />
     </a>
     </div>
-    <p>Coded by Ivan Zelinskyi
+    <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Ivan Zelinskyi
     → <a href='https://ivan-zelinskyi-portfolio.netlify.app/' target='_blank' rel="noopener noreferrer">Portfolio page</a>
     </p>
     </section> 
@@ -253,7 +285,7 @@ export default function App() {
     <img src={treviso} alt="use it up" />
     </a>
     </div>
-    <p>Coded by Ivan Zelinskyi
+    <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Ivan Zelinskyi
     → <a href='https://ivan-zelinskyi-portfolio.netlify.app/' target='_blank' rel="noopener noreferrer">Portfolio page</a>
     </p>
     </section> 
@@ -270,7 +302,7 @@ export default function App() {
     <img src={useItUp} alt="use it up" />
     </a>
     </div>
-    <p>Coded by <a href='https://ross-mclean.surge.sh/' target='blank'>Ross McLean</a>
+    <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by <a href='https://ross-mclean.surge.sh/' target='blank'>Ross McLean</a>
   {/*→ <a href='https://vincentvc.surge.sh/' target='_blank' rel="noopener noreferrer">Portfolio page</a>*/}
     </p>
     </section> 
@@ -288,7 +320,7 @@ export default function App() {
     <img src={winemind} alt="winemind" />
     </a>
     </div>
-    <p>Coded by <a href='https://www.linkedin.com/in/alex-castro-vera/' target='blank'>Alex Castro</a> and <a href="https://www.linkedin.com/in/paweł-kornas/" target="blank">Paweł Kornas</a>
+    <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by <a href='https://www.linkedin.com/in/alex-castro-vera/' target='blank'>Alex Castro</a> and <a href="https://www.linkedin.com/in/paweł-kornas/" target="blank">Paweł Kornas</a>
 {/*→ <a href='https://vincentvc.surge.sh/' target='_blank' rel="noopener noreferrer">Portfolio page</a>*/}
     </p>
     </section> 
@@ -305,7 +337,7 @@ export default function App() {
     <img src={huisjein} alt="Huisjein" />
     </a>
     </div>
-    <p>Designed by <a href='https://annas-portfolio-396303.webflow.io/work/project-2' target='blank'>Anna Veerman</a>
+    <p><a href='https://barcelonacodeschool.com/ux-design-bootcamp-in-barcelona-code-school/'>Designed</a> by <a href='https://annas-portfolio-396303.webflow.io/work/project-2' target='blank'>Anna Veerman</a>
 {/*→ <a href='https://vincentvc.surge.sh/' target='_blank' rel="noopener noreferrer">Portfolio page</a>*/}
     </p>
     </section> 
@@ -320,7 +352,7 @@ export default function App() {
     <img src={plateo} alt="plateo" />
     </a>
     </div>
-    <p>Coded by <a href='https://ross-mclean.surge.sh/' target='blank'>Ross McLean</a>
+    <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by <a href='https://ross-mclean.surge.sh/' target='blank'>Ross McLean</a>
 {/*→ <a href='https://vincentvc.surge.sh/' target='_blank' rel="noopener noreferrer">Portfolio page</a>*/}
     </p>
     </section> 
@@ -335,7 +367,7 @@ export default function App() {
     <img src={Yield} alt="Yield" />
     </a>
     </div>
-    <p>Designed by <a href='https://aoppeln.com/kopia-ausencias-presencias' target="blank">Agnieszka Oppeln-Bronikowska</a>
+    <p><a href='https://barcelonacodeschool.com/ux-design-bootcamp-in-barcelona-code-school/'>Designed</a> by <a href='https://aoppeln.com/kopia-ausencias-presencias' target="blank">Agnieszka Oppeln-Bronikowska</a>
 {/*→ <a href='https://vincentvc.surge.sh/' target='_blank' rel="noopener noreferrer">Portfolio page</a>*/}
     </p>
     </section> 
@@ -351,7 +383,7 @@ export default function App() {
     <img src={walk_n_talk} alt="Walk n' Talk" />
     </a>
     </div>
-    <p>Designed by <a href='https://kieras-design-portfolio.webflow.io/work/project-2' target='blank'>Kiera McCormack</a> 
+    <p><a href='https://barcelonacodeschool.com/ux-design-bootcamp-in-barcelona-code-school/'>Designed</a> by <a href='https://kieras-design-portfolio.webflow.io/work/project-2' target='blank'>Kiera McCormack</a> 
 {/*→ <a href='https://vincentvc.surge.sh/' target='_blank' rel="noopener noreferrer">Portfolio page</a>*/}
     </p>
     </section> 
@@ -366,7 +398,7 @@ export default function App() {
     <img src={oneOfUs} alt="One of us" />
     </a>
     </div>
-    <p>Designed by <a href='https://aoppeln.com' target="blank">Agnieszka Oppeln-Bronikowska</a>, <a href='https://annas-portfolio-396303.webflow.io' target='blank'>Anna Veerman</a>, <a href='https://kieras-design-portfolio.webflow.io' target='blank'>Kiera McCormack</a> 
+    <p><a href='https://barcelonacodeschool.com/ux-design-bootcamp-in-barcelona-code-school/'>Designed</a> by <a href='https://aoppeln.com' target="blank">Agnieszka Oppeln-Bronikowska</a>, <a href='https://annas-portfolio-396303.webflow.io' target='blank'>Anna Veerman</a>, <a href='https://kieras-design-portfolio.webflow.io' target='blank'>Kiera McCormack</a> 
 {/*→ <a href='https://vincentvc.surge.sh/' target='_blank' rel="noopener noreferrer">Portfolio page</a>*/}
     </p>
     </section> 
@@ -381,7 +413,7 @@ export default function App() {
     <img src={theGallows} alt="Hangman game" />
     </a>
     </div>
-    <p>Coded by Desirée Lagerquist 
+    <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Desirée Lagerquist 
 {/*→ <a href='https://vincentvc.surge.sh/' target='_blank' rel="noopener noreferrer">Portfolio page</a>*/}
     </p>
     </section> 
@@ -397,7 +429,7 @@ export default function App() {
     <img src={BrewIt} alt="A home brewery app" />
     </a>
     </div>
-    <p>Coded by Vincent van Campen 
+    <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Vincent van Campen 
     → <a href='https://vincentvc.surge.sh/' target='_blank' rel="noopener noreferrer">Portfolio page</a>
     </p>
     </section> 
@@ -412,7 +444,7 @@ export default function App() {
     <img src={Billiesbeer} alt="eCommerce app" />
     </a>
     </div>
-    <p>Coded by Kristiaan Goethaert 
+    <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Kristiaan Goethaert 
     → <a href='http://kristiaangh.com/' target='_blank' rel="noopener noreferrer">Portfolio page</a>
     </p>
     </section> 
@@ -425,7 +457,7 @@ export default function App() {
     <div className='imgBackground'>
     <img src={BoringWeather} alt="Boring Weather mobile app" />
     </div>
-    <p>Coded by Albert Muñoz Serra 
+    <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Albert Muñoz Serra 
 {/*→ <a href='' target='_blank' rel="noopener noreferrer">Portfolio page</a>*/}
     </p>
     </section> 
@@ -440,7 +472,7 @@ export default function App() {
     <img src={FindJob} alt="A job board web app" />
     </a>
     </div>
-    <p>Coded by Julián del Busto Planas
+    <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Julián del Busto Planas
     </p>
     </section> 
 
@@ -453,7 +485,7 @@ export default function App() {
     <div className='imgBackground'>
     <img src={NutritionTracker} alt="Nutrition and Calorie Tracker mobile app" />
     </div>
-    <p>Coded by Tommy Bullen 
+    <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Tommy Bullen 
     → <a href='http://tommybullenportfolio.surge.sh' target='_blank' rel="noopener noreferrer">Portfolio page</a>
     </p>
     </section> 
@@ -469,7 +501,7 @@ export default function App() {
     <img src={TommyEcommerce} alt="eCommerce app" />
     </a>
     </div>
-    <p>Coded by Tommy Bullen 
+    <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Tommy Bullen 
     → <a href='http://tommybullenportfolio.surge.sh' target='_blank' rel="noopener noreferrer">Portfolio page</a>
     </p>
     </section> 
@@ -484,7 +516,7 @@ export default function App() {
     <img src={Neumorphism} alt="Neumorphism weather: Weather app with a cute companionship advice" />
     </a>
     </div>
-    <p>Coded by Yen Hoang 
+    <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Yen Hoang 
     → <a href='https://yenhoang_portfolio.surge.sh' target='_blank' rel="noopener noreferrer">Portfolio page</a>
     </p>
     </section> 
@@ -500,7 +532,7 @@ export default function App() {
     <img src={VietnamTours} alt="N'bie in VietNam: Vietnamese Travel Agency" />
     </a>
     </div>
-    <p>Coded by Yen Hoang 
+    <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Yen Hoang 
     → <a href='https://yenhoang_portfolio.surge.sh' target='_blank' rel="noopener noreferrer">Portfolio page</a>
     </p>
     </section> 
@@ -515,7 +547,7 @@ export default function App() {
     <img src={RainbowBeetroot} alt="RainbowBeetroot: Weekly deliveries of groceries" />
     </a>
     </div>
-    <p>Coded by Marcus Lindbloom → <a href='https://marcuslindbloom.surge.sh' target='_blank' rel="noopener noreferrer">Portfolio page</a>
+    <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Marcus Lindbloom → <a href='https://marcuslindbloom.surge.sh' target='_blank' rel="noopener noreferrer">Portfolio page</a>
     </p>
     </section> 
 
@@ -530,7 +562,7 @@ export default function App() {
     <img src={Gervie} alt="Hi, I'm Gervie. Nice to meet you.." />
     </a>
     </div>
-    <p>Coded by Gervie Barczyk → <a href='http://gerviebarczyk.com/' target='_blank' rel="noopener noreferrer">Portfolio page</a>
+    <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Gervie Barczyk → <a href='http://gerviebarczyk.com/' target='_blank' rel="noopener noreferrer">Portfolio page</a>
     </p>
     </section> 
 
@@ -545,7 +577,7 @@ export default function App() {
     <img src={Gabriella} alt="Hi, I am Gabriella Tavares" />
     </a>
     </div>
-    <p>Coded by Gabriella Tavares → <a href='http://gabriellatavares.surge.sh' target='_blank' rel="noopener noreferrer">Portfolio page</a>
+    <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Gabriella Tavares → <a href='http://gabriellatavares.surge.sh' target='_blank' rel="noopener noreferrer">Portfolio page</a>
     </p>
     </section> 
 
@@ -559,7 +591,7 @@ export default function App() {
     <img src={nebulosity} alt='Minimalistic weather native mobile app' />
     </a>
     </div>
-    <p>Coded by Carlos Planchart → <a href='https://cplan485.gitlab.io/portfolio-project/' target='_blank' rel="noopener noreferrer">Portfolio page</a>
+    <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Carlos Planchart → <a href='https://cplan485.gitlab.io/portfolio-project/' target='_blank' rel="noopener noreferrer">Portfolio page</a>
     </p>
     </section> 
 
@@ -573,7 +605,7 @@ export default function App() {
     <img src={treatyoself} alt='Treat Yo Self eCommerce app' />
     </a>
     </div>
-    <p>Coded by Gabriella Tavares → <a href='http://gabriellatavares.surge.sh' target='_blank' rel="noopener noreferrer">Portfolio page</a>
+    <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Gabriella Tavares → <a href='http://gabriellatavares.surge.sh' target='_blank' rel="noopener noreferrer">Portfolio page</a>
     </p>
     </section> 
 
@@ -588,7 +620,7 @@ export default function App() {
     <img src={BEACTIV} alt='Find how to exercise for free in Barcelona' />
     </a>
     </div>
-    <p>Coded by Tove Adamsson → <a href='https://gitlab.com/toveadam' target='_blank' rel="noopener noreferrer">GitLab</a>
+    <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Tove Adamsson → <a href='https://gitlab.com/toveadam' target='_blank' rel="noopener noreferrer">GitLab</a>
     </p>
     </section> 
 
@@ -602,7 +634,7 @@ export default function App() {
     <img src={PB} alt='Recipes suggestion based on the ingredients you have' />
     </a>
     </div>
-    <p>Coded by Carlos Planchart → <a href='https://cplan485.gitlab.io/portfolio-project/' target='_blank' rel="noopener noreferrer">Portfolio page</a>
+    <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Carlos Planchart → <a href='https://cplan485.gitlab.io/portfolio-project/' target='_blank' rel="noopener noreferrer">Portfolio page</a>
     </p>
     </section> 
 
@@ -616,9 +648,11 @@ export default function App() {
     <img src={Corona} alt='Global or per country statistics for the Covid-19 cases' />
     </a>
     </div>
-    <p>Coded by Michele Saladino → <a href='https://github.com/mikis165' target='_blank' rel="noopener noreferrer">GitHub page</a>
+    <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Michele Saladino → <a href='https://github.com/mikis165' target='_blank' rel="noopener noreferrer">GitHub page</a>
     </p>
     </section> 
+
+
 
     <section className='project'>
     <div>
@@ -630,7 +664,7 @@ export default function App() {
     <img src={ComplexApp} alt='Content publishing / chatting platform' />
     </a>
     </div>
-    <p>Coded by Michele Saladino → <a href='https://github.com/mikis165' target='_blank' rel="noopener noreferrer">GitHub page</a>
+    <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Michele Saladino → <a href='https://github.com/mikis165' target='_blank' rel="noopener noreferrer">GitHub page</a>
     </p>
     </section> 
 
@@ -644,7 +678,7 @@ export default function App() {
     <img src={Swapp} alt='A matching application for users looking to exchange or swap an unused or unwanted item for something else.' />
     </a>
     </div>
-    <p>Coded by Andrew Blair → <a href='http://andrewblairportfolio.surge.sh' target='_blank' rel="noopener noreferrer">Portfolio page</a>
+    <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Andrew Blair → <a href='http://andrewblairportfolio.surge.sh' target='_blank' rel="noopener noreferrer">Portfolio page</a>
     </p>
     </section>  
 
@@ -658,7 +692,7 @@ export default function App() {
     <img src={Rechargenow} alt='ReachargeNow -- EV charging points nearby you -- coded by Andrew Blair' />
     </a>
     </div>
-    <p>Coded by Andrew Blair → <a href='http://andrewblairportfolio.surge.sh' target='_blank' rel="noopener noreferrer">Portfolio page</a>
+    <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Andrew Blair → <a href='http://andrewblairportfolio.surge.sh' target='_blank' rel="noopener noreferrer">Portfolio page</a>
     </p>
     </section>
 
@@ -687,7 +721,7 @@ export default function App() {
     <img src={Sara} alt='Multiplayer card game, Online game with in-app purchases coded by Sara Moya' />
     </a>
     </div>
-    <p>Coded by Sara Moya → <a href='https://saramoya.gitlab.io/my-portfolio/' target='_blank' rel="noopener noreferrer">Portfolio page</a>
+    <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Sara Moya → <a href='https://saramoya.gitlab.io/my-portfolio/' target='_blank' rel="noopener noreferrer">Portfolio page</a>
     </p>
     </section>
 
@@ -714,7 +748,7 @@ export default function App() {
     <img src={Esperanza} alt='Esperanza app coded by Daniel Dick' />
     </a>
     </div>
-    <p>Coded by Daniel Dick → <a href='https://www.daniel-d.dev' target='_blank' rel="noopener noreferrer">Portfolio page</a></p>
+    <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Daniel Dick → <a href='https://www.daniel-d.dev' target='_blank' rel="noopener noreferrer">Portfolio page</a></p>
     </section>
 
     <section className='project'>
@@ -741,7 +775,7 @@ export default function App() {
     <img src={Magda} alt='Bookworld online book store app coded by Magda Freitas' />
     </a>
     </div>
-    <p>Coded by Magda Freitas 
+    <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Magda Freitas 
 {/*  → <a href='https://www.daniel-d.dev' target='_blank' rel="noopener noreferrer">Portfolio page</a>*/}
     </p>
     </section>
@@ -756,7 +790,7 @@ export default function App() {
     <img src={Weatherjokes} alt="Weather'n'jokes, cute weather app coded by Magda Freitas" />
     </a>
     </div>
-    <p>Coded by Magda Freitas 
+    <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Magda Freitas 
 {/*  → <a href='https://www.daniel-d.dev' target='_blank' rel="noopener noreferrer">Portfolio page</a>*/}
     </p>
     </section>
@@ -771,7 +805,7 @@ export default function App() {
     <a href='https://projects.barcelonacodeschool.com/kim-commerce/' target='_blank' rel="noopener noreferrer">
     <img src={StyleShip} alt='Style Ship eCommerce web store'/></a>
     </div>
-    <p>Coded by Eunyoung Kim → <a href='https://barcelonacodeschool.com/files/cv/CV_EunyoungKim.pdf' target='_blank' rel="noopener noreferrer">Portfolio page</a>
+    <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Eunyoung Kim → <a href='https://barcelonacodeschool.com/files/cv/CV_EunyoungKim.pdf' target='_blank' rel="noopener noreferrer">Portfolio page</a>
     </p>
     </section>
 
@@ -783,7 +817,7 @@ export default function App() {
 <a href='http://188.166.47.105' target='_blank' rel="noopener noreferrer">
 <img src={RoB} alt='Reign of Blood online game coded by Josh Arnott' />
 </a>
-<p>Coded by Josh Arnott → <a href='http://josharnott.surge.sh' target='_blank' rel="noopener noreferrer">Portfolio page</a></p>
+<p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Josh Arnott → <a href='http://josharnott.surge.sh' target='_blank' rel="noopener noreferrer">Portfolio page</a></p>
 </section>*/}
 
 
@@ -797,7 +831,7 @@ export default function App() {
     <img src={YourWeather} alt='Native mobile weather app coded by Josh Arnott' />
     </a>
     </div>
-    <p>Coded by Josh Arnott → <a href='http://josharnott.surge.sh' target='_blank' rel="noopener noreferrer">Portfolio page</a></p>
+    <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Josh Arnott → <a href='http://josharnott.surge.sh' target='_blank' rel="noopener noreferrer">Portfolio page</a></p>
     </section>
 
     <section className='project'>
@@ -810,7 +844,7 @@ export default function App() {
     <img src={Soulfood} alt='Soulfood, home-cookedmarketplace coded by Anna Chew' />
     </a>
     </div>
-    <p>Coded by Anna Chew → <a href='http://annachew.surge.sh' target='_blank' rel="noopener noreferrer">Portfolio page</a>
+    <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Anna Chew → <a href='http://annachew.surge.sh' target='_blank' rel="noopener noreferrer">Portfolio page</a>
     </p>
     </section>
 
@@ -855,7 +889,7 @@ export default function App() {
     <a href='https://projects.barcelonacodeschool.com/pandora-commerce/' target='_blank' rel="noopener noreferrer">
     <img src={LAB} alt='Style Ship eCommerce web store'/></a>
     </div>
-    <p>Coded by Pandor Jane →  <a href='http://pandorajk.surge.sh' target='_blank' rel="noopener noreferrer">Portfolio page</a>
+    <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Pandor Jane →  <a href='http://pandorajk.surge.sh' target='_blank' rel="noopener noreferrer">Portfolio page</a>
     </p>
     </section>
 
@@ -867,7 +901,7 @@ export default function App() {
 <a href='http://tingting.herokuapp.com' target='_blank' rel="noopener noreferrer">
 <img src={Ting} alt='Listen to the flowers, Online flowers shop' />
 </a>
-<p>Coded by Ting Liu</p>
+<p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Ting Liu</p>
 </section>*/}
 
     <section className='project'>
@@ -880,7 +914,7 @@ export default function App() {
     <img src={Charles} alt='The Charles project -- Buying time with celebrities' />
     </a>
     </div>
-    <p>Coded by Colette Brouns</p>
+    <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Colette Brouns</p>
     </section>
 
     <section className='project'>
@@ -892,7 +926,7 @@ export default function App() {
     <a href='https://projects.barcelonacodeschool.com/sub-sala-jacob/' target='_blank' rel="noopener noreferrer">
     <img src={Subsala} alt='SubSala: Find a space to host your event!'/></a>
     </div>
-    <p>Coded by Jacob Whitt → <a href='https://jacobwhitt.netlify.app' target='_blank' rel="noopener noreferrer">Portfolio page</a>
+    <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Jacob Whitt → <a href='https://jacobwhitt.netlify.app' target='_blank' rel="noopener noreferrer">Portfolio page</a>
     </p>
     </section>
 

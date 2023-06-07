@@ -42,10 +42,10 @@ img {
 }
 
 body {
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    /* background-image: url('black_squares.svg'); */
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	/* background-image: url('black_squares.svg'); */
 }
 
 hr {
@@ -60,11 +60,15 @@ section.project {
 	background-color: rgb(255 255 255 / 15%);
 }
 .imgBackground{
-    height: 100%;
-    display: flex;
-    align-items: center;
-    /* background-color: rgb(255 255 255 / 70%); */
-    }
+	height: 100%;
+	display: flex;
+	align-items: center;
+	/* background-color: rgb(255 255 255 / 70%); */
+}
+
+p.smaller {
+	font-size: smaller;
+}
 
 @media screen and (max-width: 800px){
 	.grid {grid-template-columns: 1fr 1fr !important}
