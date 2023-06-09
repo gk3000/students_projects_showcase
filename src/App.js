@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import "./styles.css";
 import { Grid } from "./containers/Grid";
 // import RoB from './pics/reign_of_blood.jpg'
@@ -64,15 +64,19 @@ import littleBird from './pics/littleBird.jpg'
 
 
 export default function App() {
+
+  const [show, setShow] = useState('all');
+
   return (
     <div className="App">
     <h1 onClick={()=>window.location.href='https://barcelonacodeschool.com'}>Barcelona Code School</h1>
     <h2>Alumni projects showcase</h2>
+    <h3><span onClick={()=>setShow('all')} style={{textDecoration:show==='all'?'underline':'none'}}>All projects</span> | <span onClick={()=>setShow('dev')} style={{textDecoration:show==='dev'?'underline':'none'}}>Web/Mobile Development projects</span> | <span onClick={()=>setShow('ux')} style={{textDecoration:show==='ux'?'underline':'none'}}>UX/UI Design projects</span></h3>
     <hr/>
 
     <Grid className={'grid'} columns="3" gap='2em'>
 
-    <section className='project'>
+    {['all','ux'].includes(show) &&  <section className='project'>
     <div>
     <h1><a href='https://josianeljacobi.wixsite.com/josijacobi/little-bird-app' target='_blank' rel="noopener noreferrer">Little Bird</a></h1>
     <p>A child safety app</p>
@@ -85,10 +89,10 @@ export default function App() {
     <p><a href='https://barcelonacodeschool.com/ux-design-bootcamp-in-barcelona-code-school/'>Designed</a> by 
     Josiane Lopes Jacobi →  <a href='https://josianeljacobi.wixsite.com/josijacobi/little-bird-app' target='_blank' rel="noopener noreferrer">Portfolio</a>
     </p>
-    </section> 
+    </section> }
 
 
-    <section className='project'>
+    {['all','ux'].includes(show) &&  <section className='project'>
     <div>
     <h1><a href='https://tekla.me/volya/' target='_blank' rel="noopener noreferrer">Volya</a></h1>
     <p>A refugee aid app</p>
@@ -100,10 +104,10 @@ export default function App() {
     </div>
     <p><a href='https://barcelonacodeschool.com/ux-design-bootcamp-in-barcelona-code-school/'>Designed</a> by <a href='https://tekla.me' target='_blank' rel="noopener noreferrer">Tekla Vasadze</a>, <a href='https://www.itsmemaryam.com' target='_blank' rel="noopener noreferrer">Maryam Talal</a> & Co.
     </p>
-    </section> 
+    </section> }
 
 
-    <section className='project'>
+    {['all','dev'].includes(show) && <section className='project'>
     <div>
     <h1><a href='https://apps.apple.com/us/app/80-20/id6449088751' target='_blank' rel="noopener noreferrer">80/20 Weekly Tracker</a></h1>
     <p>Healthy eating habits app</p>
@@ -116,10 +120,10 @@ export default function App() {
     <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Melanie Liendo
     → <a href='https://www.linkedin.com/in/melanie-liendo/' target='_blank' rel="noopener noreferrer">LinkedIn</a>
     </p>
-    </section> 
+    </section> }
 
 
-    <section className='project'>
+    {['all','dev'].includes(show) && <section className='project'>
     <div>
     <h1><a href='https://apps.apple.com/us/app/pi-weather/id6449082497' target='_blank' rel="noopener noreferrer">Pi Weather</a></h1>
     <p>A weather app</p>
@@ -132,10 +136,10 @@ export default function App() {
     <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Pia Hildebrandt
     → <a href='https://www.linkedin.com/in/pia-hildebrandt-753332258/' target='_blank' rel="noopener noreferrer">LinkedIn</a>
     </p>
-    </section> 
+    </section> }
 
 
-    <section className='project'>
+    {['all','dev'].includes(show) && <section className='project'>
     <div>
     <h1><a href='https://apps.apple.com/us/app/food-recipe-calculator/id6449034319' target='_blank' rel="noopener noreferrer">+food</a></h1>
     <p>A calories tracker app</p>
@@ -148,10 +152,10 @@ export default function App() {
     <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Julieta Barrios
     → <a href='https://www.linkedin.com/in/julieta-barriosd/' target='_blank' rel="noopener noreferrer">LinkedIn</a>
     </p>
-    </section> 
+    </section> }
 
 
-    <section className='project'>
+    {['all','ux'].includes(show) &&  <section className='project'>
     <div>
     <h1><a href='https://jasmien-vlaeminck-case-study.surge.sh/' target='_blank' rel="noopener noreferrer">Wander Woman</a></h1>
     <p>Case study for solo women travellers app</p>
@@ -164,9 +168,9 @@ export default function App() {
     <p><a href='https://barcelonacodeschool.com/ux-design-bootcamp-in-barcelona-code-school/'>Designed</a> by Jasmien Vlaeminck
     → <a href='https://linkedin.com/in/jvlaeminck' target='_blank' rel="noopener noreferrer">Portfolio page</a>
     </p>
-    </section> 
+    </section> }
 
-    <section className='project'>
+    {['all','ux'].includes(show) &&  <section className='project'>
     <div>
     <h1><a href='https://mauricio-alvarez-case-study.surge.sh/' target='_blank' rel="noopener noreferrer">Rooftop Guide</a></h1>
     <p>A rooftop bars guide</p>
@@ -179,10 +183,10 @@ export default function App() {
     <p><a href='https://barcelonacodeschool.com/ux-design-bootcamp-in-barcelona-code-school/'>Designed</a> by Mauricio Alvarez
     → <a href='https://linkedin.com/in/mauricioalvarez' target='_blank' rel="noopener noreferrer">Portfolio page</a>
     </p>
-    </section> 
+    </section> }
 
 
-    <section className='project'>
+    {['all','ux'].includes(show) &&  <section className='project'>
     <div>
     <h1><a href='https://che-chien-liao-case-study.surge.sh/' target='_blank' rel="noopener noreferrer">Cupra Infotainment System</a></h1>
     <p>Infotainment car system</p>
@@ -195,9 +199,9 @@ export default function App() {
     <p><a href='https://barcelonacodeschool.com/ux-design-bootcamp-in-barcelona-code-school/'>Designed</a> by Che Chien (Alvin) Liao
     → <a href='https://linkedin.com/in/alvinliaochien' target='_blank' rel="noopener noreferrer">Portfolio page</a>
     </p>
-    </section> 
+    </section> }
 
-    <section className='project'>
+    {['all','dev'].includes(show) && <section className='project'>
     <div>
     <h1><a href='https://apps.apple.com/us/app/bookily/id1668805929' target='_blank' rel="noopener noreferrer">Booker iOS app</a></h1>
     <p>An app for the book lovers</p>
@@ -210,9 +214,9 @@ export default function App() {
     <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Noelia Ábalo Sánchez
     → <a href='https://www.linkedin.com/in/noelia-abalo-sanchez/' target='_blank' rel="noopener noreferrer">Portfolio page</a>
     </p>
-    </section> 
+    </section> }
 
-    <section className='project'>
+    {['all','dev'].includes(show) && <section className='project'>
     <div>
     <h1><a href='https://projects.barcelonacodeschool.com/booker' target='_blank' rel="noopener noreferrer">Booker</a></h1>
     <p>An app for the book lovers</p>
@@ -225,10 +229,10 @@ export default function App() {
     <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Noelia Ábalo Sánchez
     → <a href='https://www.linkedin.com/in/noelia-abalo-sanchez/' target='_blank' rel="noopener noreferrer">Portfolio page</a>
     </p>
-    </section> 
+    </section> }
 
 
-    <section className='project'>
+    {['all','dev'].includes(show) && <section className='project'>
     <div>
     <h1><a href='https://projects.barcelonacodeschool.com/buddiez' target='_blank' rel="noopener noreferrer">Buddiez</a></h1>
     <p>A social media for pets</p>
@@ -241,9 +245,9 @@ export default function App() {
     <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Leonardo Fumagali
     → <a href='https://www.linkedin.com/in/leonardo-fumagali/' target='_blank' rel="noopener noreferrer">Portfolio page</a>
     </p>
-    </section> 
+    </section> }
 
-    <section className='project'>
+    {['all','dev'].includes(show) && <section className='project'>
     <div>
     <h1><a href='https://projects.barcelonacodeschool.com/vinatt' target='_blank' rel="noopener noreferrer">Vina T&T</a></h1>
     <p>eCommerce web app</p>
@@ -256,10 +260,10 @@ export default function App() {
     <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Trang Do
     → <a href='https://www.linkedin.com/in/trang-do-thuy-183435141' target='_blank' rel="noopener noreferrer">Portfolio page</a>
     </p>
-    </section> 
+    </section> }
 
     
-    <section className='project'>
+    {['all','dev'].includes(show) && <section className='project'>
     <div>
     <h1><a href='https://moviexdb.netlify.app' target='_blank' rel="noopener noreferrer">MovieX</a></h1>
     <p>A movies database app</p>
@@ -272,10 +276,10 @@ export default function App() {
     <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Ivan Zelinskyi
     → <a href='https://ivan-zelinskyi-portfolio.netlify.app/' target='_blank' rel="noopener noreferrer">Portfolio page</a>
     </p>
-    </section> 
+    </section> }
 
 
-    <section className='project'>
+    {['all','dev'].includes(show) && <section className='project'>
     <div>
     <h1><a href='https://treviso.cyclic.app' target='_blank' rel="noopener noreferrer">Treviso</a></h1>
     <p>An eCommerce web app</p>
@@ -288,11 +292,11 @@ export default function App() {
     <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Ivan Zelinskyi
     → <a href='https://ivan-zelinskyi-portfolio.netlify.app/' target='_blank' rel="noopener noreferrer">Portfolio page</a>
     </p>
-    </section> 
+    </section> }
 
 
 
-    <section className='project'>
+    {['all','dev'].includes(show) && <section className='project'>
     <div>
     <h1><a href='https://apps.apple.com/us/app/use-it-up-a-recipe-database/id1636287829' target='_blank' rel="noopener noreferrer">Use It Up</a></h1>
     <p>A recipe database app</p>
@@ -305,12 +309,12 @@ export default function App() {
     <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by <a href='https://ross-mclean.surge.sh/' target='blank'>Ross McLean</a>
   {/*→ <a href='https://vincentvc.surge.sh/' target='_blank' rel="noopener noreferrer">Portfolio page</a>*/}
     </p>
-    </section> 
+    </section> }
 
 
 
 
-    <section className='project'>
+    {['all','dev'].includes(show) && <section className='project'>
     <div>
     <h1><a href='https://winemind.onrender.com' target='_blank' rel="noopener noreferrer">Winemind</a></h1>
     <p>A wine marketplace for miltiple sellers and single admin team</p>
@@ -323,11 +327,11 @@ export default function App() {
     <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by <a href='https://www.linkedin.com/in/alex-castro-vera/' target='blank'>Alex Castro</a> and <a href="https://www.linkedin.com/in/paweł-kornas/" target="blank">Paweł Kornas</a>
 {/*→ <a href='https://vincentvc.surge.sh/' target='_blank' rel="noopener noreferrer">Portfolio page</a>*/}
     </p>
-    </section> 
+    </section> }
 
 
 
-    <section className='project'>
+    {['all','ux'].includes(show) &&  <section className='project'>
     <div>
     <h1><a href='https://annas-portfolio-396303.webflow.io/work/project-2' target='_blank' rel="noopener noreferrer">Huisjein</a></h1>
     <p>A transparent rental service that saves people time and educates them on their legal rights as tenants</p>
@@ -340,9 +344,9 @@ export default function App() {
     <p><a href='https://barcelonacodeschool.com/ux-design-bootcamp-in-barcelona-code-school/'>Designed</a> by <a href='https://annas-portfolio-396303.webflow.io/work/project-2' target='blank'>Anna Veerman</a>
 {/*→ <a href='https://vincentvc.surge.sh/' target='_blank' rel="noopener noreferrer">Portfolio page</a>*/}
     </p>
-    </section> 
+    </section> }
 
-    <section className='project'>
+    {['all','dev'].includes(show) && <section className='project'>
     <div>
     <h1><a href='https://plateo.onrender.com' target='_blank' rel="noopener noreferrer">Plateo</a></h1>
     <p>An eCommerce web app</p>
@@ -355,9 +359,9 @@ export default function App() {
     <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by <a href='https://ross-mclean.surge.sh/' target='blank'>Ross McLean</a>
 {/*→ <a href='https://vincentvc.surge.sh/' target='_blank' rel="noopener noreferrer">Portfolio page</a>*/}
     </p>
-    </section> 
+    </section> }
 
-    <section className='project'>
+    {['all','ux'].includes(show) &&   <section className='project'>
     <div>
     <h1><a href='https://aoppeln.com/kopia-ausencias-presencias' target='_blank' rel="noopener noreferrer">Yield</a></h1>
     <p>An app which helps to reduce food waste</p>
@@ -370,10 +374,10 @@ export default function App() {
     <p><a href='https://barcelonacodeschool.com/ux-design-bootcamp-in-barcelona-code-school/'>Designed</a> by <a href='https://aoppeln.com/kopia-ausencias-presencias' target="blank">Agnieszka Oppeln-Bronikowska</a>
 {/*→ <a href='https://vincentvc.surge.sh/' target='_blank' rel="noopener noreferrer">Portfolio page</a>*/}
     </p>
-    </section> 
+    </section> }
 
 
-    <section className='project'>
+    {['all','ux'].includes(show) &&  <section className='project'>
     <div>
     <h1><a href='https://kieras-design-portfolio.webflow.io/work/project-2' target='_blank' rel="noopener noreferrer">Walk n' Talk</a></h1>
     <p>A mobile app that helps to decrease frictions which occur between dog owners</p>
@@ -386,9 +390,9 @@ export default function App() {
     <p><a href='https://barcelonacodeschool.com/ux-design-bootcamp-in-barcelona-code-school/'>Designed</a> by <a href='https://kieras-design-portfolio.webflow.io/work/project-2' target='blank'>Kiera McCormack</a> 
 {/*→ <a href='https://vincentvc.surge.sh/' target='_blank' rel="noopener noreferrer">Portfolio page</a>*/}
     </p>
-    </section> 
+    </section> }
 
-    <section className='project'>
+    {['all','ux'].includes(show) &&  <section className='project'>
     <div>
     <h1><a href='https://annas-portfolio-396303.webflow.io/work/project-1' target='_blank' rel="noopener noreferrer">One of Us</a></h1>
     <p>An interactive real world treasure hunt app which allows players to unlock secret local spot and learn local culture</p>
@@ -401,9 +405,9 @@ export default function App() {
     <p><a href='https://barcelonacodeschool.com/ux-design-bootcamp-in-barcelona-code-school/'>Designed</a> by <a href='https://aoppeln.com' target="blank">Agnieszka Oppeln-Bronikowska</a>, <a href='https://annas-portfolio-396303.webflow.io' target='blank'>Anna Veerman</a>, <a href='https://kieras-design-portfolio.webflow.io' target='blank'>Kiera McCormack</a> 
 {/*→ <a href='https://vincentvc.surge.sh/' target='_blank' rel="noopener noreferrer">Portfolio page</a>*/}
     </p>
-    </section> 
+    </section> }
 
-    <section className='project'>
+    {['all','dev'].includes(show) && <section className='project'>
     <div>
     <h1><a href='https://apps.apple.com/es/app/the-gallows/id1613918820?l=en' target='_blank' rel="noopener noreferrer">The Gallows</a></h1>
     <p>A classic word game app</p>
@@ -416,10 +420,10 @@ export default function App() {
     <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Desirée Lagerquist 
 {/*→ <a href='https://vincentvc.surge.sh/' target='_blank' rel="noopener noreferrer">Portfolio page</a>*/}
     </p>
-    </section> 
+    </section> }
 
 
-    <section className='project'>
+    {['all','dev'].includes(show) && <section className='project'>
     <div>
     <h1><a href='https://brew-it.onrender.com' target='_blank' rel="noopener noreferrer">Brew it!</a></h1>
     <p>A home brewery app</p>
@@ -432,9 +436,9 @@ export default function App() {
     <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Vincent van Campen 
     → <a href='https://vincentvc.surge.sh/' target='_blank' rel="noopener noreferrer">Portfolio page</a>
     </p>
-    </section> 
+    </section> }
 
-    <section className='project'>
+    {['all','dev'].includes(show) && <section className='project'>
     <div>
     <h1><a href='https://projects.barcelonacodeschool.com/billies-beer/' target='_blank' rel="noopener noreferrer">Billie's Beer</a></h1>
     <p>eCommerce app</p>
@@ -447,9 +451,9 @@ export default function App() {
     <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Kristiaan Goethaert 
     → <a href='http://kristiaangh.com/' target='_blank' rel="noopener noreferrer">Portfolio page</a>
     </p>
-    </section> 
+    </section> }
 
-    <section className='project'>
+    {['all','dev'].includes(show) && <section className='project'>
     <div>
     <h1>Boring Weather App</h1>
     <p><a href='https://apps.apple.com/us/app/boring-weather-app/id1600913706' target='_blank' rel="noopener noreferrer">iOS</a> / <a href='https://play.google.com/store/apps/details?id=com.barcelonacodeschool.boringweatherapp' target='_blank' rel="noopener noreferrer">Android</a> app</p>
@@ -460,9 +464,9 @@ export default function App() {
     <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Albert Muñoz Serra 
 {/*→ <a href='' target='_blank' rel="noopener noreferrer">Portfolio page</a>*/}
     </p>
-    </section> 
+    </section> }
 
-    <section className='project'>
+    {['all','dev'].includes(show) && <section className='project'>
     <div>
     <h1><a href='https://job-board-jkf6.onrender.com' target='_blank' rel="noopener noreferrer">Find job</a></h1>
     <p>A job board web app</p>
@@ -474,10 +478,10 @@ export default function App() {
     </div>
     <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Julián del Busto Planas
     </p>
-    </section> 
+    </section> }
 
 
-    <section className='project'>
+    {['all','dev'].includes(show) && <section className='project'>
     <div>
     <h1>Nutrition and Calorie Tracker</h1>
     <p><a href='https://apps.apple.com/us/app/nutrition-and-calories-tracker/id1600937101' target='_blank' rel="noopener noreferrer">iOS</a> / <a href='https://play.google.com/store/apps/details?id=com.tommybullen.nutritiontracker' target='_blank' rel="noopener noreferrer">Android</a> app</p>
@@ -488,10 +492,10 @@ export default function App() {
     <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Tommy Bullen 
     → <a href='http://tommybullenportfolio.surge.sh' target='_blank' rel="noopener noreferrer">Portfolio page</a>
     </p>
-    </section> 
+    </section> }
 
 
-    <section className='project'>
+    {['all','dev'].includes(show) && <section className='project'>
     <div>
     <h1><a href='https://projects.barcelonacodeschool.com/tommy/' target='_blank' rel="noopener noreferrer">Clothes eCommerce</a></h1>
     <p>eCommerce app</p>
@@ -504,9 +508,9 @@ export default function App() {
     <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Tommy Bullen 
     → <a href='http://tommybullenportfolio.surge.sh' target='_blank' rel="noopener noreferrer">Portfolio page</a>
     </p>
-    </section> 
+    </section> }
 
-    <section className='project'>
+    {['all','dev'].includes(show) && <section className='project'>
     <div>
     <h1><a href='https://apps.apple.com/us/app/neumorphism-weather/id1580923671' target='_blank' rel="noopener noreferrer">Neumorphism weather</a></h1>
     <p>Weather app with a cute companionship advice</p>
@@ -519,10 +523,10 @@ export default function App() {
     <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Yen Hoang 
     → <a href='https://yenhoang_portfolio.surge.sh' target='_blank' rel="noopener noreferrer">Portfolio page</a>
     </p>
-    </section> 
+    </section> }
 
 
-    <section className='project'>
+    {['all','dev'].includes(show) && <section className='project'>
     <div>
     <h1><a href='https://projects.barcelonacodeschool.com/vietnam-tours/' target='_blank' rel="noopener noreferrer">N'bie in VietNam</a></h1>
     <p>A Travel Agency</p>
@@ -535,9 +539,9 @@ export default function App() {
     <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Yen Hoang 
     → <a href='https://yenhoang_portfolio.surge.sh' target='_blank' rel="noopener noreferrer">Portfolio page</a>
     </p>
-    </section> 
+    </section> }
 
-    <section className='project'>
+    {['all','dev'].includes(show) && <section className='project'>
     <div>
     <h1><a href='https://projects.barcelonacodeschool.com/rainbow-beetroot/' target='_blank' rel="noopener noreferrer">Rainbow Beetroot</a></h1>
     <p>Weekly deliveries of groceries</p>
@@ -549,9 +553,9 @@ export default function App() {
     </div>
     <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Marcus Lindbloom → <a href='https://marcuslindbloom.surge.sh' target='_blank' rel="noopener noreferrer">Portfolio page</a>
     </p>
-    </section> 
+    </section> }
 
-    <section className='project'>
+    {['all','dev'].includes(show) && <section className='project'>
     <div>
 
     <h1><a href='http://gerviebarczyk.com/' target='_blank' rel="noopener noreferrer">Personal portfolio</a></h1>
@@ -564,10 +568,10 @@ export default function App() {
     </div>
     <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Gervie Barczyk → <a href='http://gerviebarczyk.com/' target='_blank' rel="noopener noreferrer">Portfolio page</a>
     </p>
-    </section> 
+    </section> }
 
 
-    <section className='project'>
+    {['all','dev'].includes(show) && <section className='project'>
     <div>
     <h1><a href='http://gabriellatavares.surge.sh' target='_blank' rel="noopener noreferrer">Personal portfolio</a></h1>
     <p>A graduate's portfolio</p>
@@ -579,9 +583,9 @@ export default function App() {
     </div>
     <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Gabriella Tavares → <a href='http://gabriellatavares.surge.sh' target='_blank' rel="noopener noreferrer">Portfolio page</a>
     </p>
-    </section> 
+    </section> }
 
-    <section className='project'>
+    {['all','dev'].includes(show) && <section className='project'>
     <div>
     <h1><a href='https://apps.apple.com/us/app/nebulosity/id1555467929' target='_blank' rel="noopener noreferrer">Nebulosity</a></h1>
     <p>Minimalistic weather native mobile app</p>
@@ -593,9 +597,9 @@ export default function App() {
     </div>
     <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Carlos Planchart → <a href='https://cplan485.gitlab.io/portfolio-project/' target='_blank' rel="noopener noreferrer">Portfolio page</a>
     </p>
-    </section> 
+    </section> }
 
-    <section className='project'>
+    {['all','dev'].includes(show) && <section className='project'>
     <div>
     <h1><a href='https://treatyoself.onrender.com' target='_blank' rel="noopener noreferrer">Treat Yo Self</a></h1>
     <p>eCommerce app</p>
@@ -607,10 +611,10 @@ export default function App() {
     </div>
     <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Gabriella Tavares → <a href='http://gabriellatavares.surge.sh' target='_blank' rel="noopener noreferrer">Portfolio page</a>
     </p>
-    </section> 
+    </section> }
 
 
-    <section className='project'>
+    {['all','dev'].includes(show) && <section className='project'>
     <div>
     <h1><a href='https://beactive-tove-adamsson.surge.sh' target='_blank' rel="noopener noreferrer">BEACTIV</a></h1>
     <p>Find how to exercise for free in Barcelona</p>
@@ -622,9 +626,9 @@ export default function App() {
     </div>
     <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Tove Adamsson → <a href='https://gitlab.com/toveadam' target='_blank' rel="noopener noreferrer">GitLab</a>
     </p>
-    </section> 
+    </section> }
 
-    <section className='project'>
+    {['all','dev'].includes(show) && <section className='project'>
     <div>
     <h1><a href='http://pantrybuddy.rocks' target='_blank' rel="noopener noreferrer">Pantry Buddy</a></h1>
     <p>Recipes suggestion based on the ingredients you have</p>
@@ -636,9 +640,9 @@ export default function App() {
     </div>
     <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Carlos Planchart → <a href='https://cplan485.gitlab.io/portfolio-project/' target='_blank' rel="noopener noreferrer">Portfolio page</a>
     </p>
-    </section> 
+    </section> }
 
-    <section className='project'>
+    {['all','dev'].includes(show) && <section className='project'>
     <div>
     <h1><a href='http://michele-saladino-covid19-stats.surge.sh' target='_blank' rel="noopener noreferrer">Corona Virus Tracker</a></h1>
     <p>Global or per country statistics for the Covid-19 cases</p>
@@ -650,11 +654,11 @@ export default function App() {
     </div>
     <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Michele Saladino → <a href='https://github.com/mikis165' target='_blank' rel="noopener noreferrer">GitHub page</a>
     </p>
-    </section> 
+    </section> }
 
 
 
-    <section className='project'>
+    {['all','dev'].includes(show) && <section className='project'>
     <div>
     <h1><a href='https://reactchat11.netlify.app' target='_blank' rel="noopener noreferrer">Complex App</a></h1>
     <p>Content publishing / chatting platform</p>
@@ -666,9 +670,9 @@ export default function App() {
     </div>
     <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Michele Saladino → <a href='https://github.com/mikis165' target='_blank' rel="noopener noreferrer">GitHub page</a>
     </p>
-    </section> 
+    </section> }
 
-    <section className='project'>
+    {['all','dev'].includes(show) && <section className='project'>
     <div>
     <h1><a href='https://projects.barcelonacodeschool.com/andrew-swapp' target='_blank' rel="noopener noreferrer">Swapp</a></h1>
     <p>A free market to exchange products and services</p>
@@ -680,9 +684,9 @@ export default function App() {
     </div>
     <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Andrew Blair → <a href='http://andrewblairportfolio.surge.sh' target='_blank' rel="noopener noreferrer">Portfolio page</a>
     </p>
-    </section>  
+    </section> } 
 
-    <section className='project'>
+    {['all','dev'].includes(show) && <section className='project'>
     <div>
     <h1><a href='https://apps.apple.com/us/app/id1527735701' target='_blank' rel="noopener noreferrer">RechargeNow</a></h1>
     <p>EV charging points nearby you</p>
@@ -694,10 +698,10 @@ export default function App() {
     </div>
     <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Andrew Blair → <a href='http://andrewblairportfolio.surge.sh' target='_blank' rel="noopener noreferrer">Portfolio page</a>
     </p>
-    </section>
+    </section> }
 
 
-    <section className='project'>
+    {['all','dev'].includes(show) && <section className='project'>
     <div>
     <h1><a href='https://apps.apple.com/es/app/turtle-weather/id1514618438?l=en' target='_blank' rel="noopener noreferrer">Turtle Weather mobile app</a></h1>
     <p>Retro pixel weather app</p>
@@ -709,9 +713,9 @@ export default function App() {
     </div>
     <p>By Anders Tobias Nicolaysen → <a href='http://witty-fiction.surge.sh/' target='_blank' rel="noopener noreferrer">Portfolio page</a>
     </p>
-    </section>
+    </section> }
 
-    <section className='project'>
+    {['all','dev'].includes(show) && <section className='project'>
     <div>
     <h1><a href='https://projects.barcelonacodeschool.com/sara-game/' target='_blank' rel="noopener noreferrer">Multiplayer card game</a></h1>
     <p>Online game with in-app purchases</p>
@@ -723,10 +727,10 @@ export default function App() {
     </div>
     <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Sara Moya → <a href='https://saramoya.gitlab.io/my-portfolio/' target='_blank' rel="noopener noreferrer">Portfolio page</a>
     </p>
-    </section>
+    </section> }
 
 
-{/*  <section className='project'>
+{/*  {['all','dev'].includes(show) && <section className='project'>
   <div>
   <h1><a href='https://www.lucyburrluck.com/claro' target='_blank' rel="noopener noreferrer">Claro</a></h1>
   <p>Minimising frustration in the office space</p>
@@ -738,7 +742,7 @@ export default function App() {
   </p>
 </section>*/}
 
-    <section className='project'>
+    {['all','dev'].includes(show) && <section className='project'>
     <div>
     <h1><a href='https://esperanza.onrender.com' target='_blank' rel="noopener noreferrer">Esperança</a></h1>
     <p>Volunteer community in Barcelona</p>
@@ -749,9 +753,9 @@ export default function App() {
     </a>
     </div>
     <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Daniel Dick → <a href='https://www.daniel-d.dev' target='_blank' rel="noopener noreferrer">Portfolio page</a></p>
-    </section>
+    </section> }
 
-    <section className='project'>
+    {['all','dev'].includes(show) && <section className='project'>
     <div>
     <h1><a href='/book-world/' target='_blank' rel="noopener noreferrer">Bookworld</a></h1>
     <p>Online book store</p>
@@ -763,9 +767,9 @@ export default function App() {
     </div>
     <p>By Anders Tobias Nicolaysen → <a href='http://witty-fiction.surge.sh/' target='_blank' rel="noopener noreferrer">Portfolio page</a>
     </p>
-    </section>
+    </section> }
 
-    <section className='project'>
+    {['all','dev'].includes(show) && <section className='project'>
     <div>
     <h1><a href='https://projects.barcelonacodeschool.com/magda-commerce/' target='_blank' rel="noopener noreferrer">Online shop</a></h1>
     <p>eCommerce web project</p>
@@ -778,9 +782,9 @@ export default function App() {
     <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Magda Freitas 
 {/*  → <a href='https://www.daniel-d.dev' target='_blank' rel="noopener noreferrer">Portfolio page</a>*/}
     </p>
-    </section>
+    </section> }
 
-    <section className='project'>
+    {['all','dev'].includes(show) && <section className='project'>
     <div>
     <h1><a href='https://apps.apple.com/es/app/weathernjokes/id1521831493?l=en' target='_blank' rel="noopener noreferrer">Weather'n'jokes</a></h1>
     <p>Cute weather app</p>
@@ -793,10 +797,10 @@ export default function App() {
     <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Magda Freitas 
 {/*  → <a href='https://www.daniel-d.dev' target='_blank' rel="noopener noreferrer">Portfolio page</a>*/}
     </p>
-    </section>
+    </section> }
 
 
-    <section className='project'>
+    {['all','dev'].includes(show) && <section className='project'>
     <div>
     <h1><a href='https://projects.barcelonacodeschool.com/kim-commerce/' target='_blank' rel="noopener noreferrer">Style Ship</a></h1>
     <p>eCommerce web store</p>
@@ -807,9 +811,9 @@ export default function App() {
     </div>
     <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Eunyoung Kim → <a href='https://barcelonacodeschool.com/files/cv/CV_EunyoungKim.pdf' target='_blank' rel="noopener noreferrer">Portfolio page</a>
     </p>
-    </section>
+    </section> }
 
-{/*<section className='project'>
+{/*{['all','dev'].includes(show) && <section className='project'>
 <div>
 <h1>Reign of Blood</h1>
 <p>Online game with in-app purchases</p>
@@ -821,7 +825,7 @@ export default function App() {
 </section>*/}
 
 
-    <section className='project'>
+    {['all','dev'].includes(show) && <section className='project'>
     <div>
     <h1><a href='https://play.google.com/store/apps/details?id=your.weather.application&gl=ES' target='_blank' rel="noopener noreferrer">Your weather</a></h1>
     <p>Native mobile weather app</p>
@@ -832,9 +836,9 @@ export default function App() {
     </a>
     </div>
     <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Josh Arnott → <a href='http://josharnott.surge.sh' target='_blank' rel="noopener noreferrer">Portfolio page</a></p>
-    </section>
+    </section> }
 
-    <section className='project'>
+    {['all','dev'].includes(show) && <section className='project'>
     <div>
     <h1><a href='https://projects.barcelonacodeschool.com/soul-food/' target='_blank' rel="noopener noreferrer">Soulfood</a></h1>
     <p>Home-cooked food marketplace</p>
@@ -846,13 +850,13 @@ export default function App() {
     </div>
     <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Anna Chew → <a href='http://annachew.surge.sh' target='_blank' rel="noopener noreferrer">Portfolio page</a>
     </p>
-    </section>
+    </section> }
 
 
 
 
 
-{/*<section className='project'>
+{/*{['all','dev'].includes(show) && <section className='project'>
 <div>
 <h1><a href='https://ckelly.tv' target='_blank' rel="noopener noreferrer">Zolzar</a></h1>
 <p>The interstellar game</p>
@@ -864,7 +868,7 @@ export default function App() {
 </p>
 </section>*/}
 
-    <section className='project'>
+    {['all','ux'].includes(show) &&  <section className='project'>
     <div>
     <h1><a href='https://www.bretthalperin.com/cccb.html' target='_blank' rel="noopener noreferrer">CCCB</a></h1>
     <p>Audio guide app for visitors</p>
@@ -876,11 +880,11 @@ export default function App() {
     </div>
     <p>UX Design by Brett Halperin → <a href='https://www.bretthalperin.com/index.html' target='_blank' rel="noopener noreferrer">Portfolio page</a>
     </p>
-    </section>
+    </section> }
 
 
 
-    <section className='project'>
+    {['all','dev'].includes(show) && <section className='project'>
     <div>
     <h1><a href='https://projects.barcelonacodeschool.com/pandora-commerce/' target='_blank' rel="noopener noreferrer">Latin American Bookstore</a></h1>
     <p>Online bookstore</p>
@@ -891,9 +895,9 @@ export default function App() {
     </div>
     <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Pandor Jane →  <a href='http://pandorajk.surge.sh' target='_blank' rel="noopener noreferrer">Portfolio page</a>
     </p>
-    </section>
+    </section> }
 
-{/*<section className='project'>
+{/*{['all','dev'].includes(show) && <section className='project'>
 <div>
 <h1><a href='http://tingting.herokuapp.com' target='_blank' rel="noopener noreferrer">Listen to the flowers</a></h1>
 <p>Online flowers shop</p>
@@ -904,7 +908,7 @@ export default function App() {
 <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Ting Liu</p>
 </section>*/}
 
-    <section className='project'>
+    {['all','dev'].includes(show) && <section className='project'>
     <div>
     <h1><a href='https://projects.barcelonacodeschool.com/the-charles-project/' target='_blank' rel="noopener noreferrer">The Charles project</a></h1>
     <p>Buying time with celebrities</p>
@@ -915,9 +919,9 @@ export default function App() {
     </a>
     </div>
     <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Colette Brouns</p>
-    </section>
+    </section> }
 
-    <section className='project'>
+    {['all','dev'].includes(show) && <section className='project'>
     <div>
     <h1><a href='https://projects.barcelonacodeschool.com/sub-sala-jacob/' target='_blank' rel="noopener noreferrer">Subsala</a></h1>
     <p>Find a space to host your event!</p>
@@ -928,7 +932,7 @@ export default function App() {
     </div>
     <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Jacob Whitt → <a href='https://jacobwhitt.netlify.app' target='_blank' rel="noopener noreferrer">Portfolio page</a>
     </p>
-    </section>
+    </section> }
 
     </Grid>
     </div>
