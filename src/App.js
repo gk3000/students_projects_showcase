@@ -60,6 +60,9 @@ import piWeather from './pics/pi-weather.jpg'
 import eightyTwenty from './pics/80-20.jpg'
 import volya from './pics/volya.jpg'
 import littleBird from './pics/littleBird.jpg'
+import readabook from './pics/read-a-book.png'
+import wavey from './pics/wavey.png'
+import kofi from './pics/kofi.png'
 
 
 
@@ -75,6 +78,54 @@ export default function App() {
     <hr/>
 
     <Grid className={'grid'} columns="3" gap='2em'>
+
+    {['all','ux'].includes(show) &&  <section className='project'>
+    <div>
+    <h1><a href='http://soline.tilda.ws/kofi' target='_blank' rel="noopener noreferrer">Kofi</a></h1>
+    <p>Coffee subscription MVP</p>
+    </div>
+    <div className='imgBackground'>
+    <a href='http://soline.tilda.ws/kofi' target='_blank' rel="noopener noreferrer">
+    <img src={kofi} alt="Kofi: Coffee subscription MVP" />
+    </a>
+    </div>
+    <p><a href='https://barcelonacodeschool.com/ux-design-bootcamp-in-barcelona-code-school/'>Designed</a> by 
+    Soline Kiet →  <a href='https://www.linkedin.com/in/solinek/' target='_blank' rel="noopener noreferrer">LinkedIn</a>
+    </p>
+    </section> }
+
+
+
+    {['all','ux'].includes(show) &&  <section className='project'>
+    <div>
+    <h1><a href='http://getter.tilda.ws/wavey' target='_blank' rel="noopener noreferrer">Wavey</a></h1>
+    <p>Water sports equipment rental</p>
+    </div>
+    <div className='imgBackground'>
+    <a href='http://getter.tilda.ws/wavey' target='_blank' rel="noopener noreferrer">
+    <img src={wavey} alt="Wavey: Water sports equipment rental" />
+    </a>
+    </div>
+    <p><a href='https://barcelonacodeschool.com/ux-design-bootcamp-in-barcelona-code-school/'>Designed</a> by 
+    Getter Mizer →  <a href='http://getter.tilda.ws' target='_blank' rel="noopener noreferrer">Portfolio</a>
+    </p>
+    </section> }
+
+
+    {['all','ux'].includes(show) &&  <section className='project'>
+    <div>
+    <h1><a href='http://getter.tilda.ws/readabook' target='_blank' rel="noopener noreferrer">Read A Book</a></h1>
+    <p>Book recommendation app</p>
+    </div>
+    <div className='imgBackground'>
+    <a href='http://getter.tilda.ws/readabook' target='_blank' rel="noopener noreferrer">
+    <img src={readabook} alt="Book recommendation app" />
+    </a>
+    </div>
+    <p><a href='https://barcelonacodeschool.com/ux-design-bootcamp-in-barcelona-code-school/'>Designed</a> by 
+    Getter Mizer & Soline Kiet</p>
+    </section> }
+
 
     {['all','ux'].includes(show) &&  <section className='project'>
     <div>
