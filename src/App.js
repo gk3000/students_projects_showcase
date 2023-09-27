@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useState,useEffect} from "react";
 import "./styles.css";
 import { Grid } from "./containers/Grid";
 // import RoB from './pics/reign_of_blood.jpg'
@@ -69,12 +69,23 @@ import kofi from './pics/kofi.png'
 export default function App() {
 
   const [show, setShow] = useState('all');
+  const searchParams = new URLSearchParams(document.location.search)
+
+useEffect(()=>{
+    searchParams.get('projects')
+  if(searchParams.get('projects')==='developers'){
+    setShow('dev')
+  }else if(searchParams.get('projects')==='designers'){
+    setShow('ux')
+  }
+},[])
+
 
   return (
     <div className="App">
     <h1 onClick={()=>window.location.href='https://barcelonacodeschool.com'}>Barcelona Code School</h1>
     <h2>Alumni projects showcase</h2>
-    <h3><span onClick={()=>setShow('all')} style={{textDecoration:show==='all'?'underline':'none'}}>All projects</span> | <span onClick={()=>setShow('dev')} style={{textDecoration:show==='dev'?'underline':'none'}}>Web/Mobile Development projects</span> | <span onClick={()=>setShow('ux')} style={{textDecoration:show==='ux'?'underline':'none'}}>UX/UI Design projects</span></h3>
+    <h3><span onClick={()=>setShow('all')} style={{textDecoration:show==='all'?'underline':'none'}}>All projects</span> | <span onClick={()=>{setShow('dev');window.location.href='https://projects.barcelonacodeschool.com/?projects=developers'}} style={{textDecoration:show==='dev'?'underline':'none'}}>Web/Mobile Development projects</span> | <span onClick={()=>{setShow('ux');window.location.href='https://projects.barcelonacodeschool.com/?projects=designers'}} style={{textDecoration:show==='ux'?'underline':'none'}}>UX/UI Design projects</span></h3>
     <hr/>
 
     <Grid className={'grid'} columns="3" gap='2em'>
