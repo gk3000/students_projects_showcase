@@ -63,6 +63,10 @@ import littleBird from './pics/littleBird.jpg'
 import readabook from './pics/read-a-book.png'
 import wavey from './pics/wavey.png'
 import kofi from './pics/kofi.png'
+import localu from './pics/localu.png'
+import sba from './pics/sba.png'
+import awen from './pics/awen.png'
+import tbot from './pics/tbot.png'
 
 
 
@@ -71,14 +75,14 @@ export default function App() {
   const [show, setShow] = useState('all');
   const searchParams = new URLSearchParams(document.location.search)
 
-useEffect(()=>{
+  useEffect(()=>{
     searchParams.get('projects')
-  if(searchParams.get('projects')==='developers'){
-    setShow('dev')
-  }else if(searchParams.get('projects')==='designers'){
-    setShow('ux')
-  }
-},[])
+    if(searchParams.get('projects')==='developers'){
+      setShow('dev')
+    }else if(searchParams.get('projects')==='designers'){
+      setShow('ux')
+    }
+  },[])
 
 
   return (
@@ -89,6 +93,89 @@ useEffect(()=>{
     <hr/>
 
     <Grid className={'grid'} columns="3" gap='2em'>
+
+
+
+
+
+    {['all','ux'].includes(show) &&  <section className='project'>
+    <div>
+    <h1><a href='https://gaetanoroffiportfolio.webflow.io/tbot-project-3' target='_blank' rel="noopener noreferrer">T-bot</a></h1>
+    <p>The Classroom Web App for Online Lessons</p>
+    </div>
+    <div className='imgBackground'>
+    <a href='https://gaetanoroffiportfolio.webflow.io/tbot-project-3' target='_blank' rel="noopener noreferrer">
+    <img src={tbot} alt="AWEN - The UX Marketing Design Strategy" />
+    </a>
+    </div>
+    <p><a href='https://barcelonacodeschool.com/ux-design-bootcamp-in-barcelona-code-school/'>Designed</a> by 
+    Gaetano Roffi →  <a href='https://gaetanoroffiportfolio.webflow.io' target='_blank' rel="noopener noreferrer">Portfolio</a>
+    </p>
+    </section> }
+
+
+
+
+
+    {['all','ux'].includes(show) &&  <section className='project'>
+    <div>
+    <h1><a href='https://gaetanoroffiportfolio.webflow.io/awen-project-2' target='_blank' rel="noopener noreferrer">Awen</a></h1>
+    <p>The UX Marketing Design Strategy</p>
+    </div>
+    <div className='imgBackground'>
+    <a href='https://gaetanoroffiportfolio.webflow.io/awen-project-2' target='_blank' rel="noopener noreferrer">
+    <img src={awen} alt="AWEN - The UX Marketing Design Strategy" />
+    </a>
+    </div>
+    <p><a href='https://barcelonacodeschool.com/ux-design-bootcamp-in-barcelona-code-school/'>Designed</a> by 
+    Gaetano Roffi →  <a href='https://gaetanoroffiportfolio.webflow.io' target='_blank' rel="noopener noreferrer">Portfolio</a>
+    </p>
+    </section> }
+
+
+
+
+
+
+    {['all','ux'].includes(show) &&  <section className='project'>
+    <div>
+    <h1><a href='https://gaetanoroffiportfolio.webflow.io/sba-project-1' target='_blank' rel="noopener noreferrer">SBA redesign</a></h1>
+    <p>Sophia Business Angels' website</p>
+    </div>
+    <div className='imgBackground'>
+    <a href='https://gaetanoroffiportfolio.webflow.io/sba-project-1' target='_blank' rel="noopener noreferrer">
+    <img src={sba} alt="SBA -Connecting
+Startups with business angels" />
+    </a>
+    </div>
+    <p><a href='https://barcelonacodeschool.com/ux-design-bootcamp-in-barcelona-code-school/'>Designed</a> by 
+    Gaetano Roffi →  <a href='https://gaetanoroffiportfolio.webflow.io' target='_blank' rel="noopener noreferrer">Portfolio</a>
+    </p>
+    </section> }
+
+
+
+
+
+
+
+    {['all','ux'].includes(show) &&  <section className='project'>
+    <div>
+    <h1><a href='https://gaetanoroffiportfolio.webflow.io/localu-project-4' target='_blank' rel="noopener noreferrer">Localu</a></h1>
+    <p>App for managing and supporting local e-commerce</p>
+    </div>
+    <div className='imgBackground'>
+    <a href='https://gaetanoroffiportfolio.webflow.io/localu-project-4' target='_blank' rel="noopener noreferrer">
+    <img src={localu} alt="Localu - The App for managing and supporting local e-commerce" />
+    </a>
+    </div>
+    <p><a href='https://barcelonacodeschool.com/ux-design-bootcamp-in-barcelona-code-school/'>Designed</a> by 
+    Gaetano Roffi →  <a href='https://gaetanoroffiportfolio.webflow.io' target='_blank' rel="noopener noreferrer">Portfolio</a>
+    </p>
+    </section> }
+
+
+
 
     {['all','ux'].includes(show) &&  <section className='project'>
     <div>
