@@ -67,6 +67,7 @@ import localu from './pics/localu.png'
 import sba from './pics/sba.png'
 import awen from './pics/awen.png'
 import tbot from './pics/tbot.png'
+import projify from './pics/projify.png'
 
 
 
@@ -95,6 +96,20 @@ export default function App() {
     <Grid className={'grid'} columns="3" gap='2em'>
 
 
+    {['all','dev'].includes(show) &&  <section className='project'>
+    <div>
+    <h1><a href='https://projify.surge.sh/' target='_blank' rel="noopener noreferrer">Projify</a></h1>
+    <p>Project management app</p>
+    </div>
+    <div className='imgBackground'>
+    <a href='https://projify.surge.sh/' target='_blank' rel="noopener noreferrer">
+    <img src={projify} alt="Projify Project management app" />
+    </a>
+    </div>
+    <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by 
+    Pedro Paulo →  <a href='https://www.linkedin.com/in/pedro-paulo-899a9a230/' target='_blank' rel="noopener noreferrer">LinkedIn</a>
+    </p>
+    </section> }
 
 
 
