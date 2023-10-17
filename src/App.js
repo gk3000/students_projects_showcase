@@ -68,6 +68,7 @@ import sba from './pics/sba.png'
 import awen from './pics/awen.png'
 import tbot from './pics/tbot.png'
 import projify from './pics/projify.png'
+import amdb from './pics/amdb.jpg'
 
 
 
@@ -95,6 +96,25 @@ export default function App() {
 
     <Grid className={'grid'} columns="3" gap='2em'>
 
+
+   
+    {['all','dev'].includes(show) && <section className='project'>
+    <div>
+    <h1>AMDB</h1>
+    <p>A movie database app inspired by IMDb for <a href='https://apps.apple.com/us/app/amdb/id6469513156' target='_blank' rel="noopener noreferrer">iOS</a> 
+    {/*/ <a href='https://play.google.com/store/apps/details?id=com.barcelonacodeschool.boringweatherapp' target='_blank' rel="noopener noreferrer">Android</a> */}</p>
+    </div>
+    <div className='imgBackground'>
+    <a href='https://apps.apple.com/us/app/amdb/id6469513156' target='_blank' rel="noopener noreferrer">
+    <img src={amdb} alt="AMDB movie app" />
+    </a>
+    </div>
+    <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Angelos Provelengiadis 
+→ <a href='https://www.linkedin.com/in/angelos-provelengiadis-3b3054151/' target='_blank' rel="noopener noreferrer">LinkedIn</a>
+    </p>
+    </section> }
+
+    
 
     {['all','dev'].includes(show) &&  <section className='project'>
     <div>
