@@ -69,7 +69,10 @@ import awen from './pics/awen.png'
 import tbot from './pics/tbot.png'
 import projify from './pics/projify.png'
 import amdb from './pics/amdb.jpg'
-
+import playground from './pics/playground.jpg'
+import levelup from './pics/levelup.jpg'
+import amplio from './pics/amplio.jpg'
+import trang from './pics/trang.png'
 
 
 export default function App() {
@@ -97,7 +100,82 @@ export default function App() {
     <Grid className={'grid'} columns="3" gap='2em'>
 
 
-   
+
+
+    {['all','dev'].includes(show) && <section className='project'>
+    <div>
+    <h1><a href='http://trangdothuy.surge.sh' target='_blank' rel="noopener noreferrer">Portfolio page</a></h1>
+    <p>Code editor themed portfolio</p>
+    </div>
+    <div className='imgBackground'>
+    <a href='http://trangdothuy.surge.sh' target='_blank' rel="noopener noreferrer">
+    <img src={trang} alt="Code editor themed portfolio" />
+    </a>
+    </div>
+    <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Trang Do
+    → <a href='http://trangdothuy.surge.sh' target='_blank' rel="noopener noreferrer">Portfolio page</a>
+    </p>
+    </section> }
+
+
+
+
+
+    {['all','ux'].includes(show) &&  <section className='project'>
+    <div>
+    <h1><a href='http://sophie-heywood.com/casestudy-playground' target='_blank' rel="noopener noreferrer">Playground</a></h1>
+    <p>Kids activity discovery and booking app</p>
+    </div>
+    <div className='imgBackground'>
+    <a href='http://sophie-heywood.com/casestudy-playground' target='_blank' rel="noopener noreferrer">
+    <img src={playground} alt="Kids activity discovery and booking app" />
+    </a>
+    </div>
+    <p><a href='https://barcelonacodeschool.com/ux-design-bootcamp-in-barcelona-code-school/'>Designed</a> by 
+    Sophie Heywood →  <a href='http://sophie-heywood.com' target='_blank' rel="noopener noreferrer">Portfolio</a>
+    </p>
+    </section> }
+
+
+
+
+    {['all','ux'].includes(show) &&  <section className='project'>
+    <div>
+    <h1><a href='http://sophie-heywood.com/casestudy-levelup' target='_blank' rel="noopener noreferrer">Level Up</a></h1>
+    <p>Gamifiied productivity app</p>
+    </div>
+    <div className='imgBackground'>
+    <a href='http://sophie-heywood.com/casestudy-levelup' target='_blank' rel="noopener noreferrer">
+    <img src={levelup} alt="Gamifiied productivity app" />
+    </a>
+    </div>
+    <p><a href='https://barcelonacodeschool.com/ux-design-bootcamp-in-barcelona-code-school/'>Designed</a> by 
+    Sophie Heywood →  <a href='http://sophie-heywood.com' target='_blank' rel="noopener noreferrer">Portfolio</a>
+    </p>
+    </section> }
+
+
+
+    {['all','ux'].includes(show) &&  <section className='project'>
+    <div>
+    <h1><a href='http://vanjaluzija.tilda.ws/portfolio' target='_blank' rel="noopener noreferrer">Amplio</a></h1>
+    <p>App for musicians and studios</p>
+    </div>
+    <div className='imgBackground'>
+    <a href='http://vanjaluzija.tilda.ws/portfolio' target='_blank' rel="noopener noreferrer">
+    <img src={amplio} alt="App for musicians and studios" />
+    </a>
+    </div>
+    <p><a href='https://barcelonacodeschool.com/ux-design-bootcamp-in-barcelona-code-school/'>Designed</a> by 
+    Vanja Luzija →  <a href='http://vanjaluzija.tilda.ws/' target='_blank' rel="noopener noreferrer">Portfolio</a>
+    </p>
+    </section> }
+
+
+
+
+
+
     {['all','dev'].includes(show) && <section className='project'>
     <div>
     <h1>AMDB</h1>
@@ -111,7 +189,7 @@ export default function App() {
     </a>
     </div>
     <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Angelos Provelengiadis 
-→ <a href='https://www.linkedin.com/in/angelos-provelengiadis-3b3054151/' target='_blank' rel="noopener noreferrer">LinkedIn</a>
+    → <a href='https://www.linkedin.com/in/angelos-provelengiadis-3b3054151/' target='_blank' rel="noopener noreferrer">LinkedIn</a>
     </p>
     </section> }
 
@@ -181,7 +259,7 @@ export default function App() {
     <div className='imgBackground'>
     <a href='https://gaetanoroffiportfolio.webflow.io/sba-project-1' target='_blank' rel="noopener noreferrer">
     <img src={sba} alt="SBA -Connecting
-Startups with business angels" />
+    Startups with business angels" />
     </a>
     </div>
     <p><a href='https://barcelonacodeschool.com/ux-design-bootcamp-in-barcelona-code-school/'>Designed</a> by 
@@ -443,7 +521,7 @@ Startups with business angels" />
     </a>
     </div>
     <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Trang Do
-    → <a href='https://www.linkedin.com/in/trang-do-thuy-183435141' target='_blank' rel="noopener noreferrer">Portfolio page</a>
+    → <a href='http://trangdothuy.surge.sh' target='_blank' rel="noopener noreferrer">Portfolio page</a>
     </p>
     </section> }
 

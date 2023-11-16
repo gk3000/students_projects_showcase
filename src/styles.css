@@ -57,7 +57,7 @@ section.project {
 	flex-direction: column;
 	justify-content: space-between;
 	margin-bottom: 2em;
-	background-color: rgb(255 255 255 / 15%);
+	background-color: rgb(255 255 255 / 10%);
 }
 .imgBackground{
 	height: 100%;
