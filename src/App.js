@@ -178,7 +178,7 @@ export default function App() {
 
     {['all','dev'].includes(show) && <section className='project'>
     <div>
-    <h1>AMDB</h1>
+    <h1><a href='https://apps.apple.com/us/app/amdb/id6469513156' target='_blank' rel="noopener noreferrer">AMDB</a></h1>
     <p>A movie database app inspired by IMDb for <a href='https://apps.apple.com/us/app/amdb/id6469513156' target='_blank' rel="noopener noreferrer">iOS</a> 
     / <a href='https://play.google.com/store/apps/details?id=com.angelprov.AMDB' target='_blank' rel="noopener noreferrer">Android</a> 
     </p>
