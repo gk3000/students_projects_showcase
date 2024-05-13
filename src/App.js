@@ -73,6 +73,7 @@ import playground from './pics/playground.jpg'
 import levelup from './pics/levelup.jpg'
 import amplio from './pics/amplio.jpg'
 import trang from './pics/trang.png'
+import martinCrypto from './pics/martin_crypto.jpg'
 
 
 export default function App() {
@@ -100,6 +101,20 @@ export default function App() {
     <Grid className={'grid'} columns="3" gap='2em'>
 
 
+    {['all','dev'].includes(show) && <section className='project'>
+    <div>
+    <h1><a href='https://secret-price.surge.sh' target='_blank' rel="noopener noreferrer">Bits of Cryptos</a></h1>
+    <p>Real-time prices of the top 100 cryptocurrencies</p>
+    </div>
+    <div className='imgBackground'>
+    <a href='https://secret-price.surge.sh' target='_blank' rel="noopener noreferrer">
+    <img src={martinCrypto} alt="Bits of Cryptos" />
+    </a>
+    </div>
+    <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Martin Minchev
+    → <a href='https://martin-minchev.surge.sh' target='_blank' rel="noopener noreferrer">Portfolio page</a>
+    </p>
+    </section> }
 
 
     {['all','dev'].includes(show) && <section className='project'>
