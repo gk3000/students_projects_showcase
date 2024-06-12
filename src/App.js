@@ -74,6 +74,7 @@ import levelup from './pics/levelup.jpg'
 import amplio from './pics/amplio.jpg'
 import trang from './pics/trang.png'
 import martinCrypto from './pics/martin_crypto.jpg'
+import splitBean from './pics/splitBean.png'
 
 
 export default function App() {
@@ -100,6 +101,20 @@ export default function App() {
 
     <Grid className={'grid'} columns="3" gap='2em'>
 
+    {['all','dev'].includes(show) && <section className='project'>
+    <div>
+    <h1><a href='https://projects.barcelonacodeschool.com/splitbeans' target='_blank' rel="noopener noreferrer">Split Bean</a></h1>
+    <p>Coffee e-commerce full-stack project</p>
+    </div>
+    <div className='imgBackground'>
+    <a href='https://projects.barcelonacodeschool.com/splitbeans' target='_blank' rel="noopener noreferrer">
+    <img src={splitBean} alt="Split Bean" />
+    </a>
+    </div>
+    <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Arpad Weitz
+    → <a href='https://arpadweitzportfolio.webflow.io' target='_blank' rel="noopener noreferrer">Portfolio page</a>
+    </p>
+    </section> }
 
     {['all','dev'].includes(show) && <section className='project'>
     <div>
