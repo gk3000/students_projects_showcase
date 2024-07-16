@@ -76,6 +76,7 @@ import trang from './pics/trang.png'
 import martinCrypto from './pics/martin_crypto.jpg'
 import splitBean from './pics/splitBean.png'
 import rescuers from './pics/rescuers.jpg'
+import eren from './pics/eren.jpg'
 
 
 export default function App() {
@@ -108,6 +109,23 @@ export default function App() {
             <hr />
 
             <Grid className={'grid'} columns="3" gap='2em'>
+
+            {['all', 'dev'].includes(show) && <section className='project'>
+                    <div>
+                        <h1><a href='https://projects.barcelonacodeschool.com/eren-recipies' target='_blank' rel="noopener noreferrer">Recipe app</a></h1>
+                        <p>Web full-stack project</p>
+                    </div>
+                    <div className='imgBackground'>
+                        <a href='https://projects.barcelonacodeschool.com/eren-recipies' target='_blank' rel="noopener noreferrer">
+                            <img src={eren} alt="Eren Recipe App" />
+                        </a>
+                    </div>
+                    <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Eren Kamer
+                        → <a href='http://erenkamer.surge.sh' target='_blank' rel="noopener noreferrer">Portfolio page</a>
+                    </p>
+                </section>}
+
+
 
 
                 {['all', 'game'].includes(show) && <section className='project'>

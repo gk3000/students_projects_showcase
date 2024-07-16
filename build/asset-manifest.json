@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.9b4c4f19.chunk.css",
-    "main.js": "/static/js/main.b820d207.chunk.js",
-    "main.js.map": "/static/js/main.b820d207.chunk.js.map",
+    "main.js": "/static/js/main.e7ff346a.chunk.js",
+    "main.js.map": "/static/js/main.e7ff346a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4fa9208a.js",
     "runtime-main.js.map": "/static/js/runtime-main.4fa9208a.js.map",
-    "static/js/2.e8478815.chunk.js": "/static/js/2.e8478815.chunk.js",
-    "static/js/2.e8478815.chunk.js.map": "/static/js/2.e8478815.chunk.js.map",
+    "static/js/2.ce190dc0.chunk.js": "/static/js/2.ce190dc0.chunk.js",
+    "static/js/2.ce190dc0.chunk.js.map": "/static/js/2.ce190dc0.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.aca1046965f30eb8207ecc4bb35297e6.js": "/precache-manifest.aca1046965f30eb8207ecc4bb35297e6.js",
+    "precache-manifest.b4be60e8a0476768950e50dd26e63374.js": "/precache-manifest.b4be60e8a0476768950e50dd26e63374.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.9b4c4f19.chunk.css.map": "/static/css/main.9b4c4f19.chunk.css.map",
-    "static/js/2.e8478815.chunk.js.LICENSE.txt": "/static/js/2.e8478815.chunk.js.LICENSE.txt",
+    "static/js/2.ce190dc0.chunk.js.LICENSE.txt": "/static/js/2.ce190dc0.chunk.js.LICENSE.txt",
     "static/media/80-20.jpg": "/static/media/80-20.8d3a0088.jpg",
     "static/media/Neumorphism.png": "/static/media/Neumorphism.8c39a047.png",
     "static/media/Weatherjokes.jpg": "/static/media/Weatherjokes.53adc3a9.jpg",
@@ -29,6 +29,7 @@
     "static/media/charles.jpg": "/static/media/charles.16b35c8b.jpg",
     "static/media/complex-app.png": "/static/media/complex-app.436ac1fb.png",
     "static/media/cupra.png": "/static/media/cupra.965e7fd3.png",
+    "static/media/eren.jpg": "/static/media/eren.37a1a7ba.jpg",
     "static/media/esperanca_screen.jpg": "/static/media/esperanca_screen.6e006d89.jpg",
     "static/media/findjob.jpg": "/static/media/findjob.48d9a650.jpg",
     "static/media/gabriella.png": "/static/media/gabriella.67483f4d.png",
@@ -85,8 +86,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.4fa9208a.js",
-    "static/js/2.e8478815.chunk.js",
+    "static/js/2.ce190dc0.chunk.js",
     "static/css/main.9b4c4f19.chunk.css",
-    "static/js/main.b820d207.chunk.js"
+    "static/js/main.e7ff346a.chunk.js"
   ]
 }
