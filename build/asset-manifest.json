@@ -1,23 +1,24 @@
 {
   "files": {
     "main.css": "/static/css/main.9b4c4f19.chunk.css",
-    "main.js": "/static/js/main.e7ff346a.chunk.js",
-    "main.js.map": "/static/js/main.e7ff346a.chunk.js.map",
+    "main.js": "/static/js/main.c92b6a43.chunk.js",
+    "main.js.map": "/static/js/main.c92b6a43.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4fa9208a.js",
     "runtime-main.js.map": "/static/js/runtime-main.4fa9208a.js.map",
-    "static/js/2.ce190dc0.chunk.js": "/static/js/2.ce190dc0.chunk.js",
-    "static/js/2.ce190dc0.chunk.js.map": "/static/js/2.ce190dc0.chunk.js.map",
+    "static/js/2.03b86f01.chunk.js": "/static/js/2.03b86f01.chunk.js",
+    "static/js/2.03b86f01.chunk.js.map": "/static/js/2.03b86f01.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.b4be60e8a0476768950e50dd26e63374.js": "/precache-manifest.b4be60e8a0476768950e50dd26e63374.js",
+    "precache-manifest.a3b8a8f11a1990d357dee35640756894.js": "/precache-manifest.a3b8a8f11a1990d357dee35640756894.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.9b4c4f19.chunk.css.map": "/static/css/main.9b4c4f19.chunk.css.map",
-    "static/js/2.ce190dc0.chunk.js.LICENSE.txt": "/static/js/2.ce190dc0.chunk.js.LICENSE.txt",
+    "static/js/2.03b86f01.chunk.js.LICENSE.txt": "/static/js/2.03b86f01.chunk.js.LICENSE.txt",
     "static/media/80-20.jpg": "/static/media/80-20.8d3a0088.jpg",
     "static/media/Neumorphism.png": "/static/media/Neumorphism.8c39a047.png",
     "static/media/Weatherjokes.jpg": "/static/media/Weatherjokes.53adc3a9.jpg",
     "static/media/amdb.jpg": "/static/media/amdb.1f71e465.jpg",
     "static/media/amplio.jpg": "/static/media/amplio.ee61a510.jpg",
     "static/media/awen.png": "/static/media/awen.ffd5bc77.png",
+    "static/media/barcelove.png": "/static/media/barcelove.c40ef527.png",
     "static/media/beaktiv.jpg": "/static/media/beaktiv.42ac195a.jpg",
     "static/media/booker.jpg": "/static/media/booker.602126a3.jpg",
     "static/media/bookily.jpg": "/static/media/bookily.d2a2a8b9.jpg",
@@ -86,8 +87,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.4fa9208a.js",
-    "static/js/2.ce190dc0.chunk.js",
+    "static/js/2.03b86f01.chunk.js",
     "static/css/main.9b4c4f19.chunk.css",
-    "static/js/main.e7ff346a.chunk.js"
+    "static/js/main.c92b6a43.chunk.js"
   ]
 }

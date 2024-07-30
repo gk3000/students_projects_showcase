@@ -77,6 +77,7 @@ import martinCrypto from './pics/martin_crypto.jpg'
 import splitBean from './pics/splitBean.png'
 import rescuers from './pics/rescuers.jpg'
 import eren from './pics/eren.jpg'
+import barcelove from './pics/barcelove.png'
 
 
 export default function App() {
@@ -109,6 +110,22 @@ export default function App() {
             <hr />
 
             <Grid className={'grid'} columns="3" gap='2em'>
+
+
+            {['all', 'dev'].includes(show) && <section className='project'>
+                    <div>
+                        <h1><a href='https://projects.barcelonacodeschool.com/barcelove' target='_blank' rel="noopener noreferrer">Barcelove</a></h1>
+                        <p>Explore Barcelona</p>
+                    </div>
+                    <div className='imgBackground'>
+                        <a href='https://projects.barcelonacodeschool.com/barcelove' target='_blank' rel="noopener noreferrer">
+                            <img src={barcelove} alt="Barcelove" />
+                        </a>
+                    </div>
+                    <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Gleb Murawicki → <a href='https://discojordan.github.io/Portfolio-page/' target='_blank' rel="noopener noreferrer">Portfolio page</a>
+                    </p>
+                </section>}
+
 
             {['all', 'dev'].includes(show) && <section className='project'>
                     <div>
