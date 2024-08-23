@@ -447,7 +447,7 @@ export default function App() {
 
                 {['all', 'ux'].includes(show) && <section className='project'>
                     <div>
-                        <h1><a href='https://tekla.me/volya/' target='_blank' rel="noopener noreferrer">Volya</a></h1>
+                        <h1><a href='https://www.itsmemaryam.com/volya' target='_blank' rel="noopener noreferrer">Volya</a></h1>
                         <p>A refugee aid app</p>
                     </div>
                     <div className='imgBackground'>
@@ -455,7 +455,7 @@ export default function App() {
                             <img src={volya} alt="Volya, A refugee aid app" />
                         </a>
                     </div>
-                    <p><a href='https://barcelonacodeschool.com/ux-design-bootcamp-in-barcelona-code-school/'>Designed</a> by <a href='https://tekla.me' target='_blank' rel="noopener noreferrer">Tekla Vasadze</a>, <a href='https://www.itsmemaryam.com' target='_blank' rel="noopener noreferrer">Maryam Talal</a> & Co.
+                    <p><a href='https://barcelonacodeschool.com/ux-design-bootcamp-in-barcelona-code-school/'>Designed</a> by <a href='https://www.itsmemaryam.com' target='_blank' rel="noopener noreferrer">Maryam Talal</a> & Co.
                     </p>
                 </section>}
 
