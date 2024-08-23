@@ -451,7 +451,7 @@ export default function App() {
                         <p>A refugee aid app</p>
                     </div>
                     <div className='imgBackground'>
-                        <a href='https://tekla.me/volya/' target='_blank' rel="noopener noreferrer">
+                        <a href='https://www.itsmemaryam.com/volya' target='_blank' rel="noopener noreferrer">
                             <img src={volya} alt="Volya, A refugee aid app" />
                         </a>
                     </div>
