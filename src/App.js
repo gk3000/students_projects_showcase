@@ -78,6 +78,8 @@ import splitBean from './pics/splitBean.png'
 import rescuers from './pics/rescuers.jpg'
 import eren from './pics/eren.jpg'
 import barcelove from './pics/barcelove.png'
+import agribiz from './pics/agribiz.png'
+import handtohand from './pics/handtohand.png'
 
 
 export default function App() {
@@ -112,7 +114,44 @@ export default function App() {
             <Grid className={'grid'} columns="3" gap='2em'>
 
 
-            {['all', 'dev'].includes(show) && <section className='project'>
+                {['all', 'ux'].includes(show) && <section className='project'>
+                    <div>
+                        <h1><a href='http://duccio_hand_to_hand.surge.sh' target='_blank' rel="noopener noreferrer">Hand To Hand</a></h1>
+                        <p>Voluntary app</p>
+                    </div>
+                    <div className='imgBackground'>
+                        <a href='http://duccio_hand_to_hand.surge.sh' target='_blank' rel="noopener noreferrer">
+                            <img src={handtohand} alt="Kids activity discovery and booking app" />
+                        </a>
+                    </div>
+                    <p><a href='https://barcelonacodeschool.com/ux-design-bootcamp-in-barcelona-code-school/'>Designed</a> by
+                        Duccio Bombardini →  <a href='https://right-opportunity-960217.framer.app' target='_blank' rel="noopener noreferrer">Portfolio</a>
+                    </p>
+                </section>}
+
+
+
+                {['all', 'ux'].includes(show) && <section className='project'>
+                    <div>
+                        <h1><a href='http://duccio_agro_biz.surge.sh' target='_blank' rel="noopener noreferrer">AGRI-Biz</a></h1>
+                        <p>VR machinery marketplace</p>
+                    </div>
+                    <div className='imgBackground'>
+                        <a href='http://duccio_agro_biz.surge.sh' target='_blank' rel="noopener noreferrer">
+                            <img src={agribiz} alt="Kids activity discovery and booking app" />
+                        </a>
+                    </div>
+                    <p><a href='https://barcelonacodeschool.com/ux-design-bootcamp-in-barcelona-code-school/'>Designed</a> by
+                        Duccio Bombardini →  <a href='https://right-opportunity-960217.framer.app' target='_blank' rel="noopener noreferrer">Portfolio</a>
+                    </p>
+                </section>}
+
+
+
+
+
+
+                {['all', 'dev'].includes(show) && <section className='project'>
                     <div>
                         <h1><a href='https://projects.barcelonacodeschool.com/barcelove' target='_blank' rel="noopener noreferrer">Barcelove</a></h1>
                         <p>Explore Barcelona</p>
@@ -127,7 +166,7 @@ export default function App() {
                 </section>}
 
 
-            {['all', 'dev'].includes(show) && <section className='project'>
+                {['all', 'dev'].includes(show) && <section className='project'>
                     <div>
                         <h1><a href='https://projects.barcelonacodeschool.com/eren-recipies' target='_blank' rel="noopener noreferrer">Recipe app</a></h1>
                         <p>Web full-stack project</p>

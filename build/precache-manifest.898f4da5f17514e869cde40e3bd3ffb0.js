@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1ae73f4ea2678e73ed12188a1c8bf0d3",
+    "revision": "4f9a482a5c6617678f643533072f505c",
     "url": "/index.html"
   },
   {
-    "revision": "1f05bf4088a82f8d6f1b",
+    "revision": "7390ef23174b5e7c934e",
     "url": "/static/css/main.9b4c4f19.chunk.css"
   },
   {
-    "revision": "f224ae9b690df8346412",
-    "url": "/static/js/2.03b86f01.chunk.js"
+    "revision": "c876b5e1d8f6aa909a4e",
+    "url": "/static/js/2.a8a7f881.chunk.js"
   },
   {
     "revision": "570d362d673dab785e62d2b8563e1118",
-    "url": "/static/js/2.03b86f01.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.a8a7f881.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1f05bf4088a82f8d6f1b",
-    "url": "/static/js/main.f65cf594.chunk.js"
+    "revision": "7390ef23174b5e7c934e",
+    "url": "/static/js/main.25265df9.chunk.js"
   },
   {
     "revision": "92cb8b11782128949ed7",
@@ -28,12 +28,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/80-20.8d3a0088.jpg"
   },
   {
-    "revision": "8c39a047980547a3bcaf3eaca34a5a6b",
-    "url": "/static/media/Neumorphism.8c39a047.png"
+    "revision": "5336038e0730ca3f43802ca60db8ad62",
+    "url": "/static/media/Neumorphism.5336038e.png"
   },
   {
     "revision": "53adc3a90ac878db4369f59c5521e474",
     "url": "/static/media/Weatherjokes.53adc3a9.jpg"
+  },
+  {
+    "revision": "464a5871baf9eaf07338ec5edc4b8059",
+    "url": "/static/media/agribiz.464a5871.png"
   },
   {
     "revision": "1f71e465eb285d7ea594d2affa9bf691",
@@ -48,8 +52,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/awen.ffd5bc77.png"
   },
   {
-    "revision": "c40ef527171cc0b032435b2450de26fa",
-    "url": "/static/media/barcelove.c40ef527.png"
+    "revision": "c0681434491c7046525f2d4917294831",
+    "url": "/static/media/barcelove.c0681434.png"
   },
   {
     "revision": "42ac195af5819a7543ccf8d7c3dc8df7",
@@ -92,8 +96,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/complex-app.436ac1fb.png"
   },
   {
-    "revision": "965e7fd36b5cb5a1b58a7db1fc26af98",
-    "url": "/static/media/cupra.965e7fd3.png"
+    "revision": "f7d945eef70c92e5eb45d03cb5b4356e",
+    "url": "/static/media/cupra.f7d945ee.png"
   },
   {
     "revision": "37a1a7bac3ca340599977f165546abf4",
@@ -108,12 +112,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/findjob.48d9a650.jpg"
   },
   {
-    "revision": "67483f4ddee4e8b5656052972f69800b",
-    "url": "/static/media/gabriella.67483f4d.png"
+    "revision": "99dcabbef290dae4c101c0b44d531ce0",
+    "url": "/static/media/gabriella.99dcabbe.png"
   },
   {
     "revision": "3043c082b32be9206cf479280c335e97",
     "url": "/static/media/gervie.3043c082.png"
+  },
+  {
+    "revision": "5b5f2d3215e9d2d0697c93e8ad155b5f",
+    "url": "/static/media/handtohand.5b5f2d32.png"
   },
   {
     "revision": "92fa85daed6089322a5e8d5bb3f7adbe",
@@ -128,8 +136,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/kofi.3637c9c3.png"
   },
   {
-    "revision": "eeb3a383c91c32efd25b2432261d47de",
-    "url": "/static/media/levelup.eeb3a383.jpg"
+    "revision": "408bbb4788bdaa42778ff7ac0a4a1dc7",
+    "url": "/static/media/levelup.408bbb47.jpg"
   },
   {
     "revision": "2135e396f3d0fd9134b9b60d77c669bf",
@@ -152,8 +160,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/michele_corona.7e08f39a.png"
   },
   {
-    "revision": "907b1e7a366152e56b8ac62ceafdefcf",
-    "url": "/static/media/moviexdb-netlify-app.907b1e7a.jpg"
+    "revision": "49e0780f51ebed012049049176841da8",
+    "url": "/static/media/moviexdb-netlify-app.49e0780f.jpg"
   },
   {
     "revision": "4a03d06cf47c828eb757cdcf1f9beb94",
@@ -200,12 +208,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/projify.f2e07273.png"
   },
   {
-    "revision": "2e5961bbc9c85957e84e9a2d547371bf",
-    "url": "/static/media/rainbow-beetroot.2e5961bb.jpg"
+    "revision": "7f35e7ecd3a75bb9f6e6e5c940ab0084",
+    "url": "/static/media/rainbow-beetroot.7f35e7ec.jpg"
   },
   {
-    "revision": "cb032e33cfdf7347e71d7dd72e4063c3",
-    "url": "/static/media/read-a-book.cb032e33.png"
+    "revision": "d27ba320cbcff7b6fc3916ddf0aae76a",
+    "url": "/static/media/read-a-book.d27ba320.png"
   },
   {
     "revision": "358541debb3b27bb42ffce3e211cf5c1",
@@ -232,8 +240,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/soulfood.05431354.jpg"
   },
   {
-    "revision": "36e124423a12baad282d875418baecc7",
-    "url": "/static/media/splitBean.36e12442.png"
+    "revision": "19bd0804acdfc02dd99618bd1ae1abd1",
+    "url": "/static/media/splitBean.19bd0804.png"
   },
   {
     "revision": "309d8652077a4605ff2c604ee7b04e99",
@@ -260,8 +268,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/tommy-commerce.b0b7ac1a.jpg"
   },
   {
-    "revision": "93fefbb2b29b8f26510fa2f8493c4574",
-    "url": "/static/media/trang.93fefbb2.png"
+    "revision": "d50ce373765bf60d393da4c24eedb6f6",
+    "url": "/static/media/trang.d50ce373.png"
   },
   {
     "revision": "866bfd57c91cf7753cfe2f855adbbe8b",
@@ -280,8 +288,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/useitup.bf8af77b.jpg"
   },
   {
-    "revision": "bf474df7690fc92fe6bc36bf34adcb4a",
-    "url": "/static/media/vietnamtours.bf474df7.png"
+    "revision": "b34dc465e5a401207f02023e1006365e",
+    "url": "/static/media/vietnamtours.b34dc465.png"
   },
   {
     "revision": "f0a169183daf5379fb8a8393df43ae53",
@@ -300,8 +308,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/wander_woman.b2f17d9d.png"
   },
   {
-    "revision": "15e0b2108d9eaeb117df444eb0d44bcb",
-    "url": "/static/media/wavey.15e0b210.png"
+    "revision": "48b1cb0ded47058fa848f2eead315849",
+    "url": "/static/media/wavey.48b1cb0d.png"
   },
   {
     "revision": "95a1a4019c7c170c80eda7f9093f8bdd",
