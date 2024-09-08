@@ -80,6 +80,7 @@ import eren from './pics/eren.jpg'
 import barcelove from './pics/barcelove.png'
 import agribiz from './pics/agribiz.png'
 import handtohand from './pics/handtohand.png'
+import recipo from './pics/recipo.jpg'
 
 
 export default function App() {
@@ -112,6 +113,21 @@ export default function App() {
             <hr />
 
             <Grid className={'grid'} columns="3" gap='2em'>
+
+            {['all', 'dev'].includes(show) && <section className='project'>
+                    <div>
+                        <h1><a href='https://projects.barcelonacodeschool.com/recipo' target='_blank' rel="noopener noreferrer">Recipo</a></h1>
+                        <p>App to create, roganize and rate recipes</p>
+                    </div>
+                    <div className='imgBackground'>
+                        <a href='https://projects.barcelonacodeschool.com/recipo' target='_blank' rel="noopener noreferrer">
+                            <img src={recipo} alt="Barcelove" />
+                        </a>
+                    </div>
+                    <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Max Chmelicek → <a href='https://github.com/maxchmelda' target='_blank' rel="noopener noreferrer">GitHub Page</a>
+                    </p>
+                </section>}
+
 
 
                 {['all', 'ux'].includes(show) && <section className='project'>

@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.9b4c4f19.chunk.css",
-    "main.js": "/static/js/main.25265df9.chunk.js",
-    "main.js.map": "/static/js/main.25265df9.chunk.js.map",
+    "main.js": "/static/js/main.61f93536.chunk.js",
+    "main.js.map": "/static/js/main.61f93536.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4fa9208a.js",
     "runtime-main.js.map": "/static/js/runtime-main.4fa9208a.js.map",
-    "static/js/2.a8a7f881.chunk.js": "/static/js/2.a8a7f881.chunk.js",
-    "static/js/2.a8a7f881.chunk.js.map": "/static/js/2.a8a7f881.chunk.js.map",
+    "static/js/2.1193706c.chunk.js": "/static/js/2.1193706c.chunk.js",
+    "static/js/2.1193706c.chunk.js.map": "/static/js/2.1193706c.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.898f4da5f17514e869cde40e3bd3ffb0.js": "/precache-manifest.898f4da5f17514e869cde40e3bd3ffb0.js",
+    "precache-manifest.89dfb8153f517e181a249904d5eabf69.js": "/precache-manifest.89dfb8153f517e181a249904d5eabf69.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.9b4c4f19.chunk.css.map": "/static/css/main.9b4c4f19.chunk.css.map",
-    "static/js/2.a8a7f881.chunk.js.LICENSE.txt": "/static/js/2.a8a7f881.chunk.js.LICENSE.txt",
+    "static/js/2.1193706c.chunk.js.LICENSE.txt": "/static/js/2.1193706c.chunk.js.LICENSE.txt",
     "static/media/80-20.jpg": "/static/media/80-20.8d3a0088.jpg",
     "static/media/Neumorphism.png": "/static/media/Neumorphism.5336038e.png",
     "static/media/Weatherjokes.jpg": "/static/media/Weatherjokes.53adc3a9.jpg",
@@ -61,6 +61,7 @@
     "static/media/rainbow-beetroot.jpg": "/static/media/rainbow-beetroot.7f35e7ec.jpg",
     "static/media/read-a-book.png": "/static/media/read-a-book.d27ba320.png",
     "static/media/rechargenow.jpg": "/static/media/rechargenow.358541de.jpg",
+    "static/media/recipo.jpg": "/static/media/recipo.988d41b1.jpg",
     "static/media/rescuers.jpg": "/static/media/rescuers.67478548.jpg",
     "static/media/rooftop_guide.png": "/static/media/rooftop_guide.fc7ec617.png",
     "static/media/sara.jpg": "/static/media/sara.c1a90eac.jpg",
@@ -89,8 +90,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.4fa9208a.js",
-    "static/js/2.a8a7f881.chunk.js",
+    "static/js/2.1193706c.chunk.js",
     "static/css/main.9b4c4f19.chunk.css",
-    "static/js/main.25265df9.chunk.js"
+    "static/js/main.61f93536.chunk.js"
   ]
 }
