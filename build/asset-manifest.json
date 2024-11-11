@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.9b4c4f19.chunk.css",
-    "main.js": "/static/js/main.61f93536.chunk.js",
-    "main.js.map": "/static/js/main.61f93536.chunk.js.map",
+    "main.js": "/static/js/main.cb4d7aa7.chunk.js",
+    "main.js.map": "/static/js/main.cb4d7aa7.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4fa9208a.js",
     "runtime-main.js.map": "/static/js/runtime-main.4fa9208a.js.map",
-    "static/js/2.1193706c.chunk.js": "/static/js/2.1193706c.chunk.js",
-    "static/js/2.1193706c.chunk.js.map": "/static/js/2.1193706c.chunk.js.map",
+    "static/js/2.7875251d.chunk.js": "/static/js/2.7875251d.chunk.js",
+    "static/js/2.7875251d.chunk.js.map": "/static/js/2.7875251d.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.89dfb8153f517e181a249904d5eabf69.js": "/precache-manifest.89dfb8153f517e181a249904d5eabf69.js",
+    "precache-manifest.29d960334b40b07ee76ed623e30a25bf.js": "/precache-manifest.29d960334b40b07ee76ed623e30a25bf.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.9b4c4f19.chunk.css.map": "/static/css/main.9b4c4f19.chunk.css.map",
-    "static/js/2.1193706c.chunk.js.LICENSE.txt": "/static/js/2.1193706c.chunk.js.LICENSE.txt",
+    "static/js/2.7875251d.chunk.js.LICENSE.txt": "/static/js/2.7875251d.chunk.js.LICENSE.txt",
     "static/media/80-20.jpg": "/static/media/80-20.8d3a0088.jpg",
     "static/media/Neumorphism.png": "/static/media/Neumorphism.5336038e.png",
     "static/media/Weatherjokes.jpg": "/static/media/Weatherjokes.53adc3a9.jpg",
@@ -46,6 +46,7 @@
     "static/media/magda-ecommerce.jpg": "/static/media/magda-ecommerce.c0855441.jpg",
     "static/media/martin_crypto.jpg": "/static/media/martin_crypto.4f146b1f.jpg",
     "static/media/michele_corona.png": "/static/media/michele_corona.7e08f39a.png",
+    "static/media/miniGolf.png": "/static/media/miniGolf.52ea3d3e.png",
     "static/media/moviexdb-netlify-app.jpg": "/static/media/moviexdb-netlify-app.49e0780f.jpg",
     "static/media/nebulosity.jpg": "/static/media/nebulosity.4a03d06c.jpg",
     "static/media/nutrition-and-calories-tracker.jpg": "/static/media/nutrition-and-calories-tracker.b16c54ac.jpg",
@@ -90,8 +91,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.4fa9208a.js",
-    "static/js/2.1193706c.chunk.js",
+    "static/js/2.7875251d.chunk.js",
     "static/css/main.9b4c4f19.chunk.css",
-    "static/js/main.61f93536.chunk.js"
+    "static/js/main.cb4d7aa7.chunk.js"
   ]
 }

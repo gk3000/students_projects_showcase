@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a6bf4dc110875ab1cb7d2c2054d83449",
+    "revision": "e19aa1e6911fd6bc2097b6c815306b43",
     "url": "/index.html"
   },
   {
-    "revision": "939c108dcbbc3bf26410",
+    "revision": "d91c35da20e4c6a891ee",
     "url": "/static/css/main.9b4c4f19.chunk.css"
   },
   {
-    "revision": "813b2993cbab43580ba7",
-    "url": "/static/js/2.1193706c.chunk.js"
+    "revision": "9a0c59d4777e45e7a55b",
+    "url": "/static/js/2.7875251d.chunk.js"
   },
   {
     "revision": "570d362d673dab785e62d2b8563e1118",
-    "url": "/static/js/2.1193706c.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.7875251d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "939c108dcbbc3bf26410",
-    "url": "/static/js/main.61f93536.chunk.js"
+    "revision": "d91c35da20e4c6a891ee",
+    "url": "/static/js/main.cb4d7aa7.chunk.js"
   },
   {
     "revision": "92cb8b11782128949ed7",
@@ -158,6 +158,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7e08f39a9df4d74f5147ad10724d680d",
     "url": "/static/media/michele_corona.7e08f39a.png"
+  },
+  {
+    "revision": "52ea3d3eb9056a3d0f9202b4b9b01c17",
+    "url": "/static/media/miniGolf.52ea3d3e.png"
   },
   {
     "revision": "49e0780f51ebed012049049176841da8",
