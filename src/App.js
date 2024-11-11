@@ -81,6 +81,7 @@ import barcelove from './pics/barcelove.png'
 import agribiz from './pics/agribiz.png'
 import handtohand from './pics/handtohand.png'
 import recipo from './pics/recipo.jpg'
+import miniGolf from './pics/miniGolf.png'
 
 
 export default function App() {
@@ -113,6 +114,21 @@ export default function App() {
             <hr />
 
             <Grid className={'grid'} columns="3" gap='2em'>
+
+            {['all', 'game'].includes(show) && <section className='project'>
+                    <div>
+                        <h1><a href='https://play.unity.com/en/games/f3156992-f8f4-44f2-a8a8-7a40e23a0d57/mini-golf-game' target='_blank' rel="noopener noreferrer">Mini-Golf</a></h1>
+                        <p>Play some mini gold</p>
+                    </div>
+                    <div className='imgBackground'>
+                        <a href='https://play.unity.com/en/games/f3156992-f8f4-44f2-a8a8-7a40e23a0d57/mini-golf-game' target='_blank' rel="noopener noreferrer">
+                            <img src={miniGolf} alt="Mini-Golf" />
+                        </a>
+                    </div>
+                    <p><a href='https://barcelonacodeschool.com/game-development-bootcamp/'>Created</a> Philipp Tieber
+                        → <a href='https://github.com/PhilCastro24' target='_blank' rel="noopener noreferrer">GitHub page</a>
+                    </p>
+                </section>}
 
             {['all', 'dev'].includes(show) && <section className='project'>
                     <div>
