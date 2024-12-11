@@ -82,6 +82,7 @@ import agribiz from './pics/agribiz.png'
 import handtohand from './pics/handtohand.png'
 import recipo from './pics/recipo.jpg'
 import miniGolf from './pics/miniGolf.png'
+import musicSeq from './pics/lena_music_sequencer.png'
 
 
 export default function App() {
@@ -115,6 +116,23 @@ export default function App() {
 
             <Grid className={'grid'} columns="3" gap='2em'>
 
+
+            {['all', 'dev'].includes(show) && <section className='project'>
+                    <div>
+                        <h1><a href='https://projects.barcelonacodeschool.com/music-sequencer/' target='_blank' rel="noopener noreferrer">Music Sequencer</a></h1>
+                        <p>Web app to create music</p>
+                    </div>
+                    <div className='imgBackground'>
+                        <a href='https://projects.barcelonacodeschool.com/music-sequencer/' target='_blank' rel="noopener noreferrer">
+                            <img src={musicSeq} alt="Music Sequencer" />
+                        </a>
+                    </div>
+                    <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Lena Kujath → <a href='https://www.linkedin.com/in/lena-kujath-85a719198' target='_blank' rel="noopener noreferrer">LinkedIn</a>
+                    </p>
+                </section>}
+
+
+
             {['all', 'game'].includes(show) && <section className='project'>
                     <div>
                         <h1><a href='https://play.unity.com/en/games/f3156992-f8f4-44f2-a8a8-7a40e23a0d57/mini-golf-game' target='_blank' rel="noopener noreferrer">Mini-Golf</a></h1>
@@ -129,6 +147,9 @@ export default function App() {
                         → <a href='https://github.com/PhilCastro24' target='_blank' rel="noopener noreferrer">GitHub page</a>
                     </p>
                 </section>}
+
+
+
 
             {['all', 'dev'].includes(show) && <section className='project'>
                     <div>

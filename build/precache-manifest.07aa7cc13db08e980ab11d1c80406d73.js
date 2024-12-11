@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e19aa1e6911fd6bc2097b6c815306b43",
+    "revision": "303a372c0c1796e4fdf62f3974a51997",
     "url": "/index.html"
   },
   {
-    "revision": "d91c35da20e4c6a891ee",
+    "revision": "1965d327b9cd5392c3aa",
     "url": "/static/css/main.9b4c4f19.chunk.css"
   },
   {
-    "revision": "9a0c59d4777e45e7a55b",
-    "url": "/static/js/2.7875251d.chunk.js"
+    "revision": "8f05809e00ed326dfe99",
+    "url": "/static/js/2.334c9a44.chunk.js"
   },
   {
     "revision": "570d362d673dab785e62d2b8563e1118",
-    "url": "/static/js/2.7875251d.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.334c9a44.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d91c35da20e4c6a891ee",
-    "url": "/static/js/main.cb4d7aa7.chunk.js"
+    "revision": "1965d327b9cd5392c3aa",
+    "url": "/static/js/main.557372d5.chunk.js"
   },
   {
     "revision": "92cb8b11782128949ed7",
@@ -134,6 +134,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3637c9c3fee8078078529db1e94be2a9",
     "url": "/static/media/kofi.3637c9c3.png"
+  },
+  {
+    "revision": "73bcbc401a4b6e46bf5646ebb9b4f195",
+    "url": "/static/media/lena_music_sequencer.73bcbc40.png"
   },
   {
     "revision": "408bbb4788bdaa42778ff7ac0a4a1dc7",
