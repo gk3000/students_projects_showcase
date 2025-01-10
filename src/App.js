@@ -2,8 +2,6 @@ import React, { useState, useEffect } from "react";
 import "./styles.css";
 import { Grid } from "./containers/Grid";
 // import RoB from './pics/reign_of_blood.jpg'
-import YourWeather from './pics/josh_weather.png'
-import Esperanza from './pics/esperanca_screen.jpg'
 import Bookworld from './pics/bookworld_anders.jpg'
 import Magda from './pics/magda-ecommerce.jpg'
 import Soulfood from './pics/soulfood.jpg'
@@ -21,13 +19,10 @@ import Weatherjokes from './pics/Weatherjokes.jpg'
 import Rechargenow from './pics/rechargenow.jpg'
 import Swapp from './pics/swapp.jpg'
 // import Bake from './pics/bake.jpg'
-import PB from './pics/pantry_buddy.jpg'
-import Corona from './pics/michele_corona.png'
 import ComplexApp from './pics/complex-app.png'
 import BEACTIV from './pics/beaktiv.jpg'
 import treatyoself from './pics/treatyoself.png'
 import nebulosity from './pics/nebulosity.jpg'
-import Gervie from './pics/gervie.png'
 import Gabriella from './pics/gabriella.png'
 import RainbowBeetroot from './pics/rainbow-beetroot.jpg'
 import VietnamTours from './pics/vietnamtours.png'
@@ -46,7 +41,6 @@ import walk_n_talk from './pics/walk_n_talk.jpg'
 import winemind from './pics/winemind.jpg'
 import useItUp from './pics/useitup.jpg'
 import plateo from './pics/plateo.jpg'
-import treviso from './pics/treviso.jpg'
 import moviex from './pics/moviexdb-netlify-app.jpg'
 import buddiez from './pics/buddiez.jpg'
 import vinatt from './pics/vinatt.jpg'
@@ -740,20 +734,7 @@ export default function App() {
                 </section>}
 
 
-                {['all', 'dev'].includes(show) && <section className='project'>
-                    <div>
-                        <h1><a href='https://treviso.cyclic.app' target='_blank' rel="noopener noreferrer">Treviso</a></h1>
-                        <p>An eCommerce web app</p>
-                    </div>
-                    <div className='imgBackground'>
-                        <a href='https://treviso.cyclic.app' target='_blank' rel="noopener noreferrer">
-                            <img src={treviso} alt="use it up" />
-                        </a>
-                    </div>
-                    <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Ivan Zelinskyi
-                        → <a href='https://ivan-zelinskyi-portfolio.netlify.app/' target='_blank' rel="noopener noreferrer">Portfolio page</a>
-                    </p>
-                </section>}
+
 
 
 
@@ -1016,20 +997,7 @@ export default function App() {
                     </p>
                 </section>}
 
-                {['all', 'dev'].includes(show) && <section className='project'>
-                    <div>
 
-                        <h1><a href='http://gerviebarczyk.com/' target='_blank' rel="noopener noreferrer">Personal portfolio</a></h1>
-                        <p>A graduate's portfolio</p>
-                    </div>
-                    <div className='imgBackground'>
-                        <a href='http://gerviebarczyk.com/' target='_blank' rel="noopener noreferrer">
-                            <img src={Gervie} alt="Hi, I'm Gervie. Nice to meet you.." />
-                        </a>
-                    </div>
-                    <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Gervie Barczyk → <a href='http://gerviebarczyk.com/' target='_blank' rel="noopener noreferrer">Portfolio page</a>
-                    </p>
-                </section>}
 
 
                 {['all', 'dev'].includes(show) && <section className='project'>
@@ -1089,33 +1057,9 @@ export default function App() {
                     </p>
                 </section>}
 
-                {['all', 'dev'].includes(show) && <section className='project'>
-                    <div>
-                        <h1><a href='http://pantrybuddy.rocks' target='_blank' rel="noopener noreferrer">Pantry Buddy</a></h1>
-                        <p>Recipes suggestion based on the ingredients you have</p>
-                    </div>
-                    <div className='imgBackground'>
-                        <a href='http://pantrybuddy.rocks' target='_blank' rel="noopener noreferrer">
-                            <img src={PB} alt='Recipes suggestion based on the ingredients you have' />
-                        </a>
-                    </div>
-                    <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Carlos Planchart → <a href='https://cplan485.gitlab.io/portfolio-project/' target='_blank' rel="noopener noreferrer">Portfolio page</a>
-                    </p>
-                </section>}
 
-                {['all', 'dev'].includes(show) && <section className='project'>
-                    <div>
-                        <h1><a href='http://michele-saladino-covid19-stats.surge.sh' target='_blank' rel="noopener noreferrer">Corona Virus Tracker</a></h1>
-                        <p>Global or per country statistics for the Covid-19 cases</p>
-                    </div>
-                    <div className='imgBackground'>
-                        <a href='http://michele-saladino-covid19-stats.surge.sh' target='_blank' rel="noopener noreferrer">
-                            <img src={Corona} alt='Global or per country statistics for the Covid-19 cases' />
-                        </a>
-                    </div>
-                    <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Michele Saladino → <a href='https://github.com/mikis165' target='_blank' rel="noopener noreferrer">GitHub page</a>
-                    </p>
-                </section>}
+
+
 
 
 
@@ -1203,18 +1147,7 @@ export default function App() {
   </p>
 </section>*/}
 
-                {['all', 'dev'].includes(show) && <section className='project'>
-                    <div>
-                        <h1><a href='https://esperanza.onrender.com' target='_blank' rel="noopener noreferrer">Esperança</a></h1>
-                        <p>Volunteer community in Barcelona</p>
-                    </div>
-                    <div className='imgBackground'>
-                        <a href='https://esperanza.onrender.com' target='_blank' rel="noopener noreferrer">
-                            <img src={Esperanza} alt='Esperanza app coded by Daniel Dick' />
-                        </a>
-                    </div>
-                    <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Daniel Dick → <a href='https://www.daniel-d.dev' target='_blank' rel="noopener noreferrer">Portfolio page</a></p>
-                </section>}
+
 
                 {['all', 'dev'].includes(show) && <section className='project'>
                     <div>
@@ -1286,18 +1219,7 @@ export default function App() {
 </section>*/}
 
 
-                {['all', 'dev'].includes(show) && <section className='project'>
-                    <div>
-                        <h1><a href='https://play.google.com/store/apps/details?id=your.weather.application&gl=ES' target='_blank' rel="noopener noreferrer">Your weather</a></h1>
-                        <p>Native mobile weather app</p>
-                    </div>
-                    <div className='imgBackground'>
-                        <a href='https://play.google.com/store/apps/details?id=your.weather.application&gl=ES' target='_blank' rel="noopener noreferrer">
-                            <img src={YourWeather} alt='Native mobile weather app coded by Josh Arnott' />
-                        </a>
-                    </div>
-                    <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Josh Arnott → <a href='http://josharnott.surge.sh' target='_blank' rel="noopener noreferrer">Portfolio page</a></p>
-                </section>}
+
 
                 {['all', 'dev'].includes(show) && <section className='project'>
                     <div>
