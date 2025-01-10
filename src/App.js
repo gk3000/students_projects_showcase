@@ -83,6 +83,7 @@ import handtohand from './pics/handtohand.png'
 import recipo from './pics/recipo.jpg'
 import miniGolf from './pics/miniGolf.png'
 import musicSeq from './pics/lena_music_sequencer.png'
+import presentique from './pics/presentique.jpg'
 
 
 export default function App() {
@@ -115,6 +116,21 @@ export default function App() {
             <hr />
 
             <Grid className={'grid'} columns="3" gap='2em'>
+
+
+            {['all', 'dev'].includes(show) && <section className='project'>
+                    <div>
+                        <h1><a href='https://projects.barcelonacodeschool.com/project-presentique/' target='_blank' rel="noopener noreferrer">Presentique</a></h1>
+                        <p>eCommerce web app</p>
+                    </div>
+                    <div className='imgBackground'>
+                        <a href='https://projects.barcelonacodeschool.com/project-presentique/' target='_blank' rel="noopener noreferrer">
+                            <img src={presentique} alt="Presentique eCommerce web app" />
+                        </a>
+                    </div>
+                    <p><a href='https://barcelonacodeschool.com/barcelona-code-school/javascript-full-stack-bootcamp/'>Coded</a> by Klei Demiri → <a href='https://github.com/KleiDemiri' target='_blank' rel="noopener noreferrer">GitHub</a>
+                    </p>
+                </section>}
 
 
             {['all', 'dev'].includes(show) && <section className='project'>
@@ -154,7 +170,7 @@ export default function App() {
             {['all', 'dev'].includes(show) && <section className='project'>
                     <div>
                         <h1><a href='https://projects.barcelonacodeschool.com/recipo' target='_blank' rel="noopener noreferrer">Recipo</a></h1>
-                        <p>App to create, roganize and rate recipes</p>
+                        <p>App to create, organize and rate recipes</p>
                     </div>
                     <div className='imgBackground'>
                         <a href='https://projects.barcelonacodeschool.com/recipo' target='_blank' rel="noopener noreferrer">

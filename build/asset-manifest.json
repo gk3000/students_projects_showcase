@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.9b4c4f19.chunk.css",
-    "main.js": "/static/js/main.557372d5.chunk.js",
-    "main.js.map": "/static/js/main.557372d5.chunk.js.map",
+    "main.js": "/static/js/main.9b8116dc.chunk.js",
+    "main.js.map": "/static/js/main.9b8116dc.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4fa9208a.js",
     "runtime-main.js.map": "/static/js/runtime-main.4fa9208a.js.map",
-    "static/js/2.334c9a44.chunk.js": "/static/js/2.334c9a44.chunk.js",
-    "static/js/2.334c9a44.chunk.js.map": "/static/js/2.334c9a44.chunk.js.map",
+    "static/js/2.bfac6e25.chunk.js": "/static/js/2.bfac6e25.chunk.js",
+    "static/js/2.bfac6e25.chunk.js.map": "/static/js/2.bfac6e25.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.07aa7cc13db08e980ab11d1c80406d73.js": "/precache-manifest.07aa7cc13db08e980ab11d1c80406d73.js",
+    "precache-manifest.9d52e490cba8c133df3da25c2d9ba932.js": "/precache-manifest.9d52e490cba8c133df3da25c2d9ba932.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.9b4c4f19.chunk.css.map": "/static/css/main.9b4c4f19.chunk.css.map",
-    "static/js/2.334c9a44.chunk.js.LICENSE.txt": "/static/js/2.334c9a44.chunk.js.LICENSE.txt",
+    "static/js/2.bfac6e25.chunk.js.LICENSE.txt": "/static/js/2.bfac6e25.chunk.js.LICENSE.txt",
     "static/media/80-20.jpg": "/static/media/80-20.8d3a0088.jpg",
     "static/media/Neumorphism.png": "/static/media/Neumorphism.5336038e.png",
     "static/media/Weatherjokes.jpg": "/static/media/Weatherjokes.53adc3a9.jpg",
@@ -58,6 +58,7 @@
     "static/media/plateo.jpg": "/static/media/plateo.5870a876.jpg",
     "static/media/playground.jpg": "/static/media/playground.1f610c33.jpg",
     "static/media/plus_food_julieta.jpg": "/static/media/plus_food_julieta.b33efc22.jpg",
+    "static/media/presentique.jpg": "/static/media/presentique.0d0366e1.jpg",
     "static/media/projects-barcelonacodeschool-billies-beer.jpg": "/static/media/projects-barcelonacodeschool-billies-beer.334141c2.jpg",
     "static/media/projify.png": "/static/media/projify.f2e07273.png",
     "static/media/rainbow-beetroot.jpg": "/static/media/rainbow-beetroot.7f35e7ec.jpg",
@@ -92,8 +93,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.4fa9208a.js",
-    "static/js/2.334c9a44.chunk.js",
+    "static/js/2.bfac6e25.chunk.js",
     "static/css/main.9b4c4f19.chunk.css",
-    "static/js/main.557372d5.chunk.js"
+    "static/js/main.9b8116dc.chunk.js"
   ]
 }

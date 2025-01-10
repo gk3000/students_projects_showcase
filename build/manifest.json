@@ -7,16 +7,6 @@
       "sizes": "64x64",
       "type": "image/x-icon"
     }
-    // {
-    //   "src": "favicon.jpg",
-    //   "type": "image/png",
-    //   "sizes": "192x192"
-    // },
-    // {
-    //   "src": "favicon.jpg",
-    //   "type": "image/png",
-    //   "sizes": "512x512"
-    // }
   ],
   "start_url": ".",
   "display": "standalone",
